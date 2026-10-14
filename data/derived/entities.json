@@ -1,0 +1,35 @@
+{
+  "_source": "data/raw/atliq_entities.md (finance fact sheet, Jan 2026)",
+  "entities": [
+    {
+      "id": "pvt_ltd",
+      "legal_name": "AtliQ Technologies Pvt Ltd",
+      "aliases": ["AtliQ Technologies Private Limited", "ATLIQ TECHNOLOGIES PRIVATE LIMITED", "AtliQ Technologies Pvt Ltd"],
+      "type": "Private limited company (India)",
+      "registered_office": "4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India",
+      "cin": "U72900MH2019PTC321456",
+      "gstin": "27AAKCA4821F1Z3",
+      "signatory": "Karandeep (CEO)",
+      "serves_regions": ["India", "Middle East", "Europe", "Rest of world (non-US)"],
+      "home_law": "India",
+      "currencies": ["INR", "USD", "EUR"]
+    },
+    {
+      "id": "inc",
+      "legal_name": "AtliQ Inc",
+      "aliases": ["AtliQ Inc", "ATLIQ INC", "AtliQ Inc."],
+      "type": "Delaware corporation, 100% owned by AtliQ Technologies Pvt Ltd",
+      "registered_office": "101 College Road East, Suite 210, Princeton, NJ 08540, USA",
+      "ein": "88-4410273",
+      "signatory": "Karandeep (President)",
+      "serves_regions": ["United States"],
+      "home_law": "United States (any US state)",
+      "currencies": ["USD"]
+    }
+  ],
+  "notes": [
+    "AtliQ Inc sub-contracts delivery to AtliQ Technologies Pvt Ltd (Pune) under an intercompany agreement.",
+    "The entity named in a client contract determines the invoicing entity, tax regime and bank account; mismatches caused payment delays twice in 2025.",
+    "The two entities are Affiliates of each other: restrictions that bind 'Supplier and its Affiliates' bind both."
+  ]
+}

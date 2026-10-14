@@ -1,0 +1,172 @@
+{
+  "_about": "Expected review outcomes for the incoming drafts, derived from a manual cross-document analysis of the dataset. must_flag = the review fails if it misses these. must_not_flag = flagging these as CRITICAL counts as a false alarm. keywords are used for loose matching against finding title/explanation/evidence. Brief test types from the capstone brief are noted in brief_case.",
+  "dataset_today": "2026-09-28",
+  "cases": [
+    {
+      "id": "gulf_crown_msa",
+      "file": "data/raw/incoming/2026-09-18_gulf_crown_hotels_msa_draft.md",
+      "brief_case": "collides with something already signed",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["Al Noor", "non-compete", "GCC", "Hospitality"], "evidence_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md", "note": "Al Noor §12.1 bars AtliQ and Affiliates from analytics/revenue-management for GCC Hospitality Businesses during term (to 14 Mar 2028) + 18 months (~Sep 2029). Seaside waiver covers only Seaside SOW." },
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "HIGH", "keywords": ["9.1(d)", "warrant", "not bound by any agreement or restriction"], "note": "Signing would make a false warranty." },
+        { "category": "PRECEDENT_DEVIATION", "severity": "HIGH", "keywords": ["liquidated damages", "Contract Value", "client delay"], "note": "LD 1% of Contract Value per week, cap 10%, no client-caused delay exclusion; precedent is 0.5%/week of milestone fee capped 5% with client delays excluded." },
+        { "category": "PRECEDENT_DEVIATION", "severity": "MEDIUM", "keywords": ["60 days", "payment"] },
+        { "category": "ENTITY_LAW_MISMATCH", "severity": "MEDIUM", "keywords": ["Saudi", "Riyadh", "Arabic"] }
+      ],
+      "must_not_flag": []
+    },
+    {
+      "id": "blueorchid_pilot",
+      "file": "data/raw/incoming/2026-09-21_blueorchid_hotels_pilot_agreement_draft.md",
+      "brief_case": "collides with something already signed (hidden in a property schedule)",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["Al Noor", "Dubai", "Muscat", "GCC"], "evidence_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md", "note": "Annexure B includes 2 Dubai + 1 Muscat property. Rest of contract is balanced." }
+      ],
+      "must_not_flag": ["liability", "indemnity", "liquidated damages"]
+    },
+    {
+      "id": "travelhub",
+      "file": "data/raw/incoming/2026-09-15_travelhub_services_agreement_draft.md",
+      "brief_case": "contract on the wrong law / wrong entity",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "ENTITY_LAW_MISMATCH", "severity": "HIGH", "keywords": ["AtliQ Inc", "UAE", "Pvt Ltd", "invoice"], "evidence_file": "atliq_entities.md", "note": "UAE client contracted with AtliQ Inc (US-only entity) while invoices are raised by Pvt Ltd; Dubai onshore courts." },
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "HIGH", "keywords": ["Al Noor", "Partner Hotel", "distribution", "GCC"], "evidence_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md", "note": "Hotel ranking for UAE/KSA partner hotels; TravelHub provides distribution to hotels → arguably a Hospitality Business. Affiliates bound, so using AtliQ Inc does not avoid it." }
+      ],
+      "must_not_flag": []
+    },
+    {
+      "id": "lakeshore_msa",
+      "file": "data/raw/incoming/2026-09-19_lakeshore_grocers_msa_draft.md",
+      "brief_case": "only looks risky (SIAC/Singapore arbitration) + hidden pricing conflict",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["Crestline", "most favo", "MFN", "rate", "85", "72"], "evidence_file": "signed_contracts/2024-08-01_crestline_retail_msa.md", "note": "Crestline §6.4 MFN binds Supplier and Affiliates to Jul 2027; Lakeshore rates $72/$55/$50 vs Crestline $85/$62/$58 trigger retroactive credit." }
+      ],
+      "must_not_flag": ["SIAC", "Singapore", "liquidated damages"],
+      "looks_risky_but_ok": ["SIAC arbitration seated in Singapore is a neutral forum chosen by the parent group; LD is capped with client-delay exclusion; payment 30 days."]
+    },
+    {
+      "id": "rheinwerk",
+      "file": "data/raw/incoming/2026-09-23_rheinwerk_analytics_services_agreement_draft.md",
+      "brief_case": "collides with something already signed (IP)",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["PipeKit", "Northwind", "assign", "sole owner"], "evidence_file": "signed_contracts/2025-06-20_northwind_logistics_msa.md", "note": "Northwind §9.2 assigned IP in Deliverables including pre-existing tools incorporated (PipeKit). Rheinwerk §6.3 requires AtliQ to warrant sole ownership." },
+        { "category": "MISSING_DOCUMENT", "severity": "MEDIUM", "keywords": ["DPA", "Annex 3", "GDPR"] }
+      ],
+      "must_not_flag": ["German law", "Munich"]
+    },
+    {
+      "id": "datavane",
+      "file": "data/raw/incoming/2026-09-24_datavane_strategic_partnership_agreement_draft.md",
+      "brief_case": "partner contract colliding with existing exclusivity + one-sided",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["CloudSpan", "exclusiv", "Competing Platform", "India", "GCC"], "evidence_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md" },
+        { "category": "ONE_SIDED_TERM", "severity": "HIGH", "keywords": ["terminate", "15 days", "may not terminate"] },
+        { "category": "ONE_SIDED_TERM", "severity": "HIGH", "keywords": ["uncapped", "indemn", "10,000"] },
+        { "category": "ONE_SIDED_TERM", "severity": "HIGH", "keywords": ["Datavane Account", "24 months", "existing client"] }
+      ],
+      "must_not_flag": []
+    },
+    {
+      "id": "finserve_nda",
+      "file": "data/raw/incoming/2026-09-25_finserve_capital_mutual_nda_draft.md",
+      "brief_case": "NDA that says mutual but isn't",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "ONE_SIDED_TERM", "severity": "CRITICAL", "keywords": ["mutual", "one-way", "Company", "Recipient"] },
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["Competitor", "non-banking", "Trustline", "PayTrack"], "evidence_file": "signed_contracts/2026-08-15_trustline_nbfc_msa.md", "note": "§8.1 bars services to any Indian bank/NBFC/fintech; AtliQ currently serves Trustline NBFC and PayTrack." },
+        { "category": "ONE_SIDED_TERM", "severity": "HIGH", "keywords": ["Residuals"] },
+        { "category": "ONE_SIDED_TERM", "severity": "MEDIUM", "keywords": ["perpetuity", "indemnify"] }
+      ],
+      "must_not_flag": []
+    },
+    {
+      "id": "harrington_msa",
+      "file": "data/raw/incoming/2026-09-10_harrington_health_msa_draft.md",
+      "brief_case": "one-sided clause buried in boilerplate",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "PRECEDENT_DEVIATION", "severity": "CRITICAL", "keywords": ["2%", "Total Contract Value", "each calendar day", "liquidated"], "note": "Brightwater pattern (waved_through) — uncapped per-day LD on full contract value." },
+        { "category": "ONE_SIDED_TERM", "severity": "CRITICAL", "keywords": ["unlimited", "NOTHING IN THIS AGREEMENT SHALL LIMIT", "Contractor Liability"] },
+        { "category": "ONE_SIDED_TERM", "severity": "HIGH", "keywords": ["negligence of any Client Indemnitee"] },
+        { "category": "ONE_SIDED_TERM", "severity": "HIGH", "keywords": ["seven (7) days", "work in progress"] },
+        { "category": "PRECEDENT_DEVIATION", "severity": "HIGH", "keywords": ["ninety (90) days", "payment"] },
+        { "category": "ONE_SIDED_TERM", "severity": "HIGH", "keywords": ["Pre-Existing Materials", "assign"] },
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "HIGH", "keywords": ["insurance", "5,000,000", "cyber"], "note": "AtliQ cyber cover is $1M (tracker C-046)." }
+      ],
+      "must_not_flag": []
+    },
+    {
+      "id": "harrington_baa",
+      "file": "data/raw/incoming/2026-09-16_harrington_health_baa_draft.md",
+      "brief_case": "healthcare deal with a document missing / bundle consistency",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "MISSING_DOCUMENT", "severity": "CRITICAL", "keywords": ["subcontractor BAA", "flow-down", "intercompany", "CareBridge"], "evidence_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md", "note": "Intercompany BAA is CareBridge-only; no subcontractor BAA for Harrington." },
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["outside the United States", "Affiliate", "Subcontractor", "Pune"], "note": "BAA §4.1–4.2 forbids any non-US subcontractor (Affiliates count) — conflicts with Pune delivery model." },
+        { "category": "ONE_SIDED_TERM", "severity": "CRITICAL", "keywords": ["not subject to any limitation", "indemn"] },
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "HIGH", "keywords": ["5,000,000", "insurance"] },
+        { "category": "PRECEDENT_DEVIATION", "severity": "MEDIUM", "keywords": ["CareBridge", "2x", "cap"], "evidence_file": "signed_contracts/2025-10-06_carebridge_clinics_baa.md" }
+      ],
+      "must_not_flag": [],
+      "context_alert": "Meeting notes 2026-09-27: Pune engineers already hold a PHI sample extract received before any BAA — the tool should surface this as an urgent non-contract alert if meeting notes are used as context."
+    },
+    {
+      "id": "kriti_subcontractor",
+      "file": "data/raw/incoming/2026-09-26_kriti_data_labs_subcontractor_agreement_draft.md",
+      "brief_case": "AtliQ's own paper that is unfair to the other side",
+      "in_scope": true,
+      "must_flag": [
+        { "category": "FAIRNESS_AS_BUYER", "severity": "HIGH", "keywords": ["pay-when-paid", "120", "End Client"] },
+        { "category": "FAIRNESS_AS_BUYER", "severity": "HIGH", "keywords": ["2%", "Total Fees", "calendar day"] },
+        { "category": "FAIRNESS_AS_BUYER", "severity": "HIGH", "keywords": ["Vendor Liability", "NOTHING IN THIS AGREEMENT SHALL LIMIT"] },
+        { "category": "PRECEDENT_DEVIATION", "severity": "MEDIUM", "keywords": ["PixelCraft"], "note": "Negotiation notes: PixelCraft template softened (no penalty, 30-day pay, mutual cap)." },
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "HIGH", "keywords": ["Vendor IP", "annotation outputs", "Rheinwerk", "exclusive"] },
+        { "category": "MISSING_DOCUMENT", "severity": "HIGH", "keywords": ["GDPR", "sub-processor", "technician names", "consent"] }
+      ],
+      "must_not_flag": []
+    },
+    {
+      "id": "loopmart_nda",
+      "file": "data/raw/incoming/2026-09-27_loopmart_mutual_nda_draft.md",
+      "brief_case": "clean contract (control)",
+      "in_scope": true,
+      "must_flag": [],
+      "must_not_flag": ["CRITICAL", "HIGH"],
+      "expected": "Truly mutual; no restrictive covenants; Indian law. Should be low attention."
+    },
+    {
+      "id": "sunrise_sow2",
+      "file": "data/raw/incoming/2026-09-24_sunrise_foods_sow2_draft.md",
+      "brief_case": "clean contract (control)",
+      "in_scope": true,
+      "must_flag": [],
+      "must_not_flag": ["CRITICAL", "HIGH"],
+      "expected": "AtliQ's own SOW template under signed Sunrise MSA; capped service credits with client-delay exclusion."
+    },
+    {
+      "id": "marcus_reed",
+      "file": "data/raw/incoming/2026-09-27_marcus_reed_contractor_agreement_draft.md",
+      "brief_case": "out of scope per client (freelancer)",
+      "in_scope": false,
+      "expected": "Tool should label as out of MVP scope (freelancer agreement). Optional: still surface wrong-entity warning."
+    },
+    {
+      "id": "daniel_ortiz_ica",
+      "file": "data/raw/incoming/2026-09-27_daniel_ortiz_contractor_agreement_draft.md",
+      "brief_case": "out of scope per client (freelancer)",
+      "in_scope": false
+    },
+    {
+      "id": "daniel_ortiz_nda",
+      "file": "data/raw/incoming/2026-09-27_daniel_ortiz_nda_draft.md",
+      "brief_case": "out of scope per client (freelancer)",
+      "in_scope": false
+    }
+  ]
+}
