@@ -3,8 +3,9 @@
 AI PM capstone project for AtliQ Technologies: an AI-assisted contract review assistant that checks incoming client
 and partner contracts against what AtliQ has already signed, how it negotiated before, and fact-based rules —
 with every finding backed by verbatim evidence and the final decision left to a human.
-Login 
-**user id:** karandeep
+
+
+**Login user id**: karandeep
 **password:** 123
 
 **Author:** Azaruddin Tamboli, AI Product Manager (AI PM Bootcamp)
