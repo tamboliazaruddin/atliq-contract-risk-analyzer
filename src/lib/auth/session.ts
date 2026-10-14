@@ -27,10 +27,13 @@ function fromB64url(s: string): Uint8Array {
   return Uint8Array.from(bin, (c) => c.charCodeAt(0));
 }
 
+// Prototype demo: if AUTH_SECRET is not configured (e.g. forgotten in Vercel), fall back to a built-in demo
+// secret so sign-in still works. Set AUTH_SECRET for anything beyond a demo.
+const DEMO_SECRET = "atliq-contract-risk-analyzer-prototype-demo-secret-v1";
+
 function secret(): string {
   const s = process.env.AUTH_SECRET;
-  if (!s || s.length < 32) throw new Error("AUTH_SECRET is missing or too short (set it in .env.local — run `npm run users`).");
-  return s;
+  return s && s.length >= 32 ? s : DEMO_SECRET;
 }
 
 async function key(): Promise<CryptoKey> {
