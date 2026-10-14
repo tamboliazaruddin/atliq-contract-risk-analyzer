@@ -1,0 +1,630 @@
+{
+  "generated_at": "2026-10-14T15:33:04.580Z",
+  "mode": "pre-generated",
+  "ai": [
+    "groq/partial",
+    "groq/failed",
+    "groq/completed",
+    "none/not_run"
+  ],
+  "gates": [
+    {
+      "gate": "1. Material-risk recall",
+      "value": "100% (37/37)",
+      "target": "≥ 90%",
+      "pass": true
+    },
+    {
+      "gate": "   Critical-risk misses",
+      "value": "0",
+      "target": "0",
+      "pass": true
+    },
+    {
+      "gate": "2. Evidence accuracy (grounded findings)",
+      "value": "97.9% (93/95)",
+      "target": "≥ 95%",
+      "pass": true
+    },
+    {
+      "gate": "3. Severity agreement with labels",
+      "value": "100% (37/37)",
+      "target": "≥ 85%",
+      "pass": true
+    },
+    {
+      "gate": "4. Historical-conflict recall",
+      "value": "100% (12/12)",
+      "target": "≥ 90%",
+      "pass": true
+    },
+    {
+      "gate": "5. False positives on must-not-flag",
+      "value": "0% (0/12)",
+      "target": "≤ 20%",
+      "pass": true
+    },
+    {
+      "gate": "   Clean controls / scope / alerts",
+      "value": "6/6",
+      "target": "all",
+      "pass": true
+    },
+    {
+      "gate": "6. Completeness & uncertainty handling",
+      "value": "100% (52/52)",
+      "target": "≥ 95%",
+      "pass": true
+    },
+    {
+      "gate": "7. Processing time (max per contract)",
+      "value": "0.1s",
+      "target": "< 300s",
+      "pass": true
+    },
+    {
+      "gate": "   Synthetic generalisation cases",
+      "value": "3/3",
+      "target": "all",
+      "pass": true
+    }
+  ],
+  "rows": [
+    {
+      "case": "gulf_crown_msa",
+      "expected": "CRITICAL HISTORICAL_CONFLICT [Al Noor, non-compete, GCC]",
+      "found": "CRITICAL Potential conflict with Al Noor Hospitality Group non-compete (§12.1)",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "gulf_crown_msa",
+      "expected": "HIGH     HISTORICAL_CONFLICT [9.1(d), warrant, not bound by any agreement or restriction]",
+      "found": "HIGH     Signing would make the warranty in §9.1(d) untrue",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "gulf_crown_msa",
+      "expected": "HIGH     POTENTIAL_RISK [liquidated damages, Contract Value, client delay]",
+      "found": "HIGH     Liquidated damages on the full contract value with no client-delay exc",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "gulf_crown_msa",
+      "expected": "MEDIUM   POTENTIAL_RISK [60 days, payment]",
+      "found": "MEDIUM   Payment in 60 days",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "gulf_crown_msa",
+      "expected": "MEDIUM   POTENTIAL_RISK [Saudi, Riyadh, Arabic]",
+      "found": "MEDIUM   Saudi Arabia law, Arabic text prevails and local courts",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "blueorchid_pilot",
+      "expected": "CRITICAL HISTORICAL_CONFLICT [Al Noor, Dubai, Muscat]",
+      "found": "CRITICAL Potential conflict with Al Noor Hospitality Group non-compete (§12.1)",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "travelhub",
+      "expected": "HIGH     POTENTIAL_RISK [AtliQ Inc, UAE, Pvt Ltd]",
+      "found": "HIGH     Wrong AtliQ entity: AtliQ Inc named for a UAE counterparty",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "travelhub",
+      "expected": "HIGH     HISTORICAL_CONFLICT [Al Noor, Partner Hotel, distribution]",
+      "found": "HIGH     Potential conflict with Al Noor Hospitality Group non-compete (§12.1)",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "lakeshore_msa",
+      "expected": "CRITICAL HISTORICAL_CONFLICT [Crestline, most favo, MFN]",
+      "found": "CRITICAL Rates below the Crestline most-favoured-customer rate card (§6.4)",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "rheinwerk",
+      "expected": "CRITICAL HISTORICAL_CONFLICT [PipeKit, Northwind, assign]",
+      "found": "CRITICAL PipeKit was assigned to Northwind Logistics — AtliQ may not own it any",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "rheinwerk",
+      "expected": "MEDIUM   DOCUMENT_GAP [DPA, Annex 3, GDPR]",
+      "found": "MEDIUM   GDPR DPA (Annex 3) referenced but not attached",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "datavane",
+      "expected": "CRITICAL HISTORICAL_CONFLICT [CloudSpan, exclusiv, Competing Platform]",
+      "found": "CRITICAL Potential conflict with CloudSpan Technologies exclusivity (§7.1)",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "datavane",
+      "expected": "HIGH     POTENTIAL_RISK [terminate, 15 days, may not terminate]",
+      "found": "HIGH     Asymmetric termination — the other side can exit at will, AtliQ cannot",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "datavane",
+      "expected": "HIGH     POTENTIAL_RISK [uncapped, indemn, 10,000]",
+      "found": "HIGH     Uncapped liability for AtliQ under §12.3",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "datavane",
+      "expected": "HIGH     POTENTIAL_RISK [Datavane Account, 24 months, existing client]",
+      "found": "HIGH     New restrictive covenant on AtliQ (term + 24 months)",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "finserve_nda",
+      "expected": "CRITICAL POTENTIAL_RISK [mutual, one-way, Company]",
+      "found": "CRITICAL Called a 'Mutual' NDA, but it is one-way — only AtliQ is bound",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "finserve_nda",
+      "expected": "CRITICAL HISTORICAL_CONFLICT [Competitor, non-banking, Trustline]",
+      "found": "CRITICAL New restriction would cover existing clients: Trustline NBFC, PayTrack",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "finserve_nda",
+      "expected": "HIGH     POTENTIAL_RISK [Residuals]",
+      "found": "HIGH     One-sided residuals clause — the other side may reuse what it learns f",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "finserve_nda",
+      "expected": "MEDIUM   POTENTIAL_RISK [perpetuity, indemnify]",
+      "found": "MEDIUM   Confidentiality obligations last in perpetuity",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_msa",
+      "expected": "CRITICAL POTENTIAL_RISK [2%, Total Contract Value, each calendar day]",
+      "found": "CRITICAL Uncapped liquidated damages — two percent (2%) of Total Contract Value",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_msa",
+      "expected": "CRITICAL POTENTIAL_RISK [unlimited, NOTHING IN THIS AGREEMENT SHALL LIMIT, Contractor Liability]",
+      "found": "CRITICAL Unlimited liability for AtliQ — no cap at all",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_msa",
+      "expected": "HIGH     POTENTIAL_RISK [negligence of any Client Indemnitee]",
+      "found": "HIGH     AtliQ would indemnify the client even for the client's own negligence",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_msa",
+      "expected": "HIGH     POTENTIAL_RISK [seven (7) days, work in progress]",
+      "found": "HIGH     Termination on 7 days' notice with no payment for work in progress",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_msa",
+      "expected": "HIGH     POTENTIAL_RISK [ninety (90) days, payment]",
+      "found": "HIGH     Payment in 90 days",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_msa",
+      "expected": "HIGH     POTENTIAL_RISK [Pre-Existing Materials, assign]",
+      "found": "HIGH     AtliQ's pre-existing tools would be assigned to the client",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_msa",
+      "expected": "HIGH     HISTORICAL_CONFLICT [insurance, 5,000,000, cyber]",
+      "found": "HIGH     Requires $5M cyber cover — AtliQ holds $1M",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_baa",
+      "expected": "CRITICAL DOCUMENT_GAP [subcontractor BAA, flow-down, intercompany]",
+      "found": "CRITICAL No subcontractor BAA for anyone who would touch this client's PHI",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_baa",
+      "expected": "CRITICAL HISTORICAL_CONFLICT [outside the United States, Affiliate, Subcontractor]",
+      "found": "CRITICAL BAA bars any non-US subcontractor — including AtliQ's Pune team",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_baa",
+      "expected": "CRITICAL POTENTIAL_RISK [not subject to any limitation, indemn]",
+      "found": "CRITICAL Uncapped liability for AtliQ under §8.2",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_baa",
+      "expected": "HIGH     HISTORICAL_CONFLICT [5,000,000, insurance]",
+      "found": "HIGH     Requires $5M cyber cover — AtliQ holds $1M",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "harrington_baa",
+      "expected": "MEDIUM   POTENTIAL_RISK [CareBridge, 2x, cap]",
+      "found": "MEDIUM   Departs from AtliQ's signed BAA precedent (CareBridge capped breach li",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "kriti_subcontractor",
+      "expected": "HIGH     POTENTIAL_RISK [pay-when-paid, 120, End Client]",
+      "found": "HIGH     Pay-when-paid: the vendor is paid only after the end client pays AtliQ",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "kriti_subcontractor",
+      "expected": "HIGH     POTENTIAL_RISK [2%, Total Fees, calendar day]",
+      "found": "HIGH     AtliQ's own paper imposes uncapped daily-style delay damages on the ve",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "kriti_subcontractor",
+      "expected": "HIGH     POTENTIAL_RISK [Vendor Liability, NOTHING IN THIS AGREEMENT SHALL LIMIT]",
+      "found": "HIGH     AtliQ's own paper makes the vendor's liability unlimited while AtliQ's",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "kriti_subcontractor",
+      "expected": "MEDIUM   POTENTIAL_RISK [PixelCraft]",
+      "found": "MEDIUM   AtliQ's vendor template still has the terms softened for PixelCraft",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "kriti_subcontractor",
+      "expected": "HIGH     HISTORICAL_CONFLICT [Vendor IP, annotation outputs, Rheinwerk]",
+      "found": "HIGH     Vendor keeps IP in outputs that AtliQ must hand to Rheinwerk Analytics",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    },
+    {
+      "case": "kriti_subcontractor",
+      "expected": "HIGH     DOCUMENT_GAP [GDPR, sub-processor, technician names]",
+      "found": "HIGH     EU personal data with no GDPR sub-processor terms or client consent",
+      "ok": true,
+      "sevOk": true,
+      "critical": false
+    }
+  ],
+  "controls": [
+    {
+      "id": "harrington_baa (context alert)",
+      "ok": true,
+      "detail": "PHI alert from meeting notes surfaced"
+    },
+    {
+      "id": "loopmart_nda",
+      "ok": true,
+      "detail": "no Critical/High findings"
+    },
+    {
+      "id": "sunrise_sow2",
+      "ok": true,
+      "detail": "no Critical/High findings"
+    },
+    {
+      "id": "marcus_reed",
+      "ok": true,
+      "detail": "labelled out of MVP scope"
+    },
+    {
+      "id": "daniel_ortiz_ica",
+      "ok": true,
+      "detail": "labelled out of MVP scope"
+    },
+    {
+      "id": "daniel_ortiz_nda",
+      "ok": true,
+      "detail": "labelled out of MVP scope"
+    }
+  ],
+  "synthetic": [
+    {
+      "id": "syn_doha_pearl",
+      "ok": true,
+      "detail": "GCC hospitality deal in new words (Qatar resorts, pricing intelligence) — must hit Al Noor non-compete"
+    },
+    {
+      "id": "syn_albion_uk",
+      "ok": true,
+      "detail": "Platform partnership OUTSIDE the CloudSpan territory (UK/Ireland) — must NOT be flagged as a CloudSpan conflict"
+    },
+    {
+      "id": "syn_pinecrest",
+      "ok": true,
+      "detail": "clean contract (control) — balanced US MSA on AtliQ Inc"
+    }
+  ],
+  "false_positives": [],
+  "uncertainty": [
+    {
+      "test": "gulf_crown_msa: completeness label matches AI status (partial)",
+      "ok": true
+    },
+    {
+      "test": "gulf_crown_msa: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "gulf_crown_msa: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "gulf_crown_msa: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "blueorchid_pilot: completeness label matches AI status (failed)",
+      "ok": true
+    },
+    {
+      "test": "blueorchid_pilot: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "blueorchid_pilot: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "blueorchid_pilot: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "travelhub: completeness label matches AI status (completed)",
+      "ok": true
+    },
+    {
+      "test": "travelhub: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "travelhub: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "travelhub: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "lakeshore_msa: completeness label matches AI status (partial)",
+      "ok": true
+    },
+    {
+      "test": "lakeshore_msa: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "lakeshore_msa: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "lakeshore_msa: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "rheinwerk: completeness label matches AI status (failed)",
+      "ok": true
+    },
+    {
+      "test": "rheinwerk: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "rheinwerk: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "rheinwerk: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "datavane: completeness label matches AI status (failed)",
+      "ok": true
+    },
+    {
+      "test": "datavane: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "datavane: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "datavane: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "finserve_nda: completeness label matches AI status (failed)",
+      "ok": true
+    },
+    {
+      "test": "finserve_nda: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "finserve_nda: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "finserve_nda: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "harrington_msa: completeness label matches AI status (completed)",
+      "ok": true
+    },
+    {
+      "test": "harrington_msa: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "harrington_msa: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "harrington_msa: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "harrington_baa: completeness label matches AI status (completed)",
+      "ok": true
+    },
+    {
+      "test": "harrington_baa: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "harrington_baa: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "harrington_baa: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "kriti_subcontractor: completeness label matches AI status (failed)",
+      "ok": true
+    },
+    {
+      "test": "kriti_subcontractor: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "kriti_subcontractor: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "kriti_subcontractor: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "loopmart_nda: completeness label matches AI status (failed)",
+      "ok": true
+    },
+    {
+      "test": "loopmart_nda: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "loopmart_nda: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "loopmart_nda: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "sunrise_sow2: completeness label matches AI status (failed)",
+      "ok": true
+    },
+    {
+      "test": "sunrise_sow2: every check has an explicit status",
+      "ok": true
+    },
+    {
+      "test": "sunrise_sow2: every clause has a coverage status",
+      "ok": true
+    },
+    {
+      "test": "sunrise_sow2: unverified findings never shown as verified",
+      "ok": true
+    },
+    {
+      "test": "State 2 refuses: empty file",
+      "ok": true
+    },
+    {
+      "test": "State 2 refuses: image-only PDF (no text)",
+      "ok": true
+    },
+    {
+      "test": "State 2 refuses: not a contract",
+      "ok": true
+    },
+    {
+      "test": "State 2 refuses: garbled extraction",
+      "ok": true
+    }
+  ]
+}

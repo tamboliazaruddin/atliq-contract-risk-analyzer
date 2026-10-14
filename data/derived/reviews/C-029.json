@@ -1,0 +1,543 @@
+{
+  "review_id": "C-029-75fd6b8f",
+  "contract_id": "C-029",
+  "file_name": "2026-09-24_sunrise_foods_sow2_draft.md",
+  "title": "STATEMENT OF WORK No. 2",
+  "counterparty": "Sunrise Foods",
+  "version": 1,
+  "text_hash": "75fd6b8fda6ca774",
+  "generated_at": "2026-10-14T15:33:02.317Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "STATEMENT OF WORK No. 2",
+    "counterparty": "Sunrise Foods",
+    "contract_type": "SOW",
+    "atliq_entity": "pvt_ltd",
+    "atliq_role": "supplier",
+    "counterparty_country": "India",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "by 8 Oct. v2 portal + dashboard. Dhaval: 'same as last time, should be quick'"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "failed",
+    "note": "1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "incomplete",
+  "completeness_notes": [
+    "AI clause analysis failed: 1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+    "Could not verify — Key contract fields extracted: Not found or ambiguous: Liability cap, Termination for convenience, IP ownership.",
+    "Could not verify — AI clause-by-clause analysis: 1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI."
+  ],
+  "summary": "Sunrise Foods · SOW · AtliQ Technologies Pvt Ltd as supplier. 0 finding(s): 0 critical, 0 high, 0 medium, 0 low; 0 potential conflict(s) with past commitments; 2 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "Sunrise Foods",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Technologies Pvt Ltd (as \"MSA\")",
+      "clause_ref": "Preamble ¶2",
+      "clause_id": "c-preamble-2",
+      "status": "found"
+    },
+    {
+      "key": "value",
+      "label": "Contract value",
+      "value": "45,000",
+      "clause_ref": "§5",
+      "clause_id": "c-s5",
+      "quote": "| | Total | | 45,000 |",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This SOW commences on the date of signature and remains in force until acceptance of Milestone M4 and expiry of the warranty period under the MSA, unless terminated earlier in accordance with the MSA.",
+      "clause_ref": "§11",
+      "clause_id": "c-s11",
+      "quote": "This SOW commences on the date of signature and remains in force until acceptance of Milestone M4 and expiry of the warranty period under the MSA, unless terminated earlier in accordance with the MSA.",
+      "status": "found"
+    },
+    {
+      "key": "payment",
+      "label": "Payment terms",
+      "value": "30 days — The Client shall pay within thirty (30) days of receipt of invoice, as per the MSA.",
+      "clause_ref": "§5.2",
+      "clause_id": "c-s5-2",
+      "quote": "The Client shall pay within thirty (30) days of receipt of invoice, as per the MSA.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "If AtliQ fails to achieve a Milestone by its Target Date for reasons attributable to AtliQ, the Client shall be entitled to a service credit equal to 0.5% (half a percent) of the Milestone Fee of the delayed Milestone for each complete week of delay.",
+      "clause_ref": "§8.1",
+      "clause_id": "c-s8-1",
+      "quote": "If AtliQ fails to achieve a Milestone by its Target Date for reasons attributable to AtliQ, the Client shall be entitled to a service credit equal to 0.5% (half a percent) of the Milestone Fee of the delayed Milestone for each complete week of delay.",
+      "status": "found"
+    },
+    {
+      "key": "liability_cap",
+      "label": "Liability cap",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "This SOW is issued under and governed by the MSA.",
+      "clause_ref": "§2.1",
+      "clause_id": "c-s2-1",
+      "quote": "This SOW is issued under and governed by the MSA.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "All other terms, including confidentiality, intellectual property, warranties, limitation of liability, data protection, governing law (laws of India) and dispute resolution (arbitration seated in Pune), are as set out in the MSA.",
+      "clause_ref": "§12",
+      "clause_id": "c-s12",
+      "quote": "All other terms, including confidentiality, intellectual property, warranties, limitation of liability, data protection, governing law (laws of India) and dispute resolution (arbitration seated in Pune), are as set out in the MSA.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "ip",
+      "label": "IP ownership",
+      "value": "Not found in document",
+      "status": "missing"
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "passed",
+      "detail": "Checked against 5 restrictive commitments in the register — no active match. Absence of a match is not proof of safety: the register only covers signed contracts in the dataset.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Technologies Pvt Ltd — consistent with counterparty country India.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "passed",
+      "detail": "India law with AtliQ Technologies Pvt Ltd. Forum: All other terms, including confidentiality, intellectual property, warranties, limitation of liability, data protection, governing law (laws of India) and dispu (§12).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "not_applicable",
+      "detail": "Not an NDA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "not_applicable",
+      "detail": "No insurance requirement in this document.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "passed",
+      "detail": "No schedules or annexes referenced.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 0 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "could_not_verify",
+      "detail": "Not found or ambiguous: Liability cap, Termination for convenience, IP ownership.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "could_not_verify",
+      "detail": "1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI.",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "STATEMENT OF WORK No. 2",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "STATEMENT OF WORK No. 2",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1",
+      "ref": "§1",
+      "heading": "1. Parties",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "2. Relationship to the MSA",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "2. Relationship to the MSA",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3",
+      "ref": "§3",
+      "heading": "3. Background",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "4. Scope of Services",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "4. Scope of Services",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-3",
+      "ref": "§4.3",
+      "heading": "4. Scope of Services",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5",
+      "ref": "§5",
+      "heading": "5. Milestones and Fees",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "5. Milestones and Fees",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-2",
+      "ref": "§5.2",
+      "heading": "5. Milestones and Fees",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "6. Acceptance",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "6. Acceptance",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "7. Client Responsibilities",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "7. Client Responsibilities",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-3",
+      "ref": "§7.3",
+      "heading": "7. Client Responsibilities",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "8. Penalty for Delay",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "8. Penalty for Delay",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-3",
+      "ref": "§8.3",
+      "heading": "8. Penalty for Delay",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-4",
+      "ref": "§8.4",
+      "heading": "8. Penalty for Delay",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9",
+      "ref": "§9",
+      "heading": "9. Project Team",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10",
+      "ref": "§10",
+      "heading": "10. Change Control",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11",
+      "ref": "§11",
+      "heading": "11. Term",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12",
+      "ref": "§12",
+      "heading": "12. Other Terms",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "Signatures",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "Signatures",
+      "status": "not_analysed",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2025-04-18_sunrise_foods_msa.md",
+      "title": "Sunrise Foods — MSA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**SUNRISE FOODS PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013, having its registered office at Sunrise House, NH 66 Bypass, Edappally, Kochi 682024, Kerala, India (\"**Sunrise**\" or the \"**Client**\");",
+      "doc_status": "signed_active",
+      "score": 55.14
+    },
+    {
+      "source_file": "signed_contracts/2025-04-18_sunrise_foods_msa.md",
+      "title": "Sunrise Foods — MSA",
+      "clause_ref": "§2.2",
+      "text": "2.2 SOW-1 covers the design, development and deployment of a web-based distributor portal (order placement, invoice and ledger view, scheme and promotion visibility) (\"**Distributor Portal v1**\"), together with post-go-live support and maintenance for twelve (12) months.",
+      "doc_status": "signed_active",
+      "score": 46.72
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_al_noor_mutual_nda.md",
+      "title": "Al Noor Hospitality Group — Mutual NDA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"),",
+      "doc_status": "signed_active",
+      "score": 45.07
+    },
+    {
+      "source_file": "signed_contracts/2025-04-28_rohan_iyer_contractor_agreement.md",
+      "title": "Rohan Iyer (freelancer) — Contractor Agreement",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"); and",
+      "doc_status": "signed_expired",
+      "score": 44.88
+    },
+    {
+      "source_file": "signed_contracts/2025-06-20_northwind_logistics_msa.md",
+      "title": "Northwind Logistics — MSA + SOW-1",
+      "clause_ref": "§1.2",
+      "text": "1.2 **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated in India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), whose registered office is at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 44.23
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (the \"**Supplier**\"),",
+      "doc_status": "signed_active",
+      "score": 44.2
+    },
+    {
+      "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+      "title": "CloudSpan Technologies — Strategic Partnership Agreement",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Partner**\"),",
+      "doc_status": "signed_active",
+      "score": 44.2
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+      "title": "AtliQ Technologies Pvt Ltd (intercompany) — Subcontractor BAA",
+      "clause_ref": "Preamble ¶4",
+      "text": "**AtliQ Technologies Pvt Ltd**, a private limited company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Subcontractor**\"),",
+      "doc_status": "signed_expiring",
+      "score": 44.01
+    }
+  ],
+  "attention_score": 2,
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 1,
+      "note": "27 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 2,
+      "note": "8/11 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 1,
+      "note": "0 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 2,
+      "note": "0 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 3,
+      "note": "0 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 0,
+      "note": "0 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 0,
+      "note": "0/0 grounded"
+    }
+  ],
+  "processing_ms": 9
+}

@@ -1,0 +1,45 @@
+{
+  "_about": "Demo accounts. Passwords are scrypt-hashed; regenerate with `npm run users`.",
+  "users": [
+    {
+      "username": "karandeep",
+      "name": "Karandeep",
+      "title": "CEO · authorised signer",
+      "role": "signer",
+      "salt": "b47b2f2d2e48aa5bd79db64b664a204d",
+      "hash": "9afd4d81f05487d28367a81a27bf9cd99255be95dca680bb53213afb707a2713b6e54f13304dfbe3912f7a3804a04a6849583262fbae041b723881879de59356"
+    },
+    {
+      "username": "bhavin",
+      "name": "Bhavin",
+      "title": "Founder",
+      "role": "stakeholder",
+      "salt": "e6077cc76d5b0664ea63fee551d6ddd6",
+      "hash": "226cf47fd554a4133a78607c4646c0a0f19139df67dd1ae9ec13036f095220a1bbfaf360b939cc4facc93d6bac55e753b1e434799d38c94a086695d7b0c6dab6"
+    },
+    {
+      "username": "dhaval",
+      "name": "Dhaval",
+      "title": "Founder",
+      "role": "stakeholder",
+      "salt": "dafe17d57ce4157a863ef0137145c9c5",
+      "hash": "46285e4f2ad416d18d51adfd15fe51531214346372918351c6122962b00575ea18a344faad7e3b7b0b4e87fa0e3f0bd25caa20ca8242cb692722b4004b7c0b2b"
+    },
+    {
+      "username": "jay",
+      "name": "Jay",
+      "title": "Sales executive",
+      "role": "stakeholder",
+      "salt": "278ba7c4fa62739c924f67ce9ed00180",
+      "hash": "a1040f1f424b37528265feed0bbe1be738508e757d7c611f9e49a3070ea50f83f8d34fce503b6858a4b5d590a6755ff1428680e36b4b37f594663aaf4b1c5366"
+    },
+    {
+      "username": "pranav",
+      "name": "Pranav",
+      "title": "CTO",
+      "role": "stakeholder",
+      "salt": "5418ad7947fd68f66e81f72b854f4365",
+      "hash": "dda6df5953be76539701447f05359400a0796b767b8c9b28b6d39c5a257a391b40301df29d37af9f1639d6923a884595afadfd6fd35ceeefb252f01d34aa1d8e"
+    }
+  ]
+}

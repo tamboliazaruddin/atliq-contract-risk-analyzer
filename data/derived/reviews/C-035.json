@@ -1,0 +1,1142 @@
+{
+  "review_id": "C-035-fe6198a0",
+  "contract_id": "C-035",
+  "file_name": "2026-09-24_datavane_strategic_partnership_agreement_draft.md",
+  "title": "STRATEGIC PARTNERSHIP AGREEMENT",
+  "counterparty": "Datavane Inc",
+  "version": 1,
+  "text_hash": "fe6198a0dbdbf194",
+  "generated_at": "2026-10-14T15:33:02.302Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "STRATEGIC PARTNERSHIP AGREEMENT",
+    "counterparty": "Datavane Inc",
+    "contract_type": "Partnership",
+    "atliq_entity": "pvt_ltd",
+    "atliq_role": "partner",
+    "counterparty_country": "USA",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "by 15 Oct. Bhavin: 'huge for our Europe and Middle East pipeline'"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "failed",
+    "note": "4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "incomplete",
+  "completeness_notes": [
+    "AI clause analysis failed: 4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+    "Could not verify — Key contract fields extracted: Not found or ambiguous: Contract value.",
+    "Could not verify — AI clause-by-clause analysis: 4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI."
+  ],
+  "summary": "Datavane Inc · Partnership · AtliQ Technologies Pvt Ltd as partner. 8 finding(s): 1 critical, 4 high, 2 medium, 1 low; 1 potential conflict(s) with past commitments; 2 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "Datavane Inc",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Technologies Pvt Ltd (as \"Partner\")",
+      "clause_ref": "Preamble ¶4",
+      "clause_id": "c-preamble-4",
+      "status": "found"
+    },
+    {
+      "key": "value",
+      "label": "Contract value",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This Agreement commences on the Effective Date and continues for an initial term of three (3) years, and thereafter renews automatically for successive one (1) year periods unless Datavane gives notice of non-renewal at least thirty (30) days before the end of the then-current term (the \"Term\").",
+      "clause_ref": "§7.1",
+      "clause_id": "c-s7-1",
+      "quote": "This Agreement commences on the Effective Date and continues for an initial term of three (3) years, and thereafter renews automatically for successive one (1) year periods unless Datavane gives notice of non-renewal at least thirty (30) days before the end of the then-current term (the \"Term\").",
+      "status": "found"
+    },
+    {
+      "key": "payment",
+      "label": "Payment terms",
+      "value": "60 days — Datavane shall pay Partner's share of Joint Deal Revenue within sixty (60) days after the end of the calendar quarter in which Datavane receives payment from the relevant Datavane Account.",
+      "clause_ref": "§6.3",
+      "clause_id": "c-s6-3",
+      "quote": "Datavane shall pay Partner's share of Joint Deal Revenue within sixty (60) days after the end of the calendar quarter in which Datavane receives payment from the relevant Datavane Account.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "None in this contract",
+      "status": "found"
+    },
+    {
+      "key": "liability_cap",
+      "label": "Liability cap",
+      "value": "DATAVANE'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT, INCLUDING UNDER SECTION 11.2, SHALL NOT EXCEED TEN THOUSAND UNITED STATES DOLLARS (USD 10,000).",
+      "clause_ref": "§12.2",
+      "clause_id": "c-s12-2",
+      "quote": "DATAVANE'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT, INCLUDING UNDER SECTION 11.2, SHALL NOT EXCEED TEN THOUSAND UNITED STATES DOLLARS (USD 10,000).",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles.",
+      "clause_ref": "§13.1",
+      "clause_id": "c-s13-1",
+      "quote": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "Any action or proceeding arising out of or relating to this Agreement shall be brought exclusively in the state or federal courts located in the City and County of San Francisco, California, and each Party irrevocably submits to the personal jurisdiction of such courts and waives any objection based on inconvenient forum.",
+      "clause_ref": "§13.2",
+      "clause_id": "c-s13-2",
+      "quote": "Any action or proceeding arising out of or relating to this Agreement shall be brought exclusively in the state or federal courts located in the City and County of San Francisco, California, and each Party irrevocably submits to the personal jurisdiction of such courts and waives any objection based on inconvenient forum.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Datavane may terminate this Agreement at any time, for any reason or no reason, upon fifteen (15) days' written notice to Partner.",
+      "clause_ref": "§7.2",
+      "clause_id": "c-s7-2",
+      "quote": "Datavane may terminate this Agreement at any time, for any reason or no reason, upon fifteen (15) days' written notice to Partner.",
+      "status": "found"
+    },
+    {
+      "key": "ip",
+      "label": "IP ownership",
+      "value": "Datavane retains all right, title and interest in the Platform, its documentation, the Partner Portal and all related intellectual property.",
+      "clause_ref": "§8.1",
+      "clause_id": "c-s8-1",
+      "quote": "Datavane retains all right, title and interest in the Platform, its documentation, the Partner Portal and all related intellectual property.",
+      "status": "found"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-e5a54372",
+      "finding_type": "HISTORICAL_CONFLICT",
+      "category": "non_compete_exclusivity",
+      "severity": "CRITICAL",
+      "title": "Potential conflict with CloudSpan Technologies exclusivity (§7.1)",
+      "explanation": "Potential conflict — not a breach determination. CloudSpan Technologies §7.1: No implementation / reseller / referral partnership with any Competing Platform (cloud data-warehouse, lakehouse or unified analytics platform as a service) in India or the GCC. Europe was deliberately excluded. Mutual 90-day termination for convenience ends the restriction. Status: active, until 31 Aug 2028 (Term to 31 Aug 2028; either party may exit on 90 days' notice (§14.2), which lifts §7 (§14.4(b)).). The restriction binds AtliQ's Affiliates too, so signing through the other AtliQ entity does not avoid it. This contract matches every element — competing platform: lakehouse, unified analytics platform, analytics platform, data warehouse · partner appointment: referral partner, implementation partner, Implementation Partner, Premier Implementation, referral fee · India / GCC territory: India, Gulf Cooperation Council, United Arab Emirates, Saudi, GCC. Related: staffing commitment (active) — Maintain at least 4 CloudSpan Certified Engineers for the term.",
+      "contract_clause_ref": "Schedule 1",
+      "contract_clause_id": "c-schedule-1",
+      "contract_quote": "| Territory | India, GCC and Europe (Section 1.10) |",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+          "clause_ref": "§7.1",
+          "quote": "during the Term Partner and its Affiliates shall not act as an implementation, reseller or referral partner for any Competing Platform in India or the GCC.",
+          "doc_status": "signed_active",
+          "grounded": true,
+          "label": "Signed: cloudspan strategic partnership agreement §7.1 (Active until 31 Aug 2028)"
+        },
+        {
+          "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+          "clause_ref": "§7.2",
+          "quote": "\"Competing Platform\" means any cloud data-warehouse, lakehouse or unified analytics platform offered as a service.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+          "clause_ref": "§14.2",
+          "quote": "Either Party may terminate this Agreement for convenience by giving not less than ninety (90) days' written notice to the other.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+          "clause_ref": "§14.4(b)",
+          "quote": "Clause 7 shall cease to apply from the date termination takes effect;",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+          "clause_ref": "§3.1",
+          "quote": "Partner shall maintain, throughout the Term, not fewer than four (4) Certified Engineers.",
+          "doc_status": "signed_active",
+          "grounded": true,
+          "label": "Signed: cloudspan strategic partnership agreement §3.1 (Active until 31 Aug 2028)"
+        }
+      ],
+      "precedent_ids": [],
+      "commitment_id": "CMT-04",
+      "rule_id": "R8",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Consider counsel review (Calloway Stern LLP) — share this contract together with the cited signed agreements.",
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "needs_info": "Check whether a written waiver under the restricting contract exists for this specific engagement.",
+      "source": "register"
+    },
+    {
+      "id": "F-18a1061c",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "non_compete_exclusivity",
+      "severity": "HIGH",
+      "title": "New restrictive covenant on AtliQ (term + 24 months)",
+      "explanation": "This clause would restrict who AtliQ can work for — and it would join the commitments register. AtliQ has no list of what it has already promised not to do outside this tool; restrictions like this are how the Al Noor GCC non-compete came to block hospitality work. Check it against current clients and pipeline before signing (see Commitments).",
+      "contract_clause_ref": "§5.3",
+      "contract_clause_id": "c-s5-3",
+      "contract_quote": "During the Term and for a period of twenty-four (24) months following expiration or termination of this Agreement for any reason, Partner shall not, and shall cause its Affiliates not to, directly or indirectly solicit, market to, or provide any implementation, migration, managed or consulting services to any Datavane Account in connection with any cloud data warehouse, lakehouse, data platform or analytics platform other than the Datavane Platform.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-17",
+        "P-18"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-cec0e121",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "HIGH",
+      "title": "AtliQ is paid only after the other party collects (pay-when-paid)",
+      "explanation": "Payment to AtliQ depends on the other party first receiving payment from its customer, and then a further 60 days. AtliQ carries the end customer's credit risk. Checklist: '30 days, 45 max'; Trustline was negotiated from 90 to 45 days.",
+      "contract_clause_ref": "§6.3",
+      "contract_clause_id": "c-s6-3",
+      "contract_quote": "Datavane shall pay Partner's share of Joint Deal Revenue within sixty (60) days after the end of the calendar quarter in which Datavane receives payment from the relevant Datavane Account.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-11",
+        "P-12"
+      ],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-a3a83413",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "termination",
+      "severity": "HIGH",
+      "title": "Asymmetric termination — the other side can exit at will, AtliQ cannot",
+      "explanation": "§7.3 locks AtliQ in for the initial term, while §7.2 lets the other party walk away on short notice (\"Datavane may terminate this Agreement at any time, for any reason or no reason, upon fifteen (15) days' written notice to Partner.\"). AtliQ's precedent for partnerships is mutual 90-day termination for convenience (CloudSpan, Aug 2025). Check also what happens to unpaid revenue share on termination.",
+      "contract_clause_ref": "§7.3",
+      "contract_clause_id": "c-s7-3",
+      "contract_quote": "No Termination for Convenience by Partner. Partner acknowledges the investment made by Datavane in enabling Partner and agrees that Partner may not terminate this Agreement for convenience during the initial term.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-18",
+        "P-22"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-a525b338",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "HIGH",
+      "title": "Uncapped liability for AtliQ under §12.3",
+      "explanation": "AtliQ's exposure under the cited provisions is carved out of any cap. By contrast §12.2 caps the other side's liability at TEN THOUSAND UNITED STATES DOLLARS (USD 10,000). AtliQ's position has been liability capped at 1x fees; Karandeep walked away from Kessler Mobility (~€120k) over 'liable without limitation'.",
+      "contract_clause_ref": "§12.3",
+      "contract_clause_id": "c-s12-3",
+      "contract_quote": "NOTHING IN THIS AGREEMENT SHALL LIMIT PARTNER'S LIABILITY UNDER SECTION 5, SECTION 9 OR SECTION 11.1.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-2d661664",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "termination",
+      "severity": "MEDIUM",
+      "title": "Only the other party can stop auto-renewal",
+      "explanation": "Renewal can be stopped only by Datavane. AtliQ has no exit at the end of the term.",
+      "contract_clause_ref": "§7.1",
+      "contract_clause_id": "c-s7-1",
+      "contract_quote": "This Agreement commences on the Effective Date and continues for an initial term of three (3) years, and thereafter renews automatically for successive one (1) year periods unless Datavane gives notice of non-renewal at least thirty (30) days before the end of the then-current term (the \"Term\").",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-07c00dbd",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "other",
+      "severity": "MEDIUM",
+      "title": "Other party can change the terms unilaterally",
+      "explanation": "Programme guides and portal terms updated by the other side automatically become part of the contract, without AtliQ's signature.",
+      "contract_clause_ref": "§14.3",
+      "contract_clause_id": "c-s14-3",
+      "contract_quote": "Datavane may update the Global Partner Program Guide, certification requirements and Partner Portal terms from time to time upon notice to Partner, and such updates shall form part of this Agreement.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-e159ae4d",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "governing_law_entity",
+      "severity": "LOW",
+      "title": "US (Delaware) law and local courts",
+      "explanation": "AtliQ's default is Indian law for Pvt Ltd and US state law for Inc. US (Delaware) is the counterparty's home law, which AtliQ has accepted before when needed (English law for Northwind, DIFC for Al Noor, Singapore/SIAC for CloudSpan). Forum: Any action or proceeding arising out of or relating to this Agreement shall be brought exclusively in the state or federal courts located in the City and County (§13.2). Disputes would be run under unfamiliar law, typically needing local counsel.",
+      "contract_clause_ref": "§13.1",
+      "contract_clause_id": "c-s13-1",
+      "contract_quote": "This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-13",
+        "P-14",
+        "P-15",
+        "P-16"
+      ],
+      "rule_id": "R3",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "rule"
+    }
+  ],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "flagged",
+      "detail": "1 potential conflict(s) with active commitments (checked 5 restrictions).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Technologies Pvt Ltd — consistent with partnership territory (§1.10).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "flagged",
+      "detail": "US (Delaware) law with AtliQ Technologies Pvt Ltd — third-country law, review (not automatically wrong). Forum: Any action or proceeding arising out of or relating to this Agreement shall be brought exclusively in the state or federal courts located in the City and County (§13.2).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "not_applicable",
+      "detail": "Not an NDA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "not_applicable",
+      "detail": "No insurance requirement in this document.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "passed",
+      "detail": "No schedules or annexes referenced.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 8 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "could_not_verify",
+      "detail": "Not found or ambiguous: Contract value.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "could_not_verify",
+      "detail": "4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI.",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "STRATEGIC PARTNERSHIP AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "STRATEGIC PARTNERSHIP AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-3",
+      "ref": "Preamble ¶3",
+      "heading": "STRATEGIC PARTNERSHIP AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-4",
+      "ref": "Preamble ¶4",
+      "heading": "STRATEGIC PARTNERSHIP AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-5",
+      "ref": "Preamble ¶5",
+      "heading": "STRATEGIC PARTNERSHIP AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-a",
+      "ref": "Recital A",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-b",
+      "ref": "Recital B",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-c",
+      "ref": "Recital C",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-2",
+      "ref": "§1.2",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-3",
+      "ref": "§1.3",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-4",
+      "ref": "§1.4",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-5",
+      "ref": "§1.5",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-6",
+      "ref": "§1.6",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-7",
+      "ref": "§1.7",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-8",
+      "ref": "§1.8",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-9",
+      "ref": "§1.9",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-10",
+      "ref": "§1.10",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-11",
+      "ref": "§1.11",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-12",
+      "ref": "§1.12",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "2. APPOINTMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "2. APPOINTMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-3",
+      "ref": "§2.3",
+      "heading": "2. APPOINTMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-4",
+      "ref": "§2.4",
+      "heading": "2. APPOINTMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-5",
+      "ref": "§2.5",
+      "heading": "2. APPOINTMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "3. PARTNER OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "3. PARTNER OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-3",
+      "ref": "§3.3",
+      "heading": "3. PARTNER OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-4",
+      "ref": "§3.4",
+      "heading": "3. PARTNER OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-5",
+      "ref": "§3.5",
+      "heading": "3. PARTNER OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "4. DATAVANE OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "4. DATAVANE OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "5. DATAVANE ACCOUNTS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-2",
+      "ref": "§5.2",
+      "heading": "5. DATAVANE ACCOUNTS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-3",
+      "ref": "§5.3",
+      "heading": "5. DATAVANE ACCOUNTS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-18a1061c"
+      ]
+    },
+    {
+      "clause_id": "c-s5-4",
+      "ref": "§5.4",
+      "heading": "5. DATAVANE ACCOUNTS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "6. FEES AND REVENUE SHARE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "6. FEES AND REVENUE SHARE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-3",
+      "ref": "§6.3",
+      "heading": "6. FEES AND REVENUE SHARE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-cec0e121"
+      ]
+    },
+    {
+      "clause_id": "c-s6-4",
+      "ref": "§6.4",
+      "heading": "6. FEES AND REVENUE SHARE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-5",
+      "ref": "§6.5",
+      "heading": "6. FEES AND REVENUE SHARE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-6",
+      "ref": "§6.6",
+      "heading": "6. FEES AND REVENUE SHARE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-7",
+      "ref": "§6.7",
+      "heading": "6. FEES AND REVENUE SHARE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "7. TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-2d661664"
+      ]
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "7. TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-3",
+      "ref": "§7.3",
+      "heading": "7. TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-a3a83413"
+      ]
+    },
+    {
+      "clause_id": "c-s7-4",
+      "ref": "§7.4",
+      "heading": "7. TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-5",
+      "ref": "§7.5",
+      "heading": "7. TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "8. INTELLECTUAL PROPERTY AND MARKS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "8. INTELLECTUAL PROPERTY AND MARKS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-3",
+      "ref": "§8.3",
+      "heading": "8. INTELLECTUAL PROPERTY AND MARKS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-4",
+      "ref": "§8.4",
+      "heading": "8. INTELLECTUAL PROPERTY AND MARKS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "9. CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-2",
+      "ref": "§9.2",
+      "heading": "9. CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-3",
+      "ref": "§9.3",
+      "heading": "9. CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-4",
+      "ref": "§9.4",
+      "heading": "9. CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "10. WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "10. WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-3",
+      "ref": "§10.3",
+      "heading": "10. WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-1",
+      "ref": "§11.1",
+      "heading": "11. INDEMNIFICATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-2",
+      "ref": "§11.2",
+      "heading": "11. INDEMNIFICATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-3",
+      "ref": "§11.3",
+      "heading": "11. INDEMNIFICATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-1",
+      "ref": "§12.1",
+      "heading": "12. LIMITATION OF LIABILITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-2",
+      "ref": "§12.2",
+      "heading": "12. LIMITATION OF LIABILITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-3",
+      "ref": "§12.3",
+      "heading": "12. LIMITATION OF LIABILITY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-a525b338"
+      ]
+    },
+    {
+      "clause_id": "c-s13-1",
+      "ref": "§13.1",
+      "heading": "13. GOVERNING LAW AND DISPUTES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-e159ae4d"
+      ]
+    },
+    {
+      "clause_id": "c-s13-2",
+      "ref": "§13.2",
+      "heading": "13. GOVERNING LAW AND DISPUTES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-3",
+      "ref": "§13.3",
+      "heading": "13. GOVERNING LAW AND DISPUTES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-1",
+      "ref": "§14.1",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-2",
+      "ref": "§14.2",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-3",
+      "ref": "§14.3",
+      "heading": "14. GENERAL",
+      "status": "flagged",
+      "finding_ids": [
+        "F-07c00dbd"
+      ]
+    },
+    {
+      "clause_id": "c-s14-4",
+      "ref": "§14.4",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-5",
+      "ref": "§14.5",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-6",
+      "ref": "§14.6",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-7",
+      "ref": "§14.7",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-8",
+      "ref": "§14.8",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-schedule-1",
+      "ref": "Schedule 1",
+      "heading": "SCHEDULE 1 — PARTNER TIER AND BENEFITS (SUMMARY)",
+      "status": "flagged",
+      "finding_ids": [
+        "F-e5a54372"
+      ]
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-3",
+      "ref": "Signatures ¶3",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+      "title": "Crestline Retail Inc — Professional Services Agreement",
+      "clause_ref": "§1.1",
+      "text": "1.1 \"**Affiliate**\" means any entity that directly or indirectly controls, is controlled by, or is under common control with a Party, where \"control\" means ownership of more than fifty percent (50%) of the voting interests of the entity or the power to direct its management.",
+      "doc_status": "signed_active",
+      "score": 65.06
+    },
+    {
+      "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+      "title": "CloudSpan Technologies — Strategic Partnership Agreement",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Partner**\"),",
+      "doc_status": "signed_active",
+      "score": 60.68
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+      "title": "AtliQ Technologies Pvt Ltd (intercompany) — Subcontractor BAA",
+      "clause_ref": "Preamble ¶4",
+      "text": "**AtliQ Technologies Pvt Ltd**, a private limited company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Subcontractor**\"),",
+      "doc_status": "signed_expiring",
+      "score": 59.95
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_al_noor_mutual_nda.md",
+      "title": "Al Noor Hospitality Group — Mutual NDA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"),",
+      "doc_status": "signed_active",
+      "score": 59.15
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (the \"**Supplier**\"),",
+      "doc_status": "signed_active",
+      "score": 58.28
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "§1.2",
+      "text": "1.2 \"**Affiliate**\" means, in relation to a Party, any entity that directly or indirectly controls, is controlled by, or is under common control with that Party, where \"control\" means the ownership of more than fifty percent (50%) of the voting securities of an entity or the power to direct its management and policies, whether by contract or otherwise.",
+      "doc_status": "signed_active",
+      "score": 57.15
+    },
+    {
+      "source_file": "signed_contracts/2025-04-28_rohan_iyer_contractor_agreement.md",
+      "title": "Rohan Iyer (freelancer) — Contractor Agreement",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"); and",
+      "doc_status": "signed_expired",
+      "score": 54.11
+    },
+    {
+      "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+      "title": "CloudSpan Technologies — Strategic Partnership Agreement",
+      "clause_ref": "§1.1",
+      "text": "1.1 \"**Affiliate**\" means, in relation to a Party, any entity that directly or indirectly controls, is controlled by, or is under common control with that Party, where \"control\" means ownership of more than fifty per cent (50%) of the voting securities or the power to direct management.",
+      "doc_status": "signed_active",
+      "score": 53.99
+    }
+  ],
+  "attention_score": 37,
+  "counts": {
+    "CRITICAL": 1,
+    "HIGH": 4,
+    "MEDIUM": 2,
+    "LOW": 1
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 3,
+      "note": "80 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 3,
+      "note": "10/11 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 10,
+      "note": "1 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 10,
+      "note": "6 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 5,
+      "note": "1 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 0,
+      "note": "0 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 7,
+      "note": "8/8 grounded"
+    }
+  ],
+  "processing_ms": 38
+}

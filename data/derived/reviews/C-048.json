@@ -1,0 +1,309 @@
+{
+  "review_id": "C-048-27c5b889",
+  "contract_id": "C-048",
+  "file_name": "2026-09-27_daniel_ortiz_nda_draft.md",
+  "title": "MUTUAL NONDISCLOSURE AGREEMENT",
+  "counterparty": "Daniel Ortiz",
+  "version": 1,
+  "text_hash": "27c5b889d0a7bf6a",
+  "generated_at": "2026-10-14T15:33:02.384Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": false,
+  "out_of_scope_reason": "NDA with an individual freelancer — out of MVP scope (client and partner contracts only).",
+  "config": {
+    "title": "MUTUAL NONDISCLOSURE AGREEMENT",
+    "counterparty": "Daniel Ortiz",
+    "contract_type": "NDA",
+    "atliq_entity": "inc",
+    "atliq_role": "mutual",
+    "counterparty_country": "USA",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": ""
+  },
+  "ai": {
+    "provider": "none",
+    "model": "none",
+    "status": "not_run",
+    "note": "Not run"
+  },
+  "completeness": "incomplete",
+  "completeness_notes": [
+    "NDA with an individual freelancer — out of MVP scope (client and partner contracts only).",
+    "Could not verify — Key contract fields extracted: Not found or ambiguous: Termination for convenience."
+  ],
+  "summary": "Daniel Ortiz · NDA · AtliQ Inc as mutual. 0 finding(s): 0 critical, 0 high, 0 medium, 0 low; 0 potential conflict(s) with past commitments; 1 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "Daniel Ortiz",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Inc (as \"AtliQ\")",
+      "clause_ref": "Preamble",
+      "clause_id": "c-preamble",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "The obligations in Sections 3 and 4 continue for three (3) years after the end of that period.",
+      "clause_ref": "§5.1",
+      "clause_id": "c-s5-1",
+      "quote": "The obligations in Sections 3 and 4 continue for three (3) years after the end of that period.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "None in this contract",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "Ownership of work product created in the engagement is governed by the Parties' Independent Contractor Agreement.",
+      "clause_ref": "§6.1",
+      "clause_id": "c-s6-1",
+      "quote": "Ownership of work product created in the engagement is governed by the Parties' Independent Contractor Agreement.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "The Parties submit to the jurisdiction of the state and federal courts located in Travis County, Texas.",
+      "clause_ref": "§8.1",
+      "clause_id": "c-s8-1",
+      "quote": "The Parties submit to the jurisdiction of the state and federal courts located in Travis County, Texas.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "confidentiality_term",
+      "label": "Confidentiality period",
+      "value": "The obligations in Sections 3 and 4 continue for three (3) years after the end of that period.",
+      "clause_ref": "§5.1",
+      "clause_id": "c-s5-1",
+      "quote": "The obligations in Sections 3 and 4 continue for three (3) years after the end of that period.",
+      "status": "found"
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Inc — consistent with counterparty country USA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 0 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "could_not_verify",
+      "detail": "Not found or ambiguous: Termination for convenience.",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "MUTUAL NONDISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "MUTUAL NONDISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "1. PURPOSE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "2. CONFIDENTIAL INFORMATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "2. CONFIDENTIAL INFORMATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "3. OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "3. OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-3",
+      "ref": "§3.3",
+      "heading": "3. OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "4. RETURN OR DESTRUCTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "5. TERM",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "6. NO LICENSE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "7. REMEDIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "8. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "8. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-3",
+      "ref": "§8.3",
+      "heading": "8. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [],
+  "attention_score": 1,
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 0,
+      "note": "17 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 2,
+      "note": "7/8 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "skipped",
+      "ms": 0,
+      "note": "Out of scope"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "skipped",
+      "ms": 0,
+      "note": "Out of scope"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 4
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "skipped",
+      "ms": 0,
+      "note": "Out of MVP scope"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 0
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 0,
+      "note": "0/0 grounded"
+    }
+  ],
+  "processing_ms": 6
+}

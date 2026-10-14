@@ -1,0 +1,760 @@
+{
+  "review_id": "C-036-35c591cc",
+  "contract_id": "C-036",
+  "file_name": "2026-09-25_finserve_capital_mutual_nda_draft.md",
+  "title": "MUTUAL NON-DISCLOSURE AGREEMENT",
+  "counterparty": "FinServe Capital",
+  "version": 1,
+  "text_hash": "35c591ccb4b7f6b7",
+  "generated_at": "2026-10-14T15:33:02.335Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "MUTUAL NON-DISCLOSURE AGREEMENT",
+    "counterparty": "FinServe Capital",
+    "contract_type": "NDA",
+    "atliq_entity": "pvt_ltd",
+    "atliq_role": "mutual",
+    "counterparty_country": "India",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "Arjun: 'our standard mutual NDA' - needed before 1 Oct data walkthrough. K: will sign tonight"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "failed",
+    "note": "2 of 2 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "incomplete",
+  "completeness_notes": [
+    "AI clause analysis failed: 2 of 2 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+    "Could not verify — Key contract fields extracted: Not found or ambiguous: Termination for convenience.",
+    "Could not verify — AI clause-by-clause analysis: 2 of 2 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI."
+  ],
+  "summary": "FinServe Capital · NDA · AtliQ Technologies Pvt Ltd as mutual. 7 finding(s): 2 critical, 2 high, 2 medium, 1 low; 1 potential conflict(s) with past commitments; 2 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "FinServe Capital",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Technologies Pvt Ltd (as \"Recipient\")",
+      "clause_ref": "Preamble ¶4",
+      "clause_id": "c-preamble-4",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This Agreement shall come into force on the Effective Date and shall continue until terminated by either Party on thirty (30) days' written notice.",
+      "clause_ref": "§7.1",
+      "clause_id": "c-s7-1",
+      "quote": "This Agreement shall come into force on the Effective Date and shall continue until terminated by either Party on thirty (30) days' written notice.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "None in this contract",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "This Agreement shall be governed by the laws of India, and the courts at Mumbai shall have exclusive jurisdiction.",
+      "clause_ref": "§11.4",
+      "clause_id": "c-s11-4",
+      "quote": "This Agreement shall be governed by the laws of India, and the courts at Mumbai shall have exclusive jurisdiction.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "This Agreement shall be governed by the laws of India, and the courts at Mumbai shall have exclusive jurisdiction.",
+      "clause_ref": "§11.4",
+      "clause_id": "c-s11-4",
+      "quote": "This Agreement shall be governed by the laws of India, and the courts at Mumbai shall have exclusive jurisdiction.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "confidentiality_term",
+      "label": "Confidentiality period",
+      "value": "The obligations of the Recipient under this Agreement shall survive termination and shall continue in perpetuity.",
+      "clause_ref": "§7.2",
+      "clause_id": "c-s7-2",
+      "quote": "The obligations of the Recipient under this Agreement shall survive termination and shall continue in perpetuity.",
+      "status": "found"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-3222568f",
+      "finding_type": "HISTORICAL_CONFLICT",
+      "category": "non_compete_exclusivity",
+      "severity": "CRITICAL",
+      "title": "New restriction would cover existing clients: Trustline NBFC, PayTrack Technologies",
+      "explanation": "Potential conflict — not a breach determination. The restriction in §8.1 reaches businesses AtliQ already serves under signed contracts: Trustline NBFC (Active client — collections analytics MSA (USD 48k), until 14 Aug 2027); PayTrack Technologies (Active client — transaction analytics & fraud/anomaly detection MSA (USD 71k), until 21 Jan 2027). Signing would mean breaching this agreement by continuing that work, or abandoning those clients. Restrictions like this belong in the commitments register — this is the 'what have we promised not to do' problem from the 22 Sep meeting.",
+      "contract_clause_ref": "§8.1",
+      "contract_clause_id": "c-s8-1",
+      "contract_quote": "In order to protect the Confidential Information, the Recipient shall not, during the term of this Agreement and for a period of twelve (12) months after its termination, provide services similar to those contemplated by the Proposed Transaction to any Competitor.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2026-08-15_trustline_nbfc_msa.md",
+          "clause_ref": "Recital A",
+          "quote": "The Company is engaged in the business of retail and MSME lending and wishes to develop a collections analytics and early-warning dashboard.",
+          "doc_status": "signed_active",
+          "grounded": true,
+          "label": "Existing client — Trustline NBFC (active until 14 Aug 2027)"
+        },
+        {
+          "source_file": "signed_contracts/2025-01-22_paytrack_technologies_msa.md",
+          "clause_ref": "Recital A",
+          "quote": "PayTrack operates a payments reconciliation and merchant settlement platform and wishes to build a transaction analytics and anomaly detection module.",
+          "doc_status": "signed_active",
+          "grounded": true,
+          "label": "Existing client — PayTrack Technologies (active until 21 Jan 2027)"
+        }
+      ],
+      "precedent_ids": [
+        "P-24",
+        "P-17"
+      ],
+      "rule_id": "R8",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Consider counsel review (Mehta Rao & Associates) — share this contract together with the cited signed agreements."
+      ],
+      "needs_info": "Confirm the full current client list (the tracker is incomplete) and whether any pipeline deals (e.g. FinEdge Bank, C-022) fall inside the definition.",
+      "source": "register"
+    },
+    {
+      "id": "F-ce117f83",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "nda_mutuality",
+      "severity": "CRITICAL",
+      "title": "Called a 'Mutual' NDA, but it is one-way — only AtliQ is bound",
+      "explanation": "The title and recitals say mutual, but the operative terms are not: Confidential Information is defined as information disclosed by the other party to AtliQ, AtliQ is defined as the 'Recipient', and every obligation, remedy and covenant runs against AtliQ only. AtliQ's own architecture, methods and pricing shared in the walkthrough would have no protection. Karandeep's rule is 'NDAs → just sign if mutual'; GlobalMart's one-way draft was turned into a mutual NDA on request. The Meridian NDA (one-way, signed within the hour as 'standard') is the counter-example.",
+      "contract_clause_ref": "§1.2",
+      "contract_clause_id": "c-s1-2",
+      "contract_quote": "\"Confidential Information\" means all information, in any form, disclosed or made available by or on behalf of the Company to the Recipient or its Representatives, whether before or after the Effective Date, including customer and portfolio data, credit models, product plans, pricing, technology architecture, business processes, and all analyses, compilations, notes or other documents prepared by the Recipient that contain or reflect such information.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-23",
+        "P-24",
+        "P-25"
+      ],
+      "rule_id": "R7",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "rule"
+    },
+    {
+      "id": "F-daf16ae3",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "nda_mutuality",
+      "severity": "HIGH",
+      "title": "One-sided residuals clause — the other side may reuse what it learns from AtliQ",
+      "explanation": "Only Company may use 'Residuals' (anything its people remember, including ideas, know-how and techniques) for any purpose. AtliQ will be presenting its architecture and methods; this lets the counterparty use them freely while AtliQ stays bound. GlobalMart precedent: 'we'll be sharing our architecture too'.",
+      "contract_clause_ref": "§4.1",
+      "contract_clause_id": "c-s4-1",
+      "contract_quote": "Notwithstanding anything in this Agreement, the Company shall be free to use Residuals for any purpose, including the development, marketing and procurement of products and services, provided that this Clause 4.1 does not grant any licence under any patent or copyright.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-23"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-4e0ba5be",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "non_compete_exclusivity",
+      "severity": "HIGH",
+      "title": "New restrictive covenant on AtliQ (term + 12 months)",
+      "explanation": "This clause would restrict who AtliQ can work for — and it would join the commitments register. AtliQ has no list of what it has already promised not to do outside this tool; restrictions like this are how the Al Noor GCC non-compete came to block hospitality work. Check it against current clients and pipeline before signing (see Commitments).",
+      "contract_clause_ref": "§8.1",
+      "contract_clause_id": "c-s8-1",
+      "contract_quote": "In order to protect the Confidential Information, the Recipient shall not, during the term of this Agreement and for a period of twelve (12) months after its termination, provide services similar to those contemplated by the Proposed Transaction to any Competitor.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-17",
+        "P-18"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-2640eaa0",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "nda_mutuality",
+      "severity": "MEDIUM",
+      "title": "No exclusion for independently developed information",
+      "explanation": "The standard carve-out for information the recipient develops independently is missing. Every signed AtliQ NDA has it; without it, AtliQ's own later work in the same space could be argued to be a breach.",
+      "contract_clause_ref": "§3.1",
+      "contract_clause_id": "c-s3-1",
+      "contract_quote": "The obligations in Clause 2 shall not apply to information which the Recipient can demonstrate by contemporaneous written evidence:",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-25"
+      ],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-2e09cce4",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "nda_mutuality",
+      "severity": "MEDIUM",
+      "title": "Confidentiality obligations last in perpetuity",
+      "explanation": "Obligations never end. AtliQ's signed NDAs run 3–5 years after the disclosure period (Al Noor 5 years, Harrington 3 years, LoopMart draft 3 years).",
+      "contract_clause_ref": "§7.2",
+      "contract_clause_id": "c-s7-2",
+      "contract_quote": "The obligations of the Recipient under this Agreement shall survive termination and shall continue in perpetuity.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-25"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-5ed37701",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "non_compete_exclusivity",
+      "severity": "LOW",
+      "title": "One-way no-hire / non-solicit on AtliQ (term + 24 months)",
+      "explanation": "Only AtliQ is restricted from hiring the other side's people. AtliQ's signed client contracts use mutual employee non-solicits.",
+      "contract_clause_ref": "§8.2",
+      "contract_clause_id": "c-s8-2",
+      "contract_quote": "The Recipient shall not, during the term of this Agreement and for a period of twenty-four (24) months after its termination, directly or indirectly solicit, hire or engage any employee or consultant of the Company.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    }
+  ],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "passed",
+      "detail": "Checked against 5 restrictive commitments in the register — no active match. Absence of a match is not proof of safety: the register only covers signed contracts in the dataset.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Technologies Pvt Ltd — consistent with counterparty country India.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "passed",
+      "detail": "India law with AtliQ Technologies Pvt Ltd. Forum: This Agreement shall be governed by the laws of India, and the courts at Mumbai shall have exclusive jurisdiction. (§11.4).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "flagged",
+      "detail": "Labelled 'mutual' but only AtliQ's obligations are defined — AtliQ is the 'Recipient' and only the other side's information is protected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "not_applicable",
+      "detail": "No insurance requirement in this document.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "passed",
+      "detail": "No schedules or annexes referenced.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 7 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "could_not_verify",
+      "detail": "Not found or ambiguous: Termination for convenience.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "could_not_verify",
+      "detail": "2 of 2 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI.",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-3",
+      "ref": "Preamble ¶3",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-4",
+      "ref": "Preamble ¶4",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-5",
+      "ref": "Preamble ¶5",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-a",
+      "ref": "Recital A",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-b",
+      "ref": "Recital B",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-2",
+      "ref": "§1.2",
+      "heading": "1. DEFINITIONS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-ce117f83"
+      ]
+    },
+    {
+      "clause_id": "c-s1-3",
+      "ref": "§1.3",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-4",
+      "ref": "§1.4",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-5",
+      "ref": "§1.5",
+      "heading": "1. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "2. USE AND PROTECTION OF CONFIDENTIAL INFORMATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "2. USE AND PROTECTION OF CONFIDENTIAL INFORMATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "3. EXCEPTIONS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-2640eaa0"
+      ]
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "3. EXCEPTIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "4. RESIDUALS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-daf16ae3"
+      ]
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "5. RETURN OF INFORMATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "6. REGULATORY MATTERS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "6. REGULATORY MATTERS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "7. DURATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "7. DURATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-2e09cce4"
+      ]
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "8. PROTECTIVE COVENANTS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-3222568f",
+        "F-4e0ba5be"
+      ]
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "8. PROTECTIVE COVENANTS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-5ed37701"
+      ]
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "9. NO REPRESENTATION; NO OBLIGATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-2",
+      "ref": "§9.2",
+      "heading": "9. NO REPRESENTATION; NO OBLIGATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-3",
+      "ref": "§9.3",
+      "heading": "9. NO REPRESENTATION; NO OBLIGATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "10. REMEDIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "10. REMEDIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-1",
+      "ref": "§11.1",
+      "heading": "11. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-2",
+      "ref": "§11.2",
+      "heading": "11. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-3",
+      "ref": "§11.3",
+      "heading": "11. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-4",
+      "ref": "§11.4",
+      "heading": "11. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-5",
+      "ref": "§11.5",
+      "heading": "11. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2026-07-16_meridian_healthcare_nda.md",
+      "title": "Meridian Healthcare — NDA (one-way)",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or the \"**Recipient**\").",
+      "doc_status": "signed_active",
+      "score": 70.9
+    },
+    {
+      "source_file": "signed_contracts/2025-04-28_rohan_iyer_contractor_agreement.md",
+      "title": "Rohan Iyer (freelancer) — Contractor Agreement",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"); and",
+      "doc_status": "signed_expired",
+      "score": 69.39
+    },
+    {
+      "source_file": "signed_contracts/2026-08-15_trustline_nbfc_msa.md",
+      "title": "Trustline NBFC — MSA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (the \"**Service Provider**\").",
+      "doc_status": "signed_active",
+      "score": 68.52
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_paytrack_technologies_msa.md",
+      "title": "PayTrack Technologies — MSA",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or \"**Vendor**\").",
+      "doc_status": "signed_active",
+      "score": 67.9
+    },
+    {
+      "source_file": "signed_contracts/2025-04-18_sunrise_foods_msa.md",
+      "title": "Sunrise Foods — MSA",
+      "clause_ref": "Preamble ¶5",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or the \"**Service Provider**\").",
+      "doc_status": "signed_active",
+      "score": 67.9
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_al_noor_mutual_nda.md",
+      "title": "Al Noor Hospitality Group — Mutual NDA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"),",
+      "doc_status": "signed_active",
+      "score": 63.06
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (the \"**Supplier**\"),",
+      "doc_status": "signed_active",
+      "score": 62.19
+    },
+    {
+      "source_file": "signed_contracts/2025-09-01_cloudspan_strategic_partnership_agreement.md",
+      "title": "CloudSpan Technologies — Strategic Partnership Agreement",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Partner**\"),",
+      "doc_status": "signed_active",
+      "score": 62.19
+    }
+  ],
+  "attention_score": 37,
+  "counts": {
+    "CRITICAL": 2,
+    "HIGH": 2,
+    "MEDIUM": 2,
+    "LOW": 1
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 1,
+      "note": "36 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 2,
+      "note": "7/8 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 1,
+      "note": "0 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 5,
+      "note": "5 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 2,
+      "note": "1 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 0,
+      "note": "0 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 2,
+      "note": "7/7 grounded"
+    }
+  ],
+  "processing_ms": 13
+}

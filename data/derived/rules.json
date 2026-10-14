@@ -2,14 +2,75 @@
   "_about": "Deterministic, fact-based checks only (PRD FR-8, FR-13). AtliQ has no fixed commercial negotiation policy, so commercial terms are compared against precedents, not rules. Every check returns passed | flagged | could_not_verify.",
   "dataset_today": "2026-09-28",
   "rules": [
-    { "id": "R1", "name": "Signing entity matches client region", "text": "US clients contract with AtliQ Inc; all non-US clients contract with AtliQ Technologies Pvt Ltd.", "applies_to": "all", "source": "atliq_entities.md" },
-    { "id": "R2", "name": "Invoicing entity matches signing entity", "text": "The entity that invoices must be the same entity named in the parties clause.", "applies_to": "all", "source": "atliq_entities.md (finance notes)" },
-    { "id": "R3", "name": "Governing law fits the signing entity", "text": "Prefer Indian law for Pvt Ltd and US state law for Inc. A third-country law is flagged for review (not automatically wrong — e.g. English law accepted for Northwind, DIFC for Al Noor).", "applies_to": "all", "source": "karandeep_contract_checklist.md; negotiation_notes.md" },
-    { "id": "R4", "name": "US healthcare bundle complete", "text": "US healthcare work touching patient data needs an NDA, a HIPAA Business Associate Agreement and the services contract, signed before data changes hands.", "applies_to": "us_healthcare", "source": "data/raw/README.md" },
-    { "id": "R5", "name": "PHI flow-down to every party", "text": "Every subcontractor, affiliate or freelancer who will touch PHI needs a subcontractor BAA with matching terms before access. The AtliQ intercompany BAA is engagement-specific (CareBridge only).", "applies_to": "us_healthcare", "source": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md" },
-    { "id": "R6", "name": "EU/UK personal data needs a DPA", "text": "European work with personal data needs a GDPR data processing agreement (and SCCs/IDTA for transfers to India); sub-processors need client consent and flow-down.", "applies_to": "eu_personal_data", "source": "data/raw/README.md" },
-    { "id": "R7", "name": "NDA obligations are reciprocal", "text": "In an NDA labelled mutual, the definition of Confidential Information, obligations, residuals, remedies, indemnities and restrictive covenants must apply to both parties.", "applies_to": "nda", "source": "karandeep_contract_checklist.md; client meeting 1 ('mutual' trap)" },
-    { "id": "R8", "name": "No restriction conflicts with the commitments register", "text": "Check the incoming scope (sector, geography, services, pricing, IP reuse, platform partnerships) against every active commitment in data/derived/commitments_register.json; show expired ones labelled Expired.", "applies_to": "all", "source": "data/derived/commitments_register.json" },
-    { "id": "R9", "name": "Required insurance within current cover", "text": "AtliQ cyber liability cover is USD 1,000,000 (tracker C-046). Flag any contract requiring more.", "applies_to": "all", "source": "contract_tracker.csv C-046" }
+    {
+      "id": "R1",
+      "name": "Signing entity matches client region",
+      "text": "US clients contract with AtliQ Inc; all non-US clients contract with AtliQ Technologies Pvt Ltd.",
+      "applies_to": "all",
+      "source": "atliq_entities.md"
+    },
+    {
+      "id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "text": "The entity that invoices must be the same entity named in the parties clause.",
+      "applies_to": "all",
+      "source": "atliq_entities.md (finance notes)"
+    },
+    {
+      "id": "R3",
+      "name": "Governing law fits the signing entity",
+      "text": "Prefer Indian law for Pvt Ltd and US state law for Inc. A third-country law is flagged for review (not automatically wrong — e.g. English law accepted for Northwind, DIFC for Al Noor).",
+      "applies_to": "all",
+      "source": "karandeep_contract_checklist.md; negotiation_notes.md"
+    },
+    {
+      "id": "R4",
+      "name": "US healthcare bundle complete",
+      "text": "US healthcare work touching patient data needs an NDA, a HIPAA Business Associate Agreement and the services contract, signed before data changes hands.",
+      "applies_to": "us_healthcare",
+      "source": "data/raw/README.md"
+    },
+    {
+      "id": "R5",
+      "name": "PHI flow-down to every party",
+      "text": "Every subcontractor, affiliate or freelancer who will touch PHI needs a subcontractor BAA with matching terms before access. The AtliQ intercompany BAA is engagement-specific (CareBridge only).",
+      "applies_to": "us_healthcare",
+      "source": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md"
+    },
+    {
+      "id": "R6",
+      "name": "EU/UK personal data needs a DPA",
+      "text": "European work with personal data needs a GDPR data processing agreement (and SCCs/IDTA for transfers to India); sub-processors need client consent and flow-down.",
+      "applies_to": "eu_personal_data",
+      "source": "data/raw/README.md"
+    },
+    {
+      "id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "text": "In an NDA labelled mutual, the definition of Confidential Information, obligations, residuals, remedies, indemnities and restrictive covenants must apply to both parties.",
+      "applies_to": "nda",
+      "source": "karandeep_contract_checklist.md; client meeting 1 ('mutual' trap)"
+    },
+    {
+      "id": "R8",
+      "name": "No restriction conflicts with the commitments register",
+      "text": "Check the incoming scope (sector, geography, services, pricing, IP reuse, platform partnerships) against every active commitment in data/derived/commitments_register.json, and check any restrictive covenant in the incoming contract against AtliQ's active client portfolio (data/derived/signed_documents.json). Show expired ones labelled Expired. A match is a potential conflict for human review — never a breach determination.",
+      "applies_to": "all",
+      "source": "data/derived/commitments_register.json"
+    },
+    {
+      "id": "R9",
+      "name": "Required insurance within current cover",
+      "text": "AtliQ cyber liability cover is USD 1,000,000 (tracker C-046). Flag any contract requiring more.",
+      "applies_to": "all",
+      "source": "contract_tracker.csv C-046"
+    },
+    {
+      "id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "text": "Every annex, schedule or exhibit the contract says forms part of it must be present in the document set (this file or a bundled companion). A referenced-but-missing attachment is a potential document gap until someone confirms it exists.",
+      "applies_to": "all",
+      "source": "PRD FR-8 (missing annexures)"
+    }
   ]
 }

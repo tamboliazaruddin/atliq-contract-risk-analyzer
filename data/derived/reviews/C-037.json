@@ -1,0 +1,1130 @@
+{
+  "review_id": "C-037-af657ce8",
+  "contract_id": "C-037",
+  "file_name": "2026-09-26_kriti_data_labs_subcontractor_agreement_draft.md",
+  "title": "SUBCONTRACTOR SERVICES AGREEMENT",
+  "counterparty": "Kriti Data Labs",
+  "version": 1,
+  "text_hash": "af657ce8896b3cce",
+  "generated_at": "2026-10-14T15:33:02.364Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "SUBCONTRACTOR SERVICES AGREEMENT",
+    "counterparty": "Kriti Data Labs",
+    "contract_type": "Subcontractor",
+    "atliq_entity": "pvt_ltd",
+    "atliq_role": "buyer",
+    "counterparty_country": "India",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "Kriti wants to start 5 Oct. built from our vendor template (Jay made it from the Harrington draft). Kriti pushing back on 120-day pay-when-paid - 'we're 12 people'"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "failed",
+    "note": "4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "incomplete",
+  "completeness_notes": [
+    "AI clause analysis failed: 4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+    "Could not verify — AI clause-by-clause analysis: 4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI."
+  ],
+  "summary": "Kriti Data Labs · Subcontractor · AtliQ Technologies Pvt Ltd as buyer. 9 finding(s): 0 critical, 6 high, 2 medium, 1 low; 1 potential conflict(s) with past commitments; 1 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "Kriti Data Labs",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Technologies Pvt Ltd (as \"AtliQ\")",
+      "clause_ref": "Preamble",
+      "clause_id": "c-preamble",
+      "status": "found"
+    },
+    {
+      "key": "value",
+      "label": "Contract value",
+      "value": "8,40,000",
+      "clause_ref": "Engagement schedule ¶3",
+      "clause_id": "c-engagement-schedule-3",
+      "quote": "| | Total Fees | | 8,40,000 |",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This Agreement shall commence on the Effective Date and continue until completion of the Services, unless earlier terminated as provided herein.",
+      "clause_ref": "§5.1",
+      "clause_id": "c-s5-1",
+      "quote": "This Agreement shall commence on the Effective Date and continue until completion of the Services, unless earlier terminated as provided herein.",
+      "status": "found"
+    },
+    {
+      "key": "payment",
+      "label": "Payment terms",
+      "value": "15 days — AtliQ shall pay each properly submitted, undisputed invoice within fifteen (15) days after AtliQ receives the corresponding payment from the End Client, and in any event not later than one hundred and twenty (120) days after AtliQ's receipt of the invoice.",
+      "clause_ref": "§4.3",
+      "clause_id": "c-s4-3",
+      "quote": "AtliQ shall pay each properly submitted, undisputed invoice within fifteen (15) days after AtliQ receives the corresponding payment from the End Client, and in any event not later than one hundred and twenty (120) days after AtliQ's receipt of the invoice.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "AtliQ may set off against any amount owed to Vendor any amount owed by Vendor to AtliQ under this Agreement, including liquidated damages.",
+      "clause_ref": "§4.5",
+      "clause_id": "c-s4-5",
+      "quote": "AtliQ may set off against any amount owed to Vendor any amount owed by Vendor to AtliQ under this Agreement, including liquidated damages.",
+      "status": "found"
+    },
+    {
+      "key": "liability_cap",
+      "label": "Liability cap",
+      "value": "ATLIQ'S AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL NOT EXCEED THE FEES ACTUALLY PAID BY ATLIQ TO VENDOR UNDER THIS AGREEMENT.",
+      "clause_ref": "§10.2",
+      "clause_id": "c-s10-2",
+      "quote": "ATLIQ'S AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL NOT EXCEED THE FEES ACTUALLY PAID BY ATLIQ TO VENDOR UNDER THIS AGREEMENT.",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "This Agreement shall be governed by and construed in accordance with the laws of India.",
+      "clause_ref": "§12.1",
+      "clause_id": "c-s12-1",
+      "quote": "This Agreement shall be governed by and construed in accordance with the laws of India.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "Subject to Section 12.2, the courts at Pune, Maharashtra shall have exclusive jurisdiction over any dispute arising out of or relating to this Agreement.",
+      "clause_ref": "§12.3",
+      "clause_id": "c-s12-3",
+      "quote": "Subject to Section 12.2, the courts at Pune, Maharashtra shall have exclusive jurisdiction over any dispute arising out of or relating to this Agreement.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Either Party may terminate this Agreement upon written notice if the other Party materially breaches this Agreement and fails to cure such breach within fifteen (15) days after written notice thereof.",
+      "clause_ref": "§5.2",
+      "clause_id": "c-s5-2",
+      "quote": "Either Party may terminate this Agreement upon written notice if the other Party materially breaches this Agreement and fails to cure such breach within fifteen (15) days after written notice thereof.",
+      "status": "found"
+    },
+    {
+      "key": "ip",
+      "label": "IP ownership",
+      "value": "Vendor shall retain all right, title and interest in and to its tools, labelling platform, scripts, ontologies, annotation guidelines developed by Vendor, and annotation outputs, including all intellectual property rights therein (collectively, \"Vendor IP\").",
+      "clause_ref": "§7.2",
+      "clause_id": "c-s7-2",
+      "quote": "Vendor shall retain all right, title and interest in and to its tools, labelling platform, scripts, ontologies, annotation guidelines developed by Vendor, and annotation outputs, including all intellectual property rights therein (collectively, \"Vendor IP\").",
+      "status": "found"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-4bdf94ae",
+      "finding_type": "HISTORICAL_CONFLICT",
+      "category": "ip",
+      "severity": "HIGH",
+      "title": "Vendor keeps IP in outputs that AtliQ must hand to Rheinwerk Analytics GmbH exclusively",
+      "explanation": "This agreement lets the vendor retain ownership of its annotation outputs and gives AtliQ only a non-exclusive licence (§7.2). The upstream Rheinwerk Analytics GmbH contract (§6.5, still in review) requires Rheinwerk Analytics GmbH to receive exclusive rights in all work results. AtliQ cannot pass on rights it does not hold. Align the two before either is signed.",
+      "contract_clause_ref": "§7.2",
+      "contract_clause_id": "c-s7-2",
+      "contract_quote": "Vendor shall retain all right, title and interest in and to its tools, labelling platform, scripts, ontologies, annotation guidelines developed by Vendor, and annotation outputs, including all intellectual property rights therein (collectively, \"Vendor IP\").",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "incoming/2026-09-23_rheinwerk_analytics_services_agreement_draft.md",
+          "clause_ref": "§6.5",
+          "quote": "Except for PipeKit, Client shall acquire the exclusive, perpetual, transferable and unrestricted right of use in all Work Results created specifically for Client, upon full payment of the relevant Milestone Fee.",
+          "doc_status": "draft_in_review",
+          "grounded": true,
+          "label": "Rheinwerk Analytics GmbH draft (C-028, In review) — upstream client contract, not yet signed"
+        }
+      ],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "needs_info": "Upstream Rheinwerk Analytics GmbH contract is a draft — re-check once its IP clause is final.",
+      "source": "register"
+    },
+    {
+      "id": "F-295d0e67",
+      "finding_type": "DOCUMENT_GAP",
+      "gap_kind": "confirmed",
+      "category": "data_protection",
+      "severity": "HIGH",
+      "title": "EU personal data with no GDPR sub-processor terms or client consent",
+      "explanation": "This vendor would process EU personal data (e.g. technician names in maintenance logs) on AtliQ's behalf, making it a GDPR sub-processor. Nothing here flows down DPA terms (Art. 28(4)), and the upstream client contract requires the client's prior written consent to subcontract. AtliQ needs the client's consent and a DPA flow-down with the vendor before any data is shared.",
+      "contract_clause_ref": "Engagement schedule ¶2",
+      "contract_clause_id": "c-engagement-schedule-2",
+      "contract_quote": "Source data comprises vibration, temperature and pressure sensor streams from End Client customer plants, together with maintenance work orders and technician logs (including technician names, shift identifiers and free-text notes).",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "incoming/2026-09-23_rheinwerk_analytics_services_agreement_draft.md",
+          "clause_ref": "§15.3",
+          "quote": "Supplier may subcontract parts of the services only with Client's prior written consent.",
+          "doc_status": "draft_in_review",
+          "grounded": true,
+          "label": "Rheinwerk Analytics GmbH draft (C-028) — upstream client contract"
+        },
+        {
+          "source_file": "incoming/2026-09-23_rheinwerk_analytics_services_agreement_draft.md",
+          "clause_ref": "§13.1",
+          "quote": "To the extent Supplier processes personal data on behalf of Client, the Parties shall conclude the Data Processing Agreement pursuant to Art.",
+          "doc_status": "draft_in_review",
+          "grounded": true
+        }
+      ],
+      "precedent_ids": [],
+      "rule_id": "R6",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "needs_info": "Get the end client's written consent to the sub-processor and add DPA flow-down terms (or anonymise names before sharing).",
+      "source": "rule"
+    },
+    {
+      "id": "F-4896d29f",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "HIGH",
+      "title": "Pay-when-paid: the vendor is paid only after the end client pays AtliQ (long-stop 120 days)",
+      "explanation": "AtliQ is the buyer. The vendor carries AtliQ's collection risk and may wait up to 120 days. AtliQ's own position as a supplier is '30 days, 45 max'; for PixelCraft (six people) Karandeep agreed 30-day payment. The tracker notes say the vendor is already pushing back on this ('we're 12 people').",
+      "contract_clause_ref": "§4.3",
+      "contract_clause_id": "c-s4-3",
+      "contract_quote": "AtliQ's obligation to pay any invoice is conditional upon AtliQ's receipt of payment from the End Client for the corresponding services.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-26",
+        "P-12"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-1eb6e489",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "HIGH",
+      "title": "AtliQ's paper makes the vendor indemnify AtliQ's own negligence",
+      "explanation": "The vendor indemnity applies even where AtliQ was negligent. AtliQ refused exactly this from PayTrack ('we can't insure against PayTrack's own negligence').",
+      "contract_clause_ref": "§9.1",
+      "contract_clause_id": "c-s9-1",
+      "contract_quote": "Vendor shall defend, indemnify and hold harmless AtliQ, its Affiliates, and their respective directors, officers, employees, agents, successors and assigns (the \"AtliQ Indemnitees\") from and against any and all Losses arising out of or relating to (a) the Services or Deliverables, (b) any breach of this Agreement by Vendor, (c) any claim by the End Client relating to the Services or Deliverables, or (d) any act or omission of Vendor Personnel, in each case regardless of whether such Losses are caused in whole or in part by the negligence of any AtliQ Indemnitee.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-09",
+        "P-26"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-09e45a5a",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "HIGH",
+      "title": "AtliQ's own paper makes the vendor's liability unlimited while AtliQ's is capped",
+      "explanation": "AtliQ is the buyer. The vendor's liability is uncapped By contrast §10.2 caps the other side's liability at THE FEES ACTUALLY PAID BY ATLIQ TO VENDOR UNDER THIS AGREEMENT. This is the clause Karandeep refuses from clients ('liability → 1x fees. NOT unlimited') and the one PixelCraft pushed back on — AtliQ agreed then to cap liability at fees for both sides.",
+      "contract_clause_ref": "§10.3",
+      "contract_clause_id": "c-s10-3",
+      "contract_quote": "NOTHING IN THIS AGREEMENT SHALL LIMIT OR EXCLUDE VENDOR'S LIABILITY FOR ANY LOSSES, WHETHER DIRECT OR INDIRECT, ARISING OUT OF OR RELATING TO THIS AGREEMENT, INCLUDING VENDOR'S INDEMNIFICATION OBLIGATIONS.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-26",
+        "P-08",
+        "P-07"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-054fe760",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "HIGH",
+      "title": "AtliQ's own paper imposes uncapped daily-style delay damages on the vendor",
+      "explanation": "AtliQ is the buyer here. The delay clause charges the vendor two percent (2%) of Total Fees per day, no cap, no exclusion for client-caused delay, cumulative with other remedies. This is the same structure AtliQ rejects when clients send it (Acme, Northwind, Trustline) and the one that cost AtliQ $9k on Brightwater. With PixelCraft, Karandeep deleted the delay penalty for a six-person agency. Consider whether this term is fair to a small vendor.",
+      "contract_clause_ref": "§11.2",
+      "contract_clause_id": "c-s11-2",
+      "contract_quote": "If Vendor fails to achieve any Delivery Date, Vendor shall pay AtliQ, as liquidated damages, an amount equal to two percent (2%) of the Total Fees for each calendar day from the Delivery Date until the date the applicable Deliverable is accepted.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-26",
+        "P-05",
+        "P-01"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-422f7f47",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "MEDIUM",
+      "title": "AtliQ's vendor template still has the terms softened for PixelCraft",
+      "explanation": "4 one-sided terms in AtliQ's own paper (delay penalty, payment, uncapped vendor liability) are the same three Karandeep removed for PixelCraft in Oct 2025 — 'I don't want our paper to be the thing I hate receiving'. The fix was made in PixelCraft's copy only; the template was apparently never updated, and this draft was built from it (and, per the tracker, partly from a client's draft). Consider updating the template, not just this agreement.",
+      "contract_clause_ref": "Preamble",
+      "contract_clause_id": "c-preamble",
+      "contract_quote": "Form: AtliQ Vendor Services Agreement (Rev. 09/2026)",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "negotiation_notes.md",
+          "clause_ref": "PixelCraft Studio — Oct 2025",
+          "quote": "Deleted the penalty, 30-day payment, liability capped at fees for both sides.",
+          "doc_status": "negotiation_note",
+          "grounded": true,
+          "label": "Negotiation note — PixelCraft (unreviewed reconstruction)"
+        },
+        {
+          "source_file": "negotiation_notes.md",
+          "clause_ref": "PixelCraft Studio — Oct 2025",
+          "quote": "Changes made in PixelCraft's copy only — not sure the template file was ever updated.",
+          "doc_status": "negotiation_note",
+          "grounded": true
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-037 notes",
+          "quote": "Kriti wants to start 5 Oct. built from our vendor template (Jay made it from the Harrington draft). Kriti pushing back on 120-day pay-when-paid - 'we're 12 people'",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-037 (seller notes)"
+        }
+      ],
+      "precedent_ids": [
+        "P-26"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-0fa97794",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "MEDIUM",
+      "title": "AtliQ can terminate the vendor on 7 days without paying for work in progress",
+      "explanation": "AtliQ is the buyer. The vendor bears all work-in-progress risk on a short convenience termination — the term AtliQ objects to as a supplier ('they pay for work done').",
+      "contract_clause_ref": "§5.3",
+      "contract_clause_id": "c-s5-3",
+      "contract_quote": "AtliQ may terminate this Agreement, in whole or in part, for any reason or no reason, upon seven (7) days' written notice to Vendor.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-22",
+        "P-26"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-8274b3ce",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "LOW",
+      "title": "No deemed acceptance — invoicing depends entirely on the other side signing off",
+      "explanation": "AtliQ's paper gives the vendor no deemed acceptance; payment can be stalled indefinitely.",
+      "contract_clause_ref": "§3.3",
+      "contract_clause_id": "c-s3-3",
+      "contract_quote": "Acceptance shall not be deemed to occur by use, by delivery to the End Client, by payment, or by the passage of time.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "pattern"
+    }
+  ],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "passed",
+      "detail": "Checked against 5 restrictive commitments in the register — no active match. Absence of a match is not proof of safety: the register only covers signed contracts in the dataset.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Technologies Pvt Ltd — consistent with counterparty country India.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "passed",
+      "detail": "India law with AtliQ Technologies Pvt Ltd. Forum: Subject to Section 12.2, the courts at Pune, Maharashtra shall have exclusive jurisdiction over any dispute arising out of or relating to this Agreement. (§12.3).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "flagged",
+      "detail": "EU personal data will be processed, but there are no data-processing / sub-processor terms in this agreement.",
+      "evidence": [
+        {
+          "source_file": "incoming/2026-09-23_rheinwerk_analytics_services_agreement_draft.md",
+          "clause_ref": "§15.3",
+          "quote": "Supplier may subcontract parts of the services only with Client's prior written consent.",
+          "doc_status": "draft_in_review",
+          "grounded": true,
+          "label": "Rheinwerk Analytics GmbH draft (C-028) — upstream client contract"
+        },
+        {
+          "source_file": "incoming/2026-09-23_rheinwerk_analytics_services_agreement_draft.md",
+          "clause_ref": "§13.1",
+          "quote": "To the extent Supplier processes personal data on behalf of Client, the Parties shall conclude the Data Processing Agreement pursuant to Art.",
+          "doc_status": "draft_in_review",
+          "grounded": true
+        }
+      ]
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "not_applicable",
+      "detail": "Not an NDA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "not_applicable",
+      "detail": "No insurance requirement in this document.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "passed",
+      "detail": "No schedules or annexes referenced.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 9 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "passed",
+      "detail": "All key fields found with clause references.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "could_not_verify",
+      "detail": "4 of 4 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI.",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "SUBCONTRACTOR SERVICES AGREEMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-422f7f47"
+      ]
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "SUBCONTRACTOR SERVICES AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-a",
+      "ref": "Recital A",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-b",
+      "ref": "Recital B",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recitals",
+      "ref": "Recitals",
+      "heading": "RECITALS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-2",
+      "ref": "§1.2",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-3",
+      "ref": "§1.3",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-4",
+      "ref": "§1.4",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-5",
+      "ref": "§1.5",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-6",
+      "ref": "§1.6",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-7",
+      "ref": "§1.7",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-8",
+      "ref": "§1.8",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-9",
+      "ref": "§1.9",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-3",
+      "ref": "§2.3",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-4",
+      "ref": "§2.4",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-5",
+      "ref": "§2.5",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "ARTICLE 3 — ACCEPTANCE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "ARTICLE 3 — ACCEPTANCE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-3",
+      "ref": "§3.3",
+      "heading": "ARTICLE 3 — ACCEPTANCE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-8274b3ce"
+      ]
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-3",
+      "ref": "§4.3",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-4896d29f"
+      ]
+    },
+    {
+      "clause_id": "c-s4-4",
+      "ref": "§4.4",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-5",
+      "ref": "§4.5",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-6",
+      "ref": "§4.6",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-2",
+      "ref": "§5.2",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-3",
+      "ref": "§5.3",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-0fa97794"
+      ]
+    },
+    {
+      "clause_id": "c-s5-4",
+      "ref": "§5.4",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-5",
+      "ref": "§5.5",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-3",
+      "ref": "§6.3",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-4",
+      "ref": "§6.4",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-4bdf94ae"
+      ]
+    },
+    {
+      "clause_id": "c-s7-3",
+      "ref": "§7.3",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-4",
+      "ref": "§7.4",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "ARTICLE 8 — REPRESENTATIONS AND WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "ARTICLE 8 — REPRESENTATIONS AND WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "ARTICLE 9 — INDEMNIFICATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-1eb6e489"
+      ]
+    },
+    {
+      "clause_id": "c-s9-2",
+      "ref": "§9.2",
+      "heading": "ARTICLE 9 — INDEMNIFICATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "ARTICLE 10 — LIMITATION OF LIABILITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "ARTICLE 10 — LIMITATION OF LIABILITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-3",
+      "ref": "§10.3",
+      "heading": "ARTICLE 10 — LIMITATION OF LIABILITY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-09e45a5a"
+      ]
+    },
+    {
+      "clause_id": "c-s11-1",
+      "ref": "§11.1",
+      "heading": "ARTICLE 11 — DELAY; LIQUIDATED DAMAGES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-2",
+      "ref": "§11.2",
+      "heading": "ARTICLE 11 — DELAY; LIQUIDATED DAMAGES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-054fe760"
+      ]
+    },
+    {
+      "clause_id": "c-s11-3",
+      "ref": "§11.3",
+      "heading": "ARTICLE 11 — DELAY; LIQUIDATED DAMAGES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-1",
+      "ref": "§12.1",
+      "heading": "ARTICLE 12 — GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-2",
+      "ref": "§12.2",
+      "heading": "ARTICLE 12 — GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-3",
+      "ref": "§12.3",
+      "heading": "ARTICLE 12 — GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-1",
+      "ref": "§13.1",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-2",
+      "ref": "§13.2",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-3",
+      "ref": "§13.3",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-4",
+      "ref": "§13.4",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-5",
+      "ref": "§13.5",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-6",
+      "ref": "§13.6",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-7",
+      "ref": "§13.7",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-8",
+      "ref": "§13.8",
+      "heading": "ARTICLE 13 — GENERAL PROVISIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-engagement-schedule",
+      "ref": "Engagement schedule",
+      "heading": "ENGAGEMENT SCHEDULE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-engagement-schedule-2",
+      "ref": "Engagement schedule ¶2",
+      "heading": "ENGAGEMENT SCHEDULE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-295d0e67"
+      ]
+    },
+    {
+      "clause_id": "c-engagement-schedule-3",
+      "ref": "Engagement schedule ¶3",
+      "heading": "ENGAGEMENT SCHEDULE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-engagement-schedule-4",
+      "ref": "Engagement schedule ¶4",
+      "heading": "ENGAGEMENT SCHEDULE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-3",
+      "ref": "Signatures ¶3",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2025-01-22_paytrack_technologies_msa.md",
+      "title": "PayTrack Technologies — MSA",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or \"**Vendor**\").",
+      "doc_status": "signed_active",
+      "score": 71.54
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+      "title": "AtliQ Technologies Pvt Ltd (intercompany) — Subcontractor BAA",
+      "clause_ref": "Preamble ¶4",
+      "text": "**AtliQ Technologies Pvt Ltd**, a private limited company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Subcontractor**\"),",
+      "doc_status": "signed_expiring",
+      "score": 71.2
+    },
+    {
+      "source_file": "signed_contracts/2025-04-28_rohan_iyer_contractor_agreement.md",
+      "title": "Rohan Iyer (freelancer) — Contractor Agreement",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"); and",
+      "doc_status": "signed_expired",
+      "score": 69.39
+    },
+    {
+      "source_file": "signed_contracts/2026-08-15_trustline_nbfc_msa.md",
+      "title": "Trustline NBFC — MSA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (the \"**Service Provider**\").",
+      "doc_status": "signed_active",
+      "score": 68.52
+    },
+    {
+      "source_file": "signed_contracts/2025-04-18_sunrise_foods_msa.md",
+      "title": "Sunrise Foods — MSA",
+      "clause_ref": "Preamble ¶5",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or the \"**Service Provider**\").",
+      "doc_status": "signed_active",
+      "score": 67.9
+    },
+    {
+      "source_file": "signed_contracts/2026-07-16_meridian_healthcare_nda.md",
+      "title": "Meridian Healthcare — NDA (one-way)",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or the \"**Recipient**\").",
+      "doc_status": "signed_active",
+      "score": 67.9
+    },
+    {
+      "source_file": "signed_contracts/2025-06-20_northwind_logistics_msa.md",
+      "title": "Northwind Logistics — MSA + SOW-1",
+      "clause_ref": "§1.2",
+      "text": "1.2 **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated in India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), whose registered office is at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 64.79
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_al_noor_mutual_nda.md",
+      "title": "Al Noor Hospitality Group — Mutual NDA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"),",
+      "doc_status": "signed_active",
+      "score": 63.06
+    }
+  ],
+  "attention_score": 36,
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 6,
+    "MEDIUM": 2,
+    "LOW": 1
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 1,
+      "note": "69 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 3,
+      "note": "11/11 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 7,
+      "note": "0 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 6,
+      "note": "7 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 9,
+      "note": "1 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 0,
+      "note": "0 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 3,
+      "note": "9/9 grounded"
+    }
+  ],
+  "processing_ms": 29
+}

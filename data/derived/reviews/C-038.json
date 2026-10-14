@@ -1,0 +1,491 @@
+{
+  "review_id": "C-038-d032ccd1",
+  "contract_id": "C-038",
+  "file_name": "2026-09-27_loopmart_mutual_nda_draft.md",
+  "title": "MUTUAL NON-DISCLOSURE AGREEMENT",
+  "counterparty": "LoopMart",
+  "version": 1,
+  "text_hash": "d032ccd16cb3acb9",
+  "generated_at": "2026-10-14T15:33:02.392Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "MUTUAL NON-DISCLOSURE AGREEMENT",
+    "counterparty": "LoopMart",
+    "contract_type": "NDA",
+    "atliq_entity": "pvt_ltd",
+    "atliq_role": "mutual",
+    "counterparty_country": "India",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "Sania sent their standard one"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "failed",
+    "note": "1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "incomplete",
+  "completeness_notes": [
+    "AI clause analysis failed: 1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+    "Could not verify — Key contract fields extracted: Not found or ambiguous: Termination for convenience.",
+    "Could not verify — AI clause-by-clause analysis: 1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI."
+  ],
+  "summary": "LoopMart · NDA · AtliQ Technologies Pvt Ltd as mutual. 0 finding(s): 0 critical, 0 high, 0 medium, 0 low; 0 potential conflict(s) with past commitments; 2 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "LoopMart",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Technologies Pvt Ltd (as \"AtliQ\")",
+      "clause_ref": "Preamble ¶3",
+      "clause_id": "c-preamble-3",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This Agreement remains in force for two (2) years from the Effective Date.",
+      "clause_ref": "§7.1",
+      "clause_id": "c-s7-1",
+      "quote": "This Agreement remains in force for two (2) years from the Effective Date.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "None in this contract",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "This Agreement is governed by the laws of India.",
+      "clause_ref": "§10.3",
+      "clause_id": "c-s10-3",
+      "quote": "This Agreement is governed by the laws of India.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "The courts at Bengaluru shall have exclusive jurisdiction.",
+      "clause_ref": "§10.3",
+      "clause_id": "c-s10-3",
+      "quote": "The courts at Bengaluru shall have exclusive jurisdiction.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "confidentiality_term",
+      "label": "Confidentiality period",
+      "value": "Each Party's obligations under Clauses 3 to 6 continue for three (3) years after expiry or termination of this Agreement.",
+      "clause_ref": "§7.2",
+      "clause_id": "c-s7-2",
+      "quote": "Each Party's obligations under Clauses 3 to 6 continue for three (3) years after expiry or termination of this Agreement.",
+      "status": "found"
+    }
+  ],
+  "findings": [],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "passed",
+      "detail": "Checked against 5 restrictive commitments in the register — no active match. Absence of a match is not proof of safety: the register only covers signed contracts in the dataset.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Technologies Pvt Ltd — consistent with counterparty country India.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "passed",
+      "detail": "India law with AtliQ Technologies Pvt Ltd. Forum: The courts at Bengaluru shall have exclusive jurisdiction. (§10.3).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "passed",
+      "detail": "Confidential Information, obligations and remedies apply to both parties (Disclosing / Receiving Party).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "not_applicable",
+      "detail": "No insurance requirement in this document.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "passed",
+      "detail": "No schedules or annexes referenced.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 0 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "could_not_verify",
+      "detail": "Not found or ambiguous: Termination for convenience.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "could_not_verify",
+      "detail": "1 of 1 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14) Clause risks were checked by the deterministic pattern scan only; clauses without a pattern hit have not been read by the AI.",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-3",
+      "ref": "Preamble ¶3",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-4",
+      "ref": "Preamble ¶4",
+      "heading": "MUTUAL NON-DISCLOSURE AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "1. PURPOSE",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "2. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "3. OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "3. OBLIGATIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "4. EXCLUSIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "4. EXCLUSIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "5. PERSONAL DATA",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "6. RETURN OR DESTRUCTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "7. TERM",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "7. TERM",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "8. OWNERSHIP AND NO OBLIGATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "8. OWNERSHIP AND NO OBLIGATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "9. REMEDIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "10. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "10. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-3",
+      "ref": "§10.3",
+      "heading": "10. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-4",
+      "ref": "§10.4",
+      "heading": "10. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "not_analysed",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+      "title": "Harrington Health Systems Inc — Mutual NDA",
+      "clause_ref": "§3.1",
+      "text": "3.1 Each Receiving Party shall (a) use the Disclosing Party's Confidential Information solely for the Purpose; (b) disclose it only to its and its Affiliates' employees, contractors and professional advisers who need to know it for the Purpose and are bound by written confidentiality obligations no less protective than this Agreement; (c) protect it with at least the degree of care it uses for its own confidential information of like kind, and no less than reasonable care; and (d) promptly notify the Disclosing Party of any unauthorized use or disclosure of which it becomes aware.",
+      "doc_status": "signed_active",
+      "score": 73.46
+    },
+    {
+      "source_file": "signed_contracts/2025-04-28_rohan_iyer_contractor_agreement.md",
+      "title": "Rohan Iyer (freelancer) — Contractor Agreement",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\"); and",
+      "doc_status": "signed_expired",
+      "score": 69.39
+    },
+    {
+      "source_file": "signed_contracts/2026-08-15_trustline_nbfc_msa.md",
+      "title": "Trustline NBFC — MSA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (the \"**Service Provider**\").",
+      "doc_status": "signed_active",
+      "score": 68.52
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_paytrack_technologies_msa.md",
+      "title": "PayTrack Technologies — MSA",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or \"**Vendor**\").",
+      "doc_status": "signed_active",
+      "score": 67.9
+    },
+    {
+      "source_file": "signed_contracts/2025-04-18_sunrise_foods_msa.md",
+      "title": "Sunrise Foods — MSA",
+      "clause_ref": "Preamble ¶5",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or the \"**Service Provider**\").",
+      "doc_status": "signed_active",
+      "score": 67.9
+    },
+    {
+      "source_file": "signed_contracts/2026-07-16_meridian_healthcare_nda.md",
+      "title": "Meridian Healthcare — NDA (one-way)",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a company incorporated under the Companies Act, 2013 (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (\"**AtliQ**\" or the \"**Recipient**\").",
+      "doc_status": "signed_active",
+      "score": 67.9
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_al_noor_mutual_nda.md",
+      "title": "Al Noor Hospitality Group — Mutual NDA",
+      "clause_ref": "§2.1",
+      "text": "2.1 Each Party, as Receiving Party, shall:\n(a) use the Disclosing Party's Confidential Information solely for the Purpose;\n(b) not disclose it to any third party other than its Representatives who are bound by confidentiality obligations no less protective than those in this Agreement;\n(c) protect it using at least the same degree of care it uses for its own confidential information, and no less than reasonable care; and\n(d) promptly notify the Disclosing Party on becoming aware of any unauthorised use or disclosure.",
+      "doc_status": "signed_active",
+      "score": 67.01
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Parties (2)",
+      "text": "2. **ATLIQ TECHNOLOGIES PRIVATE LIMITED**, a private limited company incorporated under the laws of India (CIN U72900MH2019PTC321456; GSTIN 27AAKCA4821F1Z3), having its registered office at 4th Floor, Baner Business Bay, Pune 411045, Maharashtra, India (the \"**Supplier**\"),",
+      "doc_status": "signed_active",
+      "score": 63.71
+    }
+  ],
+  "attention_score": 2,
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 1,
+      "note": "23 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 2,
+      "note": "7/8 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 0,
+      "note": "0 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 1,
+      "note": "0 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 4,
+      "note": "0 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 0,
+      "note": "0 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 0,
+      "note": "0/0 grounded"
+    }
+  ],
+  "processing_ms": 8
+}

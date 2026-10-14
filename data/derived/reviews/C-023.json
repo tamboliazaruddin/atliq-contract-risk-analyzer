@@ -1,0 +1,1714 @@
+{
+  "review_id": "C-023-5d2e4dc2",
+  "contract_id": "C-023",
+  "file_name": "2026-09-10_harrington_health_msa_draft.md",
+  "title": "MASTER PROFESSIONAL SERVICES AGREEMENT",
+  "counterparty": "Harrington Health Systems Inc",
+  "version": 1,
+  "text_hash": "5d2e4dc2bbe2d772",
+  "generated_at": "2026-10-14T15:33:02.060Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "MASTER PROFESSIONAL SERVICES AGREEMENT",
+    "counterparty": "Harrington Health Systems Inc",
+    "contract_type": "MSA",
+    "atliq_entity": "inc",
+    "atliq_role": "supplier",
+    "counterparty_country": "USA",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "need by 1 Oct (Rebecca). their lawyers say template is non-negotiable. $210k"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "completed",
+    "note": "6 part(s) analysed. (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "complete",
+  "completeness_notes": [
+    "1 finding(s) not verified against the source."
+  ],
+  "summary": "The agreement is a Master Professional Services Agreement for a $210k analytics platform for Harrington Health. The definitions section broadens the scope of \"Losses\" and incorporates extensive regulatory compliance (HIPAA, HITECH, etc.) that could increase AtliQ’s exposure. These clauses merit close review to limit potential liability and ensure compliance readiness.\n\nHarrington Health Systems Inc · MSA · AtliQ Inc as supplier. 24 finding(s): 4 critical, 9 high, 9 medium, 2 low; 0 potential conflict(s) with past commitments; 0 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "Harrington Health Systems Inc",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Inc (as \"Contractor\")",
+      "clause_ref": "Preamble ¶2",
+      "clause_id": "c-preamble-2",
+      "status": "found"
+    },
+    {
+      "key": "value",
+      "label": "Contract value",
+      "value": "210,000",
+      "clause_ref": "Exhibit A",
+      "clause_id": "c-exhibit-a",
+      "quote": "| | Total | | 210,000 |",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This Agreement shall commence on the Effective Date and continue for three (3) years, unless earlier terminated as provided herein.",
+      "clause_ref": "§5.1",
+      "clause_id": "c-s5-1",
+      "quote": "This Agreement shall commence on the Effective Date and continue for three (3) years, unless earlier terminated as provided herein.",
+      "status": "found"
+    },
+    {
+      "key": "payment",
+      "label": "Payment terms",
+      "value": "90 days — Client shall pay each properly submitted, undisputed invoice within ninety (90) days after Client's receipt thereof.",
+      "clause_ref": "§4.3",
+      "clause_id": "c-s4-3",
+      "quote": "Client shall pay each properly submitted, undisputed invoice within ninety (90) days after Client's receipt thereof.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "The Parties acknowledge that Client's damages from delay would be difficult to ascertain.",
+      "clause_ref": "§11.2",
+      "clause_id": "c-s11-2",
+      "quote": "The Parties acknowledge that Client's damages from delay would be difficult to ascertain.",
+      "status": "found"
+    },
+    {
+      "key": "liability_cap",
+      "label": "Liability cap",
+      "value": "CLIENT'S AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL NOT EXCEED THE FEES ACTUALLY PAID BY CLIENT TO CONTRACTOR UNDER THIS AGREEMENT.",
+      "clause_ref": "§10.2",
+      "clause_id": "c-s10-2",
+      "quote": "CLIENT'S AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL NOT EXCEED THE FEES ACTUALLY PAID BY CLIENT TO CONTRACTOR UNDER THIS AGREEMENT.",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "Each SOW shall be governed by this Agreement.",
+      "clause_ref": "§2.2",
+      "clause_id": "c-s2-2",
+      "quote": "Each SOW shall be governed by this Agreement.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "Any action arising out of or relating to this Agreement shall be brought exclusively in the state or federal courts located in Harris County, Texas, and each Party irrevocably submits to the personal jurisdiction of such courts.",
+      "clause_ref": "§14.3",
+      "clause_id": "c-s14-3",
+      "quote": "Any action arising out of or relating to this Agreement shall be brought exclusively in the state or federal courts located in Harris County, Texas, and each Party irrevocably submits to the personal jurisdiction of such courts.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Client may terminate this Agreement or any SOW, in whole or in part, for any reason or no reason, upon seven (7) days' written notice to Contractor.",
+      "clause_ref": "§5.3",
+      "clause_id": "c-s5-3",
+      "quote": "Client may terminate this Agreement or any SOW, in whole or in part, for any reason or no reason, upon seven (7) days' written notice to Contractor.",
+      "status": "found"
+    },
+    {
+      "key": "ip",
+      "label": "IP ownership",
+      "value": "All Deliverables shall be deemed \"works made for hire\" as defined in the U.S.",
+      "clause_ref": "§7.1",
+      "clause_id": "c-s7-1",
+      "quote": "All Deliverables shall be deemed \"works made for hire\" as defined in the U.S.",
+      "status": "found"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-4412dd69",
+      "finding_type": "DOCUMENT_GAP",
+      "gap_kind": "confirmed",
+      "category": "required_documents",
+      "severity": "CRITICAL",
+      "title": "No subcontractor BAA for anyone who would touch this client's PHI",
+      "explanation": "HIPAA flow-down requires every subcontractor — including AtliQ's own Pune entity and any freelancer — to sign a subcontractor BAA with matching terms before access. The only one AtliQ has (intercompany, Oct 2025) is engagement-specific: it covers the CareBridge engagement only, de-identified data only, and ends with the CareBridge BAA on 5 Oct 2026. It does not cover this client, despite the 27 Sep assumption that it 'should do'. The freelancer brought in for this client (Kriti Data Labs, C-037; Daniel Ortiz, C-047) has a contractor agreement and NDA in draft but no subcontractor BAA.",
+      "contract_clause_ref": "§2.5",
+      "contract_clause_id": "c-s2-5",
+      "contract_quote": "Contractor shall not subcontract any portion of the Services without Client's prior written consent.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§1.2",
+          "quote": "\"Engagement\" means the CareBridge Engagement described in Schedule 1.",
+          "doc_status": "signed_expiring",
+          "grounded": true,
+          "label": "Signed intercompany BAA — CareBridge engagement only (ends 2026-10-05)"
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§2.1",
+          "quote": "This Agreement applies to the Engagement Services. Any services Subcontractor performs for Business Associate other than the Engagement Services are governed by the Intercompany Agreement.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§3.1",
+          "quote": "Subcontractor and its personnel shall access De-identified Data only. Subcontractor shall not access, receive, store, view or process PHI.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-037 notes",
+          "quote": "Kriti wants to start 5 Oct. built from our vendor template (Jay made it from the Harrington draft). Kriti pushing back on 120-day pay-when-paid - 'we're 12 people'",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-037: Kriti Data Labs (Draft)"
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-047 notes",
+          "quote": "US freelancer for Harrington. Dhaval: 'US-based, so the offshore thing is solved'. US contractor template",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-047: Daniel Ortiz (Draft)"
+        }
+      ],
+      "precedent_ids": [
+        "P-27"
+      ],
+      "rule_id": "R5",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "needs_info": "Decide who will touch PHI (US-only per the BAA); draft a subcontractor BAA for each, and have counsel review.",
+      "source": "rule"
+    },
+    {
+      "id": "F-82df47bb",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "CRITICAL",
+      "title": "Unlimited liability for AtliQ — no cap at all",
+      "explanation": "AtliQ's liability is expressly unlimited, for direct and indirect losses alike. The carve-out covers data-security / privacy events, where regulatory fines, notification and credit-monitoring costs are the largest exposure. By contrast §10.2 caps the other side's liability at THE FEES ACTUALLY PAID BY CLIENT TO CONTRACTOR UNDER THIS AGREEMENT. AtliQ's position has been liability capped at 1x fees; Karandeep walked away from Kessler Mobility (~€120k) over 'liable without limitation'.",
+      "contract_clause_ref": "§10.3",
+      "contract_clause_id": "c-s10-3",
+      "contract_quote": "NOTHING IN THIS AGREEMENT SHALL LIMIT OR EXCLUDE CONTRACTOR'S LIABILITY FOR ANY LOSSES, WHETHER DIRECT OR INDIRECT, ARISING OUT OF OR RELATING TO THIS AGREEMENT, INCLUDING CONTRACTOR'S INDEMNIFICATION OBLIGATIONS, BREACH OF THE BAA, OR ANY DATA SECURITY INCIDENT.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Consider counsel review (Calloway Stern LLP) — share this contract together with the cited signed agreements.",
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-94af6019",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liquidated_damages",
+      "severity": "CRITICAL",
+      "title": "Uncapped liquidated damages — two percent (2%) of Total Contract Value per day",
+      "explanation": "Delay clause terms: two percent (2%) of Total Contract Value per day, no cap, no exclusion for client-caused delay, cumulative with other remedies. AtliQ's precedent is 0.5% of the affected milestone fee per week, capped at 5% of that milestone, with no LD for client-caused delay (Acme Mar 2025, Northwind Jun 2025, Trustline Aug 2026). An uncapped LD on the full contract value is the Brightwater pattern — that contract had no client-delay exclusion either, and a 19-day client-caused delay produced an $18.4k claim and a $9k settlement. Nothing stops LD accruing while AtliQ waits on the client's own data or access. The only accepted 10%-of-total cap (Al Noor) was approved as a one-off exception, not a standard.",
+      "contract_clause_ref": "§11.2",
+      "contract_clause_id": "c-s11-2",
+      "contract_quote": "Accordingly, if Contractor fails to achieve any Delivery Date, Contractor shall pay Client, as liquidated damages, an amount equal to two percent (2%) of the Total Contract Value for each calendar day from the Delivery Date until the date the applicable Deliverable is accepted.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-01",
+        "P-02",
+        "P-03",
+        "P-04",
+        "P-05",
+        "P-06"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-e14f0afa",
+      "finding_type": "UNRESOLVED_QUESTION",
+      "category": "data_protection",
+      "severity": "CRITICAL",
+      "title": "Alert: patient data may already be with offshore engineers — before any BAA is signed",
+      "explanation": "Not a contract term — an operational alert from the meeting notes. A 'sample extract' that appears to contain names, DOBs and diagnosis codes was emailed on 12 Sep and forwarded to two engineers in Pune. No BAA is signed yet, and both the draft BAA and the signed NDA say PHI may only be shared after a BAA and never accessed outside the US. If the extract is PHI this may already be a reportable incident. Contain and confirm before signing anything.",
+      "contract_clause_ref": "§12.4",
+      "contract_clause_id": "c-s12-4",
+      "contract_quote": "No PHI shall be accessed, stored or processed outside the United States without Client's prior written consent.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "meeting_notes/2026-09-27_harrington_huddle.md",
+          "clause_ref": "huddle notes",
+          "quote": "Pranav: scoping is going well. Kevin Brooks (their data eng manager) emailed a \"sample extract\" on 12 Sep so we could size the pipeline. Pranav opened it here and forwarded to Sneha and Vikram in Pune to start profiling. \"It's real data I think — names, DOBs, some diagnosis codes.\"",
+          "doc_status": "meeting_note",
+          "grounded": true,
+          "label": "Meeting note 2026-09-27 (not a contract)"
+        },
+        {
+          "source_file": "meeting_notes/2026-09-27_harrington_huddle.md",
+          "clause_ref": "huddle notes",
+          "quote": "(No decisions were made. As of 2026-09-28 no Business Associate Agreement had been signed with Harrington; the sample extract remained with the two Pune engineers; no subcontractor BAA had been drafted for Daniel Ortiz; the insurance gap was not raised with Harrington.",
+          "doc_status": "meeting_note",
+          "grounded": true,
+          "label": "Meeting note 2026-09-27 (not a contract)"
+        },
+        {
+          "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+          "clause_ref": "§2.3",
+          "quote": "Protected Health Information, as defined at 45 C.F.R. § 160.103, is excluded from this Agreement and shall be disclosed only after execution of a Business Associate Agreement between the Parties.",
+          "doc_status": "signed_active",
+          "grounded": true
+        }
+      ],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA).",
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "needs_info": "Confirm with Pranav whether the 12 Sep extract contains PHI; if so, take counsel advice (Calloway Stern) on containment and notification.",
+      "source": "context"
+    },
+    {
+      "id": "F-7d56a8f5",
+      "finding_type": "DOCUMENT_GAP",
+      "gap_kind": "potential",
+      "category": "required_documents",
+      "severity": "HIGH",
+      "title": "Healthcare bundle incomplete — BAA not signed",
+      "explanation": "US healthcare work touching patient data needs an NDA, a HIPAA Business Associate Agreement and the services contract, signed before data changes hands (rule R4). Current status: NDA: Signed (C-045) · BAA: In review (C-046) · MSA: In review (C-023). The client wants MSA and BAA signed together; neither should be signed alone, and no PHI should be received until the BAA is executed.",
+      "contract_clause_ref": "§1.3",
+      "contract_clause_id": "c-s1-3",
+      "contract_quote": "\"Business Associate Agreement\" or \"BAA\" means the business associate agreement attached hereto as Exhibit D.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-023",
+          "quote": "MSA — In review",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-023"
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-045",
+          "quote": "Mutual NDA — Signed",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-045"
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-046",
+          "quote": "BAA — In review",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-046"
+        }
+      ],
+      "precedent_ids": [],
+      "rule_id": "R4",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "needs_info": "Status of the BAA in review; confirm both documents are executed together.",
+      "source": "rule"
+    },
+    {
+      "id": "F-5f573b0d",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "HIGH",
+      "title": "Payment in 90 days",
+      "explanation": "Invoices are payable in 90 days. AtliQ's stated position is '30 days, 45 max' (Karandeep's checklist) and Trustline's 90-day request was negotiated down to 45 days in Aug 2026. At 90 days AtliQ funds roughly a quarter of delivery cost upfront.",
+      "contract_clause_ref": "§4.3",
+      "contract_clause_id": "c-s4-3",
+      "contract_quote": "Client shall pay each properly submitted, undisputed invoice within ninety (90) days after Client's receipt thereof.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-11",
+        "P-12"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-96717f42",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "HIGH",
+      "title": "Client can withhold disputed payments while work continues",
+      "explanation": "The clause lets the client retain payment for any disputed amount without a time limit, yet requires AtliQ to keep performing. This creates cash‑flow exposure, especially combined with the 90‑day payment term already flagged.",
+      "contract_clause_ref": "§4.4",
+      "contract_clause_id": "c-s4-4",
+      "contract_quote": "Client may withhold payment of any amount it disputes in good faith. Contractor shall continue performing the Services during the pendency of any dispute.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-11",
+        "P-12"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-7cf005f0",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "termination",
+      "severity": "HIGH",
+      "title": "Termination on 7 days' notice with no payment for work in progress",
+      "explanation": "The client can terminate on 7 days' notice and pay only for accepted deliverables — work in progress, unaccepted deliverables and demobilisation are unpaid. Karandeep's checklist: 'termination → they pay for work done'. Other client contracts pay pro rata for milestones in progress (Trustline, Acme).",
+      "contract_clause_ref": "§5.3",
+      "contract_clause_id": "c-s5-3",
+      "contract_quote": "Client may terminate this Agreement or any SOW, in whole or in part, for any reason or no reason, upon seven (7) days' written notice to Contractor.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-22"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-2d4b052b",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "termination",
+      "severity": "HIGH",
+      "title": "Regulatory termination without compensation",
+      "explanation": "Client can terminate immediately if AtliQ is excluded from any federal health care program, potentially ending the deal with no payment for work performed. This unilateral right creates exposure to abrupt revenue loss.",
+      "contract_clause_ref": "§5.4",
+      "contract_clause_id": "c-s5-4",
+      "contract_quote": "Client may terminate immediately if Contractor or any Contractor Personnel is excluded from participation in any federal health care program.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-22"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-a6a6e3e1",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "ip",
+      "severity": "HIGH",
+      "title": "AtliQ's pre-existing tools would be assigned to the client",
+      "explanation": "Pre-existing materials incorporated into (or needed to use) a deliverable are assigned outright to the client, not licensed. AtliQ's position: 'client owns what we build for them, we keep our own stuff'. This is how PipeKit was lost to Northwind (§9.2 there) — once assigned, AtliQ can no longer reuse or warrant ownership of the accelerator elsewhere.",
+      "contract_clause_ref": "§7.2",
+      "contract_clause_id": "c-s7-2",
+      "contract_quote": "To the extent any Deliverable, or any Pre-Existing Materials incorporated into or necessary for the use of any Deliverable, does not qualify as a work made for hire, Contractor hereby irrevocably assigns, transfers and conveys to Client all right, title and interest therein, including all intellectual property rights, without further consideration.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-21",
+        "P-13"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-096a0d80",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "indemnity",
+      "severity": "HIGH",
+      "title": "AtliQ would indemnify the client even for the client's own negligence",
+      "explanation": "The indemnity applies 'regardless of whether such Losses are caused in whole or in part by the negligence of' the client's indemnitees. AtliQ's standard is mutual indemnity — each side covers its own breach and negligence (PayTrack, Jan 2025: 'we can't insure against PayTrack's own negligence'). Combined with uncapped liability this exposure is open-ended.",
+      "contract_clause_ref": "§9.1",
+      "contract_clause_id": "c-s9-1",
+      "contract_quote": "Contractor shall defend, indemnify and hold harmless Client, its Affiliates, and their respective trustees, directors, officers, employees, medical staff, agents, successors and assigns (the \"Client Indemnitees\") from and against any and all Losses arising out of or relating to (a) the Services or Deliverables, (b) any breach of this Agreement or the BAA by Contractor, (c) any claim that a Deliverable infringes any third-party intellectual property right, or (d) any act or omission of Contractor Personnel, in each case regardless of whether such Losses are caused in whole or in part by the negligence of any Client Indemnitee.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-09",
+        "P-10"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "pattern"
+    },
+    {
+      "id": "F-e02d4c82",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "HIGH",
+      "title": "Contractor bears full breach remediation costs",
+      "explanation": "Clause 12.3 makes AtliQ responsible for all investigation, notification, credit monitoring and remediation costs after a security incident, which can be substantial and exceed typical insurance limits.",
+      "contract_clause_ref": "§12.3",
+      "contract_clause_id": "c-s12-3",
+      "contract_quote": "Contractor shall notify Client of any actual or reasonably suspected security incident affecting Client data within twenty-four (24) hours of discovery and shall bear all costs of investigation, notification, credit monitoring and remediation.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-016e009c",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "insurance",
+      "severity": "HIGH",
+      "title": "Requires $5M cyber cover — AtliQ holds $1M",
+      "explanation": "The contract requires cyber liability insurance of $5,000,000. AtliQ's cyber policy is $1M (Karandeep, tracker C-046 / Harrington huddle 27 Sep). Signing would put AtliQ in breach from day one unless cover is increased or the requirement negotiated. Other limits in the same clause: professional liability $5,000,000, umbrella $5,000,000 — AtliQ's PI/E&O cover is not recorded in the dataset; verify with the broker. The gap has not yet been raised with the client (meeting note 27 Sep).",
+      "contract_clause_ref": "§13.1",
+      "contract_clause_id": "c-s13-1",
+      "contract_quote": "cyber liability of $5,000,000 per claim;",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-28"
+      ],
+      "rule_id": "R9",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance / insurance broker — current cover vs requirement."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-139a5482",
+      "finding_type": "DOCUMENT_GAP",
+      "gap_kind": "potential",
+      "category": "required_documents",
+      "severity": "MEDIUM",
+      "title": "Attachments referenced but not provided: Exhibit C, Exhibit B",
+      "explanation": "The contract incorporates Exhibit C, Exhibit B, which are not in the document received. Their terms (e.g. specifications, security requirements, policies) would bind AtliQ unseen. This is a potential gap until someone confirms the attachments exist and reviews them.",
+      "contract_clause_ref": "§4.6",
+      "contract_clause_id": "c-s4-6",
+      "contract_quote": "Client shall reimburse only pre-approved, reasonable travel expenses incurred in accordance with Client's Vendor Travel Policy (Exhibit C).",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "rule_id": "R10",
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "needs_info": "Request Exhibit C, Exhibit B from the counterparty.",
+      "source": "rule"
+    },
+    {
+      "id": "F-7e683ff7",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "MEDIUM",
+      "title": "Overly broad definition of Losses",
+      "explanation": "The contract defines \"Losses\" to include any and all damages, liabilities, penalties, costs, and attorneys' fees, which could be used to expand AtliQ's indemnity and liability obligations beyond typical limits.",
+      "contract_clause_ref": "§1.9",
+      "contract_clause_id": "c-s1-9",
+      "contract_quote": "\"Losses\" means any and all losses, damages, liabilities, deficiencies, claims, actions, judgments, settlements, interest, awards, penalties, fines, costs or expenses of whatever kind, including reasonable attorneys' fees.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-bcb5ad8d",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "other",
+      "severity": "MEDIUM",
+      "title": "Client‑driven personnel removal at no cost to client",
+      "explanation": "The client can unilaterally demand removal of any AtliQ staff and require a prompt replacement at no additional cost, potentially increasing staffing costs and causing project delays.",
+      "contract_clause_ref": "§2.4",
+      "contract_clause_id": "c-s2-4",
+      "contract_quote": "Contractor shall assign qualified Contractor Personnel. Client may, in its sole discretion, request removal of any Contractor Personnel, and Contractor shall promptly replace such individual at no additional cost to Client. Contractor Personnel accessing Client facilities or systems shall complete Client's background check, drug screening, immunization and compliance training requirements.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-9e9a02d4",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "MEDIUM",
+      "title": "No deemed acceptance — invoicing depends entirely on the other side signing off",
+      "explanation": "Acceptance never happens by use in production or lapse of time, and the client may repeat testing or reject for a full refund. Since invoices follow acceptance, payment timing is in the client's hands. AtliQ's signed MSAs deem acceptance after 7–10 business days without written rejection.",
+      "contract_clause_ref": "§3.3",
+      "contract_clause_id": "c-s3-3",
+      "contract_quote": "Acceptance shall not be deemed to occur by use in production, by payment, or by the passage of time.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-21741434",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "MEDIUM",
+      "title": "Injunctive relief without bond",
+      "explanation": "Client may obtain injunctive relief against AtliQ without posting a bond, exposing AtliQ to costly injunctions even for alleged breaches where damages are hard to quantify.",
+      "contract_clause_ref": "§6.5",
+      "contract_clause_id": "c-s6-5",
+      "contract_quote": "Contractor acknowledges that any breach of this Article may cause irreparable harm for which monetary damages would be inadequate, and that Client shall be entitled to injunctive relief without the posting of bond.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-b4d05122",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "fairness_to_counterparty",
+      "severity": "MEDIUM",
+      "title": "Restriction on third‑party components",
+      "explanation": "The client requires prior written approval before any open‑source or third‑party software can be used, which may limit AtliQ's ability to leverage standard tools and cause delays or extra cost.",
+      "contract_clause_ref": "§7.6",
+      "contract_clause_id": "c-s7-6",
+      "contract_quote": "Contractor shall not incorporate any open-source or third-party software into any Deliverable without Client's prior written approval.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-26"
+      ],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Discuss with the vendor — AtliQ's own paper; PixelCraft precedent shows how it was softened before."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-abf6e647",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "MEDIUM",
+      "title": "Client‑directed re‑performance or refund",
+      "explanation": "Client may at its option require AtliQ to re‑perform non‑conforming services or refund fees, exposing AtliQ to additional labor costs and potential loss of revenue for work already performed.",
+      "contract_clause_ref": "§8.3",
+      "contract_clause_id": "c-s8-3",
+      "contract_quote": "Contractor shall, at Client's option, re-perform any non-conforming Services or refund the Fees paid therefor.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-11",
+        "P-12"
+      ],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-6d56b295",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "MEDIUM",
+      "title": "BAA takes precedence over agreement",
+      "explanation": "The Order of Precedence clause makes the Business Associate Agreement (BAA) senior to this MSA. If the BAA contains liability or indemnity caps, it could conflict with the unlimited liability and indemnity provisions already flagged, creating uncertainty for AtliQ.",
+      "contract_clause_ref": "§15.10",
+      "contract_clause_id": "c-s15-10",
+      "contract_quote": "In the event of conflict: (a) the BAA (as to PHI); (b) this Agreement; (c) the applicable SOW; (d) other Exhibits.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-fd7540f1",
+      "finding_type": "UNRESOLVED_QUESTION",
+      "category": "data_protection",
+      "severity": "MEDIUM",
+      "title": "Broad regulatory compliance scope",
+      "explanation": "\"Applicable Law\" lists HIPAA, HITECH, Texas Medical Records Privacy Act, and Anti‑Kickback Statute, imposing extensive health‑data compliance obligations that may require additional controls and insurance beyond current coverage. — Note: the AI's quote or evidence could not be verified word-for-word in the source, so this is shown as unverified.",
+      "contract_clause_ref": "§1.2",
+      "contract_clause_id": "c-s1-2",
+      "contract_quote": "\"Applicable Law\" means all federal, state and local laws, rules, regulations, ordinances and binding guidance applicable to a Party or the Services, including HIPAA, the HITECH Act, the Texas Medical Records Privacy Act (Tex. Health & Safety Code ch. 181), and the Anti‑Kickback Statute.",
+      "contract_quote_grounded": false,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "LOW",
+      "grounded": false,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA).",
+        "Not sure — please verify against the source before relying on this finding."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-68cf13c3",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "LOW",
+      "title": "Late invoices are forfeited",
+      "explanation": "Invoices not submitted within the stated window are deemed waived — an admin slip forfeits earned fees. Worth tracking operationally if accepted.",
+      "contract_clause_ref": "§4.2",
+      "contract_clause_id": "c-s4-2",
+      "contract_quote": "Invoices not submitted within ninety (90) days after acceptance shall be deemed waived.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-fc9c629a",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "LOW",
+      "title": "Broad set-off right across other agreements",
+      "explanation": "The client may deduct amounts it claims under other agreements from these invoices (the Brightwater contract had the same group-wide set-off).",
+      "contract_clause_ref": "§4.5",
+      "contract_clause_id": "c-s4-5",
+      "contract_quote": "Client may set off against any amount owed to Contractor any amount owed by Contractor to Client under this Agreement or any other agreement.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-05"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "pattern"
+    }
+  ],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "passed",
+      "detail": "Checked against 5 restrictive commitments in the register — no active match. Absence of a match is not proof of safety: the register only covers signed contracts in the dataset.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Inc — consistent with counterparty country USA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "passed",
+      "detail": "US (Texas) law with AtliQ Inc. Forum: Any action arising out of or relating to this Agreement shall be brought exclusively in the state or federal courts located in Harris County, Texas, and each Pa (§14.3).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "flagged",
+      "detail": "Bundle incomplete — NDA: Signed (C-045) · BAA: In review (C-046) · MSA: In review (C-023).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "flagged",
+      "detail": "No subcontractor BAA covers this engagement. The intercompany BAA (Inc → Pune) is CareBridge-only; freelancer(s) Kriti Data Labs, Daniel Ortiz have no subcontractor BAA.",
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§1.2",
+          "quote": "\"Engagement\" means the CareBridge Engagement described in Schedule 1.",
+          "doc_status": "signed_expiring",
+          "grounded": true,
+          "label": "Signed intercompany BAA — CareBridge engagement only (ends 2026-10-05)"
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§2.1",
+          "quote": "This Agreement applies to the Engagement Services. Any services Subcontractor performs for Business Associate other than the Engagement Services are governed by the Intercompany Agreement.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§3.1",
+          "quote": "Subcontractor and its personnel shall access De-identified Data only. Subcontractor shall not access, receive, store, view or process PHI.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        }
+      ]
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "not_applicable",
+      "detail": "Not an NDA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "flagged",
+      "detail": "Cyber cover required exceeds AtliQ's $1M policy (tracker C-046).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "flagged",
+      "detail": "Referenced but not included: Exhibit C, Exhibit B.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "flagged",
+      "detail": "1 finding(s) contain a quote that could not be verified in the source — shown as \"Not verified\".",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "passed",
+      "detail": "All key fields found with clause references.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "passed",
+      "detail": "Completed with groq / openai/gpt-oss-120b. 6 part(s) analysed. (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "MASTER PROFESSIONAL SERVICES AGREEMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "MASTER PROFESSIONAL SERVICES AGREEMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-a",
+      "ref": "Recital A",
+      "heading": "RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-b",
+      "ref": "Recital B",
+      "heading": "RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recitals",
+      "ref": "Recitals",
+      "heading": "RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-2",
+      "ref": "§1.2",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-fd7540f1"
+      ]
+    },
+    {
+      "clause_id": "c-s1-3",
+      "ref": "§1.3",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-7d56a8f5"
+      ]
+    },
+    {
+      "clause_id": "c-s1-4",
+      "ref": "§1.4",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-5",
+      "ref": "§1.5",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-6",
+      "ref": "§1.6",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-7",
+      "ref": "§1.7",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-8",
+      "ref": "§1.8",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-9",
+      "ref": "§1.9",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-7e683ff7"
+      ]
+    },
+    {
+      "clause_id": "c-s1-10",
+      "ref": "§1.10",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-11",
+      "ref": "§1.11",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-12",
+      "ref": "§1.12",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-13",
+      "ref": "§1.13",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-14",
+      "ref": "§1.14",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-3",
+      "ref": "§2.3",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-4",
+      "ref": "§2.4",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-bcb5ad8d"
+      ]
+    },
+    {
+      "clause_id": "c-s2-5",
+      "ref": "§2.5",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-4412dd69"
+      ]
+    },
+    {
+      "clause_id": "c-s2-6",
+      "ref": "§2.6",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-7",
+      "ref": "§2.7",
+      "heading": "ARTICLE 2 — SERVICES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "ARTICLE 3 — ACCEPTANCE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "ARTICLE 3 — ACCEPTANCE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-3",
+      "ref": "§3.3",
+      "heading": "ARTICLE 3 — ACCEPTANCE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-9e9a02d4"
+      ]
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-68cf13c3"
+      ]
+    },
+    {
+      "clause_id": "c-s4-3",
+      "ref": "§4.3",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-5f573b0d"
+      ]
+    },
+    {
+      "clause_id": "c-s4-4",
+      "ref": "§4.4",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-96717f42"
+      ]
+    },
+    {
+      "clause_id": "c-s4-5",
+      "ref": "§4.5",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-fc9c629a"
+      ]
+    },
+    {
+      "clause_id": "c-s4-6",
+      "ref": "§4.6",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-139a5482"
+      ]
+    },
+    {
+      "clause_id": "c-s4-7",
+      "ref": "§4.7",
+      "heading": "ARTICLE 4 — FEES, INVOICING AND PAYMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-2",
+      "ref": "§5.2",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-3",
+      "ref": "§5.3",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-7cf005f0"
+      ]
+    },
+    {
+      "clause_id": "c-s5-4",
+      "ref": "§5.4",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-2d4b052b"
+      ]
+    },
+    {
+      "clause_id": "c-s5-5",
+      "ref": "§5.5",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-6",
+      "ref": "§5.6",
+      "heading": "ARTICLE 5 — TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-3",
+      "ref": "§6.3",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-4",
+      "ref": "§6.4",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-5",
+      "ref": "§6.5",
+      "heading": "ARTICLE 6 — CONFIDENTIALITY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-21741434"
+      ]
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-a6a6e3e1"
+      ]
+    },
+    {
+      "clause_id": "c-s7-3",
+      "ref": "§7.3",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-4",
+      "ref": "§7.4",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-5",
+      "ref": "§7.5",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-6",
+      "ref": "§7.6",
+      "heading": "ARTICLE 7 — INTELLECTUAL PROPERTY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-b4d05122"
+      ]
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "ARTICLE 8 — REPRESENTATIONS AND WARRANTIES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "ARTICLE 8 — REPRESENTATIONS AND WARRANTIES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-3",
+      "ref": "§8.3",
+      "heading": "ARTICLE 8 — REPRESENTATIONS AND WARRANTIES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-abf6e647"
+      ]
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "ARTICLE 9 — INDEMNIFICATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-096a0d80"
+      ]
+    },
+    {
+      "clause_id": "c-s9-2",
+      "ref": "§9.2",
+      "heading": "ARTICLE 9 — INDEMNIFICATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-3",
+      "ref": "§9.3",
+      "heading": "ARTICLE 9 — INDEMNIFICATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "ARTICLE 10 — LIMITATION OF LIABILITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "ARTICLE 10 — LIMITATION OF LIABILITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-3",
+      "ref": "§10.3",
+      "heading": "ARTICLE 10 — LIMITATION OF LIABILITY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-82df47bb"
+      ]
+    },
+    {
+      "clause_id": "c-s11-1",
+      "ref": "§11.1",
+      "heading": "ARTICLE 11 — DELAY; LIQUIDATED DAMAGES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-2",
+      "ref": "§11.2",
+      "heading": "ARTICLE 11 — DELAY; LIQUIDATED DAMAGES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-94af6019"
+      ]
+    },
+    {
+      "clause_id": "c-s11-3",
+      "ref": "§11.3",
+      "heading": "ARTICLE 11 — DELAY; LIQUIDATED DAMAGES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-4",
+      "ref": "§11.4",
+      "heading": "ARTICLE 11 — DELAY; LIQUIDATED DAMAGES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-1",
+      "ref": "§12.1",
+      "heading": "ARTICLE 12 — DATA PROTECTION AND SECURITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-2",
+      "ref": "§12.2",
+      "heading": "ARTICLE 12 — DATA PROTECTION AND SECURITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-3",
+      "ref": "§12.3",
+      "heading": "ARTICLE 12 — DATA PROTECTION AND SECURITY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-e02d4c82"
+      ]
+    },
+    {
+      "clause_id": "c-s12-4",
+      "ref": "§12.4",
+      "heading": "ARTICLE 12 — DATA PROTECTION AND SECURITY",
+      "status": "flagged",
+      "finding_ids": [
+        "F-e14f0afa"
+      ]
+    },
+    {
+      "clause_id": "c-s12-5",
+      "ref": "§12.5",
+      "heading": "ARTICLE 12 — DATA PROTECTION AND SECURITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-1",
+      "ref": "§13.1",
+      "heading": "ARTICLE 13 — INSURANCE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-016e009c"
+      ]
+    },
+    {
+      "clause_id": "c-s13-2",
+      "ref": "§13.2",
+      "heading": "ARTICLE 13 — INSURANCE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-1",
+      "ref": "§14.1",
+      "heading": "ARTICLE 14 — GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-2",
+      "ref": "§14.2",
+      "heading": "ARTICLE 14 — GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-3",
+      "ref": "§14.3",
+      "heading": "ARTICLE 14 — GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-4",
+      "ref": "§14.4",
+      "heading": "ARTICLE 14 — GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-1",
+      "ref": "§15.1",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-2",
+      "ref": "§15.2",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-3",
+      "ref": "§15.3",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-4",
+      "ref": "§15.4",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-5",
+      "ref": "§15.5",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-6",
+      "ref": "§15.6",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-7",
+      "ref": "§15.7",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-8",
+      "ref": "§15.8",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-9",
+      "ref": "§15.9",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-10",
+      "ref": "§15.10",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-6d56b295"
+      ]
+    },
+    {
+      "clause_id": "c-s15-11",
+      "ref": "§15.11",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-12",
+      "ref": "§15.12",
+      "heading": "ARTICLE 15 — GENERAL PROVISIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-exhibits",
+      "ref": "Exhibits",
+      "heading": "EXHIBITS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-exhibit-a",
+      "ref": "Exhibit A",
+      "heading": "Exhibit A (Summary) — Initial SOW Milestones",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-3",
+      "ref": "Signatures ¶3",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+      "title": "Harrington Health Systems Inc — Mutual NDA",
+      "clause_ref": "Preamble ¶2",
+      "text": "This Mutual Nondisclosure Agreement (this \"**Agreement**\") is entered into as of August 20, 2026 (the \"**Effective Date**\") by and between **Harrington Health Systems, Inc.**, a Texas nonprofit corporation with its principal place of business at 6400 Fannin Street, Suite 1800, Houston, Texas 77030 (\"**Harrington**\"), and **AtliQ Inc**, a Delaware corporation with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**AtliQ**\"). Harrington and AtliQ are each a \"**Party**\" and together the \"**Parties**.\"",
+      "doc_status": "signed_active",
+      "score": 97.48
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+      "title": "AtliQ Technologies Pvt Ltd (intercompany) — Subcontractor BAA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**AtliQ Inc**, a Delaware corporation (EIN 88-4410273) with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540, USA (\"**Business Associate**\"); and",
+      "doc_status": "signed_expiring",
+      "score": 66.61
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_carebridge_clinics_baa.md",
+      "title": "CareBridge Clinics Inc — BAA",
+      "clause_ref": "Preamble ¶2",
+      "text": "This Business Associate Agreement (this \"**BAA**\") is entered into as of October 6, 2025 (the \"**BAA Effective Date**\") by and between **CareBridge Clinics, Inc.**, an Arizona corporation with its principal place of business at 2200 North Central Avenue, Suite 900, Phoenix, Arizona 85004 (\"**Covered Entity**\"), and **AtliQ Inc**, a Delaware corporation with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**Business Associate**\"). Covered Entity and Business Associate are each a \"**Party**\" and together the \"**Parties**.\"",
+      "doc_status": "signed_expiring",
+      "score": 64.21
+    },
+    {
+      "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+      "title": "Crestline Retail Inc — Professional Services Agreement",
+      "clause_ref": "Recitals",
+      "text": "NOW, THEREFORE, for good and valuable consideration, the receipt and sufficiency of which are acknowledged, the Parties agree as follows:",
+      "doc_status": "signed_active",
+      "score": 60.58
+    },
+    {
+      "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+      "title": "Crestline Retail Inc — Professional Services Agreement",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ INC.**, a Delaware corporation (EIN 88-4410273) with its office at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 59.26
+    },
+    {
+      "source_file": "signed_contracts/2025-11-28_brightwater_insurance_msa.md",
+      "title": "Brightwater Insurance Inc — Technology Services Agreement",
+      "clause_ref": "§1 ¶2",
+      "text": "(2) **ATLIQ INC.**, a corporation organised under the laws of the State of Delaware (EIN 88-4410273), whose office is at 101 College Road East, Suite 210, Princeton, New Jersey 08540, United States (the \"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 57.32
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Recitals",
+      "text": "NOW, THEREFORE, in consideration of the mutual covenants set out below, the Parties agree as follows:",
+      "doc_status": "signed_active",
+      "score": 50.41
+    },
+    {
+      "source_file": "signed_contracts/2025-06-20_northwind_logistics_msa.md",
+      "title": "Northwind Logistics — MSA + SOW-1",
+      "clause_ref": "§3.5",
+      "text": "3.5 \"**Deliverables**\" means all work product, software, code, pipelines, configurations, documentation and other materials created, supplied or delivered by the Supplier to the Client in the course of the Services.",
+      "doc_status": "signed_active",
+      "score": 46.79
+    }
+  ],
+  "attention_score": 105,
+  "counts": {
+    "CRITICAL": 4,
+    "HIGH": 9,
+    "MEDIUM": 9,
+    "LOW": 2
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 4,
+      "note": "94 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 13,
+      "note": "11/11 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 9,
+      "note": "0 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 33,
+      "note": "10 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 12,
+      "note": "4 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 8,
+      "note": "10 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 14,
+      "note": "23/24 grounded"
+    }
+  ],
+  "processing_ms": 93
+}

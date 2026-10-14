@@ -1,0 +1,1061 @@
+{
+  "review_id": "C-024-314f3b19",
+  "contract_id": "C-024",
+  "file_name": "2026-09-15_travelhub_services_agreement_draft.md",
+  "title": "SOFTWARE DEVELOPMENT AND SERVICES AGREEMENT",
+  "counterparty": "TravelHub",
+  "version": 1,
+  "text_hash": "314f3b1923091202",
+  "generated_at": "2026-10-14T15:33:02.110Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "SOFTWARE DEVELOPMENT AND SERVICES AGREEMENT",
+    "counterparty": "TravelHub",
+    "contract_type": "Services",
+    "atliq_entity": "inc",
+    "atliq_role": "supplier",
+    "counterparty_country": "UAE",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "Nadia: 'we put your US company since you're US-listed on LinkedIn'. K to look this week"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "completed",
+    "note": "2 part(s) analysed. (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "complete",
+  "completeness_notes": [],
+  "summary": "The agreement sets AtliQ (as Supplier) to deliver AI‑driven modules for TravelHub’s app for a fixed USD 52k fee. Key risks include the automatic acceptance provision that may bind AtliQ to deliverables without client sign‑off, the VAT‑exclusive fee structure that could create tax compliance exposure in the UAE, and the vague “reasonable time” for fixing non‑conformities which may lead to disputes over delays.\n\nTravelHub · Services · AtliQ Inc as supplier. 10 finding(s): 0 critical, 6 high, 3 medium, 1 low; 1 potential conflict(s) with past commitments; 0 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "TravelHub",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Inc (as \"AtliQ\")",
+      "clause_ref": "§1.2",
+      "clause_id": "c-s1-2",
+      "status": "found"
+    },
+    {
+      "key": "value",
+      "label": "Contract value",
+      "value": "USD 52,000",
+      "clause_ref": "§6.1",
+      "clause_id": "c-s6-1",
+      "quote": "The total fixed fee for the Services is USD 52,000 (fifty-two thousand US dollars), payable in instalments as set out in Schedule B.",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This Agreement commences on the Effective Date and continues until completion of the Services and final payment, unless terminated earlier.",
+      "clause_ref": "§8.1",
+      "clause_id": "c-s8-1",
+      "quote": "This Agreement commences on the Effective Date and continues until completion of the Services and final payment, unless terminated earlier.",
+      "status": "found"
+    },
+    {
+      "key": "payment",
+      "label": "Payment terms",
+      "value": "30 days — TravelHub shall pay each undisputed invoice within thirty (30) days of the invoice date by wire transfer to the bank account specified on the invoice.",
+      "clause_ref": "§7.2",
+      "clause_id": "c-s7-2",
+      "quote": "TravelHub shall pay each undisputed invoice within thirty (30) days of the invoice date by wire transfer to the bank account specified on the invoice.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "None in this contract",
+      "status": "found"
+    },
+    {
+      "key": "liability_cap",
+      "label": "Liability cap",
+      "value": "Each Party's total liability arising out of this Agreement shall not exceed the total fees paid under this Agreement in the twelve (12) months preceding the claim, except for breach of confidentiality or wilful misconduct.",
+      "clause_ref": "§12.2",
+      "clause_id": "c-s12-2",
+      "quote": "Each Party's total liability arising out of this Agreement shall not exceed the total fees paid under this Agreement in the twelve (12) months preceding the claim, except for breach of confidentiality or wilful misconduct.",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "This Agreement shall be governed by and construed in accordance with the laws of the Emirate of Dubai and the applicable federal laws of the United Arab Emirates.",
+      "clause_ref": "§15.1",
+      "clause_id": "c-s15-1",
+      "quote": "This Agreement shall be governed by and construed in accordance with the laws of the Emirate of Dubai and the applicable federal laws of the United Arab Emirates.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "The courts of the Emirate of Dubai (onshore Dubai Courts) shall have exclusive jurisdiction over any dispute arising out of or in connection with this Agreement.",
+      "clause_ref": "§15.2",
+      "clause_id": "c-s15-2",
+      "quote": "The courts of the Emirate of Dubai (onshore Dubai Courts) shall have exclusive jurisdiction over any dispute arising out of or in connection with this Agreement.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Either Party may terminate this Agreement upon written notice if the other Party materially breaches this Agreement and fails to cure within thirty (30) days.",
+      "clause_ref": "§8.2",
+      "clause_id": "c-s8-2",
+      "quote": "Either Party may terminate this Agreement upon written notice if the other Party materially breaches this Agreement and fails to cure within thirty (30) days.",
+      "status": "found"
+    },
+    {
+      "key": "ip",
+      "label": "IP ownership",
+      "value": "Upon full payment, TravelHub shall own all right, title and interest in the Deliverables developed specifically for TravelHub, including the trained models and model weights for the Itinerary Personalization Engine and Partner Hotel Ranking Module.",
+      "clause_ref": "§10.1",
+      "clause_id": "c-s10-1",
+      "quote": "Upon full payment, TravelHub shall own all right, title and interest in the Deliverables developed specifically for TravelHub, including the trained models and model weights for the Itinerary Personalization Engine and Partner Hotel Ranking Module.",
+      "status": "found"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-314a8800",
+      "finding_type": "HISTORICAL_CONFLICT",
+      "category": "non_compete_exclusivity",
+      "severity": "HIGH",
+      "title": "Potential conflict with Al Noor Hospitality Group non-compete (§12.1)",
+      "explanation": "Potential conflict — not a breach determination. Al Noor Hospitality Group §12.1: No data analytics, AI or revenue-management services to any Hospitality Business (hotel owners/operators, or distribution / revenue-management / guest-analytics providers to hotels) headquartered in, or for properties in, the GCC (UAE, KSA, Qatar, Kuwait, Bahrain, Oman). Status: active, until 14 Sep 2029 (Term ends 14 Mar 2028 (§6.1) + 18-month Restricted Period ≈ 14 Sep 2029.). The restriction binds AtliQ's Affiliates too, so signing through AtliQ Inc does not avoid it. This contract matches every element — hospitality sector: hotels, resorts, serviced apartments, Partner Hotels, hotel · GCC geography: United Arab Emirates, Dubai, Saudi, UAE, Abu Dhabi, Riyadh · analytics / AI / revenue-management services: AI, AI-driven, models, ranking, recommendation, personalization. The counterparty is not itself clearly within the restricted class, so whether the restriction bites is a judgement call — verify the definition against this deal. Related: waiver (spent) — One-off consent under §12.4 for the Seaside Hotels (Muscat) demand-forecasting SOW only. Excludes extensions, any other Hospitality Business and all AtliQ Affiliates.",
+      "contract_clause_ref": "§4.1",
+      "contract_clause_id": "c-s4-1",
+      "contract_quote": "Partner Hotel Ranking Module — a ranking and recommendation service that scores, ranks and surfaces Partner Hotels in the United Arab Emirates and the Kingdom of Saudi Arabia to TravelHub users at the point of search and itinerary building, taking into account user fit, price competitiveness, partner commission tier, availability and conversion likelihood, and that drives the sort order of hotel results and \"recommended stay\" placements for booking through the TravelHub App;",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+          "clause_ref": "§12.1",
+          "quote": "the Supplier undertakes that neither it nor any of its Affiliates shall, during the Restricted Period, directly or indirectly, provide data analytics, artificial intelligence or revenue-management services to any Hospitality Business in the GCC.",
+          "doc_status": "signed_active",
+          "grounded": true,
+          "label": "Signed: al noor hospitality msa §12.1 (Active until 14 Sep 2029)"
+        },
+        {
+          "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+          "clause_ref": "§1.11",
+          "quote": "\"Hospitality Business\" means any person, firm or entity that owns, operates, manages or franchises hotels, resorts or serviced apartments, or that provides distribution, revenue-management or guest-analytics services to any such person, firm or entity.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+          "clause_ref": "§12.2",
+          "quote": "services are provided \"in the GCC\" if the Hospitality Business receiving them is headquartered in, or the services relate to properties or operations located in, any state of the GCC, irrespective of where the services are performed.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+          "clause_ref": "§12.3",
+          "quote": "The Supplier shall procure that each of its Affiliates complies with this Clause 12 as if it were a party to this Agreement, and any breach by an Affiliate shall be deemed a breach by the Supplier.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+          "clause_ref": "§1.14",
+          "quote": "\"Restricted Period\" means the Term and the period of eighteen (18) months following the expiry or termination of this Agreement.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2026-02-10_al_noor_waiver_letter.md",
+          "clause_ref": "¶2–3",
+          "quote": "This consent is strictly limited to the Seaside SOW. It does not extend to (a) any other services provided to Seaside, including any extension, renewal, change order or follow-on statement of work, unless separately consented to in writing by the Client; (b) any other Hospitality Business, whether in the Sultanate of Oman or elsewhere in the GCC; or (c) any Affiliate of the Supplier.",
+          "doc_status": "signed_spent",
+          "grounded": true,
+          "label": "Signed: al noor waiver letter ¶2–3 (Spent)"
+        }
+      ],
+      "precedent_ids": [],
+      "commitment_id": "CMT-01",
+      "rule_id": "R8",
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [],
+      "needs_info": "Confirm whether the counterparty falls inside the restricted definition; consider asking counsel.",
+      "source": "register"
+    },
+    {
+      "id": "F-0af16700",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "governing_law_entity",
+      "severity": "HIGH",
+      "title": "Wrong AtliQ entity: AtliQ Inc named for a UAE counterparty",
+      "explanation": "Per finance's entity sheet, AtliQ Technologies Pvt Ltd serves every non-US client and AtliQ Inc serves US clients only. The entity in the contract decides who invoices, which tax regime applies (GST vs US) and which bank account is paid — mismatches caused payment delays twice in 2025.",
+      "contract_clause_ref": "§1.2",
+      "contract_clause_id": "c-s1-2",
+      "contract_quote": "AtliQ Inc, a Delaware corporation, with its principal office at 101 College Road East, Suite 210, Pr",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "atliq_entities.md",
+          "clause_ref": "Entity 2 — Serves",
+          "quote": "Clients in **the United States only**",
+          "doc_status": "reference_data",
+          "grounded": true,
+          "label": "Finance fact sheet: AtliQ Inc serves US clients only"
+        },
+        {
+          "source_file": "atliq_entities.md",
+          "clause_ref": "Entity 1 — Serves",
+          "quote": "Clients in **India, the Middle East, Europe**, and any other region outside the United States",
+          "doc_status": "reference_data",
+          "grounded": true,
+          "label": "Finance fact sheet: Pvt Ltd serves all non-US clients"
+        }
+      ],
+      "precedent_ids": [],
+      "rule_id": "R1",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance — invoicing entity, tax regime and bank account follow the contracting entity."
+      ],
+      "needs_info": "Ask the counterparty to change the contracting party, or confirm with Finance why the other entity is intended.",
+      "source": "rule"
+    },
+    {
+      "id": "F-94be3450",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "HIGH",
+      "title": "Automatic acceptance after silence",
+      "explanation": "Clause 5.2 deems a Deliverable accepted if TravelHub does not respond within ten business days, potentially forcing AtliQ to treat non‑conforming work as accepted and limiting recourse for defects. This creates exposure to payment disputes and liability for unsatisfactory deliverables.",
+      "contract_clause_ref": "§5.2",
+      "contract_clause_id": "c-s5-2",
+      "contract_quote": "TravelHub shall review each Deliverable within ten (10) business days of delivery and either confirm Acceptance or provide a written list of material non-conformities. If TravelHub fails to respond within such period, the Deliverable shall be deemed accepted.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-5d1b6e28",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "governing_law_entity",
+      "severity": "HIGH",
+      "title": "Invoicing entity differs from the contracting entity",
+      "explanation": "AtliQ Inc signs, but §7.1 has invoices raised by AtliQ Technologies Pvt Ltd (Indian GSTIN). The entity that invoices must be the one named in the parties clause; a mismatch is exactly what delayed payments twice in 2025.",
+      "contract_clause_ref": "§7.1",
+      "contract_clause_id": "c-s7-1",
+      "contract_quote": "Invoices under this Agreement shall be raised by AtliQ Technologies Pvt Ltd, GSTIN 27AAKCA4821F1Z3, on or after Acceptance of each milestone as set out in Schedule B.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "atliq_entities.md",
+          "clause_ref": "Notes from finance",
+          "quote": "Mismatches between the contracting entity and the invoicing entity have caused payment delays twice in 2025.",
+          "doc_status": "reference_data",
+          "grounded": true
+        }
+      ],
+      "precedent_ids": [],
+      "rule_id": "R2",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance — invoicing entity, tax regime and bank account follow the contracting entity."
+      ],
+      "source": "rule"
+    },
+    {
+      "id": "F-7012e361",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "termination",
+      "severity": "HIGH",
+      "title": "Unilateral termination for convenience",
+      "explanation": "TravelHub can end the agreement at any time with 30 days' notice while AtliQ cannot, creating exposure to lost revenue and sunk costs without reciprocal rights.",
+      "contract_clause_ref": "§8.3",
+      "contract_clause_id": "c-s8-3",
+      "contract_quote": "TravelHub may terminate for convenience with thirty (30) days' written notice and shall pay for all work performed up to the termination date.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-22"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-db39518a",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "indemnity",
+      "severity": "HIGH",
+      "title": "Indemnity for IP infringement may exceed liability cap",
+      "explanation": "AtliQ must indemnify TravelHub for any third‑party IP infringement claims, but the liability cap in §12.2 does not apply to indemnity obligations, exposing AtliQ to unlimited financial risk.",
+      "contract_clause_ref": "§13.1",
+      "contract_clause_id": "c-s13-1",
+      "contract_quote": "AtliQ shall defend and indemnify TravelHub against third-party claims alleging that the Deliverables infringe any intellectual property right.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-09",
+        "P-10"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-525bd6e5",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "MEDIUM",
+      "title": "Unspecified timeframe for correcting non‑conformities",
+      "explanation": "Clause 5.3 requires AtliQ to correct any notified non‑conformity and re‑submit \"within a reasonable time,\" without defining what is reasonable. This ambiguity could lead to disputes over whether AtliQ met its obligations, affecting acceptance and payment.",
+      "contract_clause_ref": "§5.3",
+      "contract_clause_id": "c-s5-3",
+      "contract_quote": "AtliQ shall correct any notified non-conformity and re-submit the Deliverable within a reasonable time.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-4afcd6cb",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "payment",
+      "severity": "MEDIUM",
+      "title": "VAT‑exclusive fee may trigger tax compliance issues",
+      "explanation": "Clause 6.2 states fees are exclusive of any applicable value added tax, which must be charged in addition. As the contract is with a UAE entity, AtliQ may need to register for UAE VAT and remit tax, creating a compliance and cash‑flow risk if not anticipated.",
+      "contract_clause_ref": "§6.2",
+      "contract_clause_id": "c-s6-2",
+      "contract_quote": "The fees are exclusive of any applicable value added tax, which, if applicable, shall be charged in addition.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-11",
+        "P-12"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance (cash-flow impact)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-7204997a",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "data_protection",
+      "severity": "MEDIUM",
+      "title": "Obligation to comply with UAE and Saudi data laws",
+      "explanation": "AtliQ must process personal data in line with UAE Federal Decree‑Law No.45/2021 and, where applicable, Saudi law, which may conflict with US data‑privacy obligations and increase compliance burden.",
+      "contract_clause_ref": "§14.1",
+      "contract_clause_id": "c-s14-1",
+      "contract_quote": "AtliQ shall process personal data only on TravelHub's documented instructions and in compliance with Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data and, where applicable, the Saudi Personal Data Protection Law.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-b7c6c215",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "governing_law_entity",
+      "severity": "LOW",
+      "title": "UAE law and local courts",
+      "explanation": "AtliQ's default is Indian law for Pvt Ltd and US state law for Inc. UAE is the counterparty's home law, which AtliQ has accepted before when needed (English law for Northwind, DIFC for Al Noor, Singapore/SIAC for CloudSpan). Forum: The courts of the Emirate of Dubai (onshore Dubai Courts) shall have exclusive jurisdiction over any dispute arising out of or in connection with this Agreement (§15.2). Disputes would be run under unfamiliar law, typically needing local counsel.",
+      "contract_clause_ref": "§15.1",
+      "contract_clause_id": "c-s15-1",
+      "contract_quote": "This Agreement shall be governed by and construed in accordance with the laws of the Emirate of Dubai and the applicable federal laws of the United Arab Emirates.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-13",
+        "P-14",
+        "P-15",
+        "P-16"
+      ],
+      "rule_id": "R3",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "rule"
+    }
+  ],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "flagged",
+      "detail": "1 potential conflict(s) with active commitments (checked 5 restrictions).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "flagged",
+      "detail": "AtliQ Inc is named, but counterparty country UAE points to AtliQ Technologies Pvt Ltd.",
+      "evidence": [
+        {
+          "source_file": "atliq_entities.md",
+          "clause_ref": "Entity 2 — Serves",
+          "quote": "Clients in **the United States only**",
+          "doc_status": "reference_data",
+          "grounded": true,
+          "label": "Finance fact sheet: AtliQ Inc serves US clients only"
+        },
+        {
+          "source_file": "atliq_entities.md",
+          "clause_ref": "Entity 1 — Serves",
+          "quote": "Clients in **India, the Middle East, Europe**, and any other region outside the United States",
+          "doc_status": "reference_data",
+          "grounded": true,
+          "label": "Finance fact sheet: Pvt Ltd serves all non-US clients"
+        }
+      ]
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "flagged",
+      "detail": "Invoices raised by AtliQ Technologies Pvt Ltd while AtliQ Inc signs (§7.1).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "flagged",
+      "detail": "UAE law with AtliQ Inc — third-country law, review (not automatically wrong). Forum: The courts of the Emirate of Dubai (onshore Dubai Courts) shall have exclusive jurisdiction over any dispute arising out of or in connection with this Agreement (§15.2).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "not_applicable",
+      "detail": "Not an NDA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "not_applicable",
+      "detail": "No insurance requirement in this document.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "passed",
+      "detail": "All 2 referenced attachment(s) present in the document set.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 10 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "passed",
+      "detail": "All key fields found with clause references.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "passed",
+      "detail": "Completed with groq / openai/gpt-oss-120b. 2 part(s) analysed. (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "SOFTWARE DEVELOPMENT AND SERVICES AGREEMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "SOFTWARE DEVELOPMENT AND SERVICES AGREEMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "1. PARTIES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-2",
+      "ref": "§1.2",
+      "heading": "1. PARTIES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-0af16700"
+      ]
+    },
+    {
+      "clause_id": "c-recital-a",
+      "ref": "Recital A",
+      "heading": "2. RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-b",
+      "ref": "Recital B",
+      "heading": "2. RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "3. DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "3. DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-3",
+      "ref": "§3.3",
+      "heading": "3. DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-4",
+      "ref": "§3.4",
+      "heading": "3. DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-5",
+      "ref": "§3.5",
+      "heading": "3. DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "4. SCOPE OF WORK",
+      "status": "flagged",
+      "finding_ids": [
+        "F-314a8800"
+      ]
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "4. SCOPE OF WORK",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-3",
+      "ref": "§4.3",
+      "heading": "4. SCOPE OF WORK",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-4",
+      "ref": "§4.4",
+      "heading": "4. SCOPE OF WORK",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "5. TIMELINE AND ACCEPTANCE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-2",
+      "ref": "§5.2",
+      "heading": "5. TIMELINE AND ACCEPTANCE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-94be3450"
+      ]
+    },
+    {
+      "clause_id": "c-s5-3",
+      "ref": "§5.3",
+      "heading": "5. TIMELINE AND ACCEPTANCE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-525bd6e5"
+      ]
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "6. FEES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "6. FEES",
+      "status": "flagged",
+      "finding_ids": [
+        "F-4afcd6cb"
+      ]
+    },
+    {
+      "clause_id": "c-s6-3",
+      "ref": "§6.3",
+      "heading": "6. FEES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "7. INVOICING AND PAYMENT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-5d1b6e28"
+      ]
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "7. INVOICING AND PAYMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-3",
+      "ref": "§7.3",
+      "heading": "7. INVOICING AND PAYMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-4",
+      "ref": "§7.4",
+      "heading": "7. INVOICING AND PAYMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "8. TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "8. TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-3",
+      "ref": "§8.3",
+      "heading": "8. TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-7012e361"
+      ]
+    },
+    {
+      "clause_id": "c-s8-4",
+      "ref": "§8.4",
+      "heading": "8. TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "9. CONFIDENTIALITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-2",
+      "ref": "§9.2",
+      "heading": "9. CONFIDENTIALITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-3",
+      "ref": "§9.3",
+      "heading": "9. CONFIDENTIALITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "10. INTELLECTUAL PROPERTY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "10. INTELLECTUAL PROPERTY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-3",
+      "ref": "§10.3",
+      "heading": "10. INTELLECTUAL PROPERTY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-1",
+      "ref": "§11.1",
+      "heading": "11. WARRANTIES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-2",
+      "ref": "§11.2",
+      "heading": "11. WARRANTIES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-1",
+      "ref": "§12.1",
+      "heading": "12. LIMITATION OF LIABILITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-2",
+      "ref": "§12.2",
+      "heading": "12. LIMITATION OF LIABILITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-1",
+      "ref": "§13.1",
+      "heading": "13. INDEMNIFICATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-db39518a"
+      ]
+    },
+    {
+      "clause_id": "c-s13-2",
+      "ref": "§13.2",
+      "heading": "13. INDEMNIFICATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-1",
+      "ref": "§14.1",
+      "heading": "14. DATA PROTECTION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-7204997a"
+      ]
+    },
+    {
+      "clause_id": "c-s14-2",
+      "ref": "§14.2",
+      "heading": "14. DATA PROTECTION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s15-1",
+      "ref": "§15.1",
+      "heading": "15. GOVERNING LAW AND JURISDICTION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-b7c6c215"
+      ]
+    },
+    {
+      "clause_id": "c-s15-2",
+      "ref": "§15.2",
+      "heading": "15. GOVERNING LAW AND JURISDICTION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s16-1",
+      "ref": "§16.1",
+      "heading": "16. GENERAL",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s16-2",
+      "ref": "§16.2",
+      "heading": "16. GENERAL",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s16-3",
+      "ref": "§16.3",
+      "heading": "16. GENERAL",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s16-4",
+      "ref": "§16.4",
+      "heading": "16. GENERAL",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s16-5",
+      "ref": "§16.5",
+      "heading": "16. GENERAL",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-schedule-a",
+      "ref": "Schedule A",
+      "heading": "SCHEDULE A — DELIVERABLES AND INDICATIVE TIMELINE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-schedule-a-2",
+      "ref": "Schedule A ¶2",
+      "heading": "SCHEDULE A — DELIVERABLES AND INDICATIVE TIMELINE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-schedule-b",
+      "ref": "Schedule B",
+      "heading": "SCHEDULE B — PAYMENT SCHEDULE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+      "title": "AtliQ Technologies Pvt Ltd (intercompany) — Subcontractor BAA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**AtliQ Inc**, a Delaware corporation (EIN 88-4410273) with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540, USA (\"**Business Associate**\"); and",
+      "doc_status": "signed_expiring",
+      "score": 54.88
+    },
+    {
+      "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+      "title": "Crestline Retail Inc — Professional Services Agreement",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ INC.**, a Delaware corporation (EIN 88-4410273) with its office at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 53.78
+    },
+    {
+      "source_file": "signed_contracts/2025-11-28_brightwater_insurance_msa.md",
+      "title": "Brightwater Insurance Inc — Technology Services Agreement",
+      "clause_ref": "§1 ¶2",
+      "text": "(2) **ATLIQ INC.**, a corporation organised under the laws of the State of Delaware (EIN 88-4410273), whose office is at 101 College Road East, Suite 210, Princeton, New Jersey 08540, United States (the \"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 49.23
+    },
+    {
+      "source_file": "signed_contracts/2022-07-01_orbit_travels_msa_scanned.md",
+      "title": "Orbit Travels Pvt Ltd — MSA (scanned, OCR)",
+      "clause_ref": "Recital A",
+      "text": "WHEREAS the Client operates an online travel booking business and wishes to engage the Service\nProvider for development and maintenance of its booking engine, fare search and reporting modules;",
+      "doc_status": "signed_expired",
+      "score": 47.59
+    },
+    {
+      "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+      "title": "Harrington Health Systems Inc — Mutual NDA",
+      "clause_ref": "Preamble ¶2",
+      "text": "This Mutual Nondisclosure Agreement (this \"**Agreement**\") is entered into as of August 20, 2026 (the \"**Effective Date**\") by and between **Harrington Health Systems, Inc.**, a Texas nonprofit corporation with its principal place of business at 6400 Fannin Street, Suite 1800, Houston, Texas 77030 (\"**Harrington**\"), and **AtliQ Inc**, a Delaware corporation with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**AtliQ**\"). Harrington and AtliQ are each a \"**Party**\" and together the \"**Parties**.\"",
+      "doc_status": "signed_active",
+      "score": 44.45
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Recital A",
+      "text": "A. The Client owns, operates and manages a portfolio of hotels, resorts and serviced apartments in the United Arab Emirates and wishes to implement a centralised guest analytics platform across fourteen (14) of its properties.",
+      "doc_status": "signed_active",
+      "score": 41.18
+    },
+    {
+      "source_file": "signed_contracts/2025-01-22_al_noor_mutual_nda.md",
+      "title": "Al Noor Hospitality Group — Mutual NDA",
+      "clause_ref": "Parties (1)",
+      "text": "1. **AL NOOR HOSPITALITY GROUP LLC**, a limited liability company registered in the Emirate of Dubai, United Arab Emirates, having its principal office at Level 22, Al Noor Tower, Sheikh Zayed Road, PO Box 118834, Dubai, United Arab Emirates (\"**Al Noor**\"); and",
+      "doc_status": "signed_active",
+      "score": 39.05
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Parties (1)",
+      "text": "1. **AL NOOR HOSPITALITY GROUP LLC**, a limited liability company registered in the Emirate of Dubai, United Arab Emirates, having its principal office at Level 22, Al Noor Tower, Sheikh Zayed Road, PO Box 118834, Dubai, United Arab Emirates (the \"**Client**\"); and",
+      "doc_status": "signed_active",
+      "score": 39.05
+    }
+  ],
+  "attention_score": 37,
+  "counts": {
+    "CRITICAL": 0,
+    "HIGH": 6,
+    "MEDIUM": 3,
+    "LOW": 1
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 1,
+      "note": "55 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 2,
+      "note": "11/11 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 14,
+      "note": "1 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 1,
+      "note": "0 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 4,
+      "note": "3 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 2,
+      "note": "6 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 3,
+      "note": "10/10 grounded"
+    }
+  ],
+  "processing_ms": 27
+}

@@ -1,0 +1,31 @@
+{
+  "_about": "Synthetic test contracts added for this prototype (data/synthetic/). Written with wording different from the dataset to check that the engine generalises beyond the provided golden cases. Scored by `npm run eval` alongside evals/golden_cases.json, reported separately.",
+  "cases": [
+    {
+      "id": "syn_doha_pearl",
+      "file": "data/synthetic/synthetic_doha_pearl_resorts_services_agreement.md",
+      "brief_case": "GCC hospitality deal in new words (Qatar resorts, pricing intelligence) — must hit Al Noor non-compete",
+      "country": "Qatar",
+      "must_flag": [
+        { "category": "CONFLICT_WITH_COMMITMENT", "severity": "CRITICAL", "keywords": ["Al Noor", "Doha", "Qatar", "GCC"], "evidence_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md" }
+      ],
+      "must_not_flag": ["liability", "indemn"]
+    },
+    {
+      "id": "syn_albion_uk",
+      "file": "data/synthetic/synthetic_albion_data_cloud_uk_referral_agreement.md",
+      "brief_case": "Platform partnership OUTSIDE the CloudSpan territory (UK/Ireland) — must NOT be flagged as a CloudSpan conflict",
+      "country": "UK",
+      "must_flag": [],
+      "must_not_flag": ["CloudSpan"]
+    },
+    {
+      "id": "syn_pinecrest",
+      "file": "data/synthetic/synthetic_pinecrest_outfitters_msa.md",
+      "brief_case": "clean contract (control) — balanced US MSA on AtliQ Inc",
+      "country": "USA",
+      "must_flag": [],
+      "must_not_flag": ["CRITICAL", "HIGH"]
+    }
+  ]
+}

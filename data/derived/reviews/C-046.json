@@ -1,0 +1,1357 @@
+{
+  "review_id": "C-046-930d289e",
+  "contract_id": "C-046",
+  "file_name": "2026-09-16_harrington_health_baa_draft.md",
+  "title": "EXHIBIT D — BUSINESS ASSOCIATE AGREEMENT",
+  "counterparty": "Harrington Health Systems Inc",
+  "version": 1,
+  "text_hash": "930d289e62196d6e",
+  "generated_at": "2026-10-14T15:33:02.156Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "EXHIBIT D — BUSINESS ASSOCIATE AGREEMENT",
+    "counterparty": "Harrington Health Systems Inc",
+    "contract_type": "BAA",
+    "atliq_entity": "inc",
+    "atliq_role": "supplier",
+    "counterparty_country": "USA",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "Rebecca: must be signed together with the MSA. BAA wants $5M cyber insurance - ours is $1M (K)"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "completed",
+    "note": "5 part(s) analysed. (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "complete",
+  "completeness_notes": [
+    "Could not verify — Key contract fields extracted: Not found or ambiguous: Term, Liability cap, Disputes / jurisdiction."
+  ],
+  "summary": "The BAA ties AtliQ’s services to HIPAA obligations and references the yet‑unsigned MSA. Key risks already flagged include offshore PHI handling, uncapped liability, $5 M cyber‑insurance demand, and subcontractor bans. An additional concern is the vague safeguard language that could expose AtliQ to liability for alleged insufficient HIPAA protection.\n\nHarrington Health Systems Inc · BAA · AtliQ Inc as supplier. 18 finding(s): 4 critical, 7 high, 6 medium, 1 low; 1 potential conflict(s) with past commitments; 1 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "Harrington Health Systems Inc",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Inc (as \"Business Associate\")",
+      "clause_ref": "Preamble ¶2",
+      "clause_id": "c-preamble-2",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "None in this contract",
+      "status": "found"
+    },
+    {
+      "key": "liability_cap",
+      "label": "Liability cap",
+      "value": "Not found in document",
+      "status": "missing"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "This BAA shall be governed by the laws of the State of Texas and applicable federal law, and venue shall lie as provided in the Master Services Agreement.",
+      "clause_ref": "§12.5",
+      "clause_id": "c-s12-5",
+      "quote": "This BAA shall be governed by the laws of the State of Texas and applicable federal law, and venue shall lie as provided in the Master Services Agreement.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "Not found in document",
+      "status": "missing"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-f50fa564",
+      "finding_type": "HISTORICAL_CONFLICT",
+      "category": "data_protection",
+      "severity": "CRITICAL",
+      "title": "BAA bars any non-US subcontractor — including AtliQ's Pune team",
+      "explanation": "Potential conflict with how AtliQ delivers. §4.2 requires every approved subcontractor to be a US-organised entity with US-located personnel, and §1.5 defines Subcontractor to include Business Associate's Affiliates. AtliQ Inc sub-contracts delivery to AtliQ Technologies Pvt Ltd in Pune; that model would not be allowed at all — not even for de-identified data, which the CareBridge BAA permitted. Staffing, price and timeline need to be re-planned around US-only personnel, or the clause negotiated.",
+      "contract_clause_ref": "§4.2",
+      "contract_clause_id": "c-s4-2",
+      "contract_quote": "Each approved Subcontractor shall be organized under the laws of a State of the United States, and all of its personnel performing Services shall be located in the United States.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "atliq_entities.md",
+          "clause_ref": "Notes from finance",
+          "quote": "Delivery teams for both entities sit in Pune; AtliQ Inc sub-contracts delivery to AtliQ Technologies Pvt Ltd under an intercompany agreement.",
+          "doc_status": "reference_data",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_carebridge_clinics_baa.md",
+          "clause_ref": "§3.2",
+          "quote": "Personnel of Business Associate or of any Subcontractor located outside the United States may access De-identified Data only, and only within the Covered Entity Environment or a secure environment approved in writing by Covered Entity.",
+          "doc_status": "signed_expiring",
+          "grounded": true,
+          "label": "Signed CareBridge BAA — allowed offshore de-identified access"
+        }
+      ],
+      "precedent_ids": [],
+      "rule_id": "R5",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Consider counsel review (Calloway Stern LLP) — share this contract together with the cited signed agreements.",
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA).",
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "needs_info": "Ask Pranav for a US-only staffing plan and cost; decide whether to negotiate offshore de-identified access as in CareBridge §3.2.",
+      "source": "rule"
+    },
+    {
+      "id": "F-33a3ea36",
+      "finding_type": "DOCUMENT_GAP",
+      "gap_kind": "confirmed",
+      "category": "required_documents",
+      "severity": "CRITICAL",
+      "title": "No subcontractor BAA for anyone who would touch this client's PHI",
+      "explanation": "HIPAA flow-down requires every subcontractor — including AtliQ's own Pune entity and any freelancer — to sign a subcontractor BAA with matching terms before access. The only one AtliQ has (intercompany, Oct 2025) is engagement-specific: it covers the CareBridge engagement only, de-identified data only, and ends with the CareBridge BAA on 5 Oct 2026. It does not cover this client, despite the 27 Sep assumption that it 'should do'. The freelancer brought in for this client (Kriti Data Labs, C-037; Daniel Ortiz, C-047) has a contractor agreement and NDA in draft but no subcontractor BAA.",
+      "contract_clause_ref": "§4.3",
+      "contract_clause_id": "c-s4-3",
+      "contract_quote": "In accordance with 45 C.F.R. §§ 164.502(e)(1)(ii) and 164.308(b)(2), Business Associate shall ensure that each Subcontractor agrees in writing, prior to any access to PHI, to the same restrictions, conditions and requirements that apply to Business Associate under this BAA.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§1.2",
+          "quote": "\"Engagement\" means the CareBridge Engagement described in Schedule 1.",
+          "doc_status": "signed_expiring",
+          "grounded": true,
+          "label": "Signed intercompany BAA — CareBridge engagement only (ends 2026-10-05)"
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§2.1",
+          "quote": "This Agreement applies to the Engagement Services. Any services Subcontractor performs for Business Associate other than the Engagement Services are governed by the Intercompany Agreement.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§3.1",
+          "quote": "Subcontractor and its personnel shall access De-identified Data only. Subcontractor shall not access, receive, store, view or process PHI.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-037 notes",
+          "quote": "Kriti wants to start 5 Oct. built from our vendor template (Jay made it from the Harrington draft). Kriti pushing back on 120-day pay-when-paid - 'we're 12 people'",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-037: Kriti Data Labs (Draft)"
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-047 notes",
+          "quote": "US freelancer for Harrington. Dhaval: 'US-based, so the offshore thing is solved'. US contractor template",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-047: Daniel Ortiz (Draft)"
+        }
+      ],
+      "precedent_ids": [
+        "P-27"
+      ],
+      "rule_id": "R5",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "needs_info": "Decide who will touch PHI (US-only per the BAA); draft a subcontractor BAA for each, and have counsel review.",
+      "source": "rule"
+    },
+    {
+      "id": "F-de3781de",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "CRITICAL",
+      "title": "Uncapped liability for AtliQ under §8.2",
+      "explanation": "AtliQ's exposure under the cited provisions — including its indemnity obligations — is carved out of any cap. The carve-out covers data-security / privacy events, where regulatory fines, notification and credit-monitoring costs are the largest exposure. AtliQ's position has been liability capped at 1x fees; Karandeep walked away from Kessler Mobility (~€120k) over 'liable without limitation'.",
+      "contract_clause_ref": "§8.2",
+      "contract_clause_id": "c-s8-2",
+      "contract_quote": "The obligations of Business Associate under this Article 8 are not subject to any limitation or exclusion of liability, and shall apply notwithstanding any limitation of liability in the Master Services Agreement.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Consider counsel review (Calloway Stern LLP) — share this contract together with the cited signed agreements.",
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-d7f860a7",
+      "finding_type": "UNRESOLVED_QUESTION",
+      "category": "data_protection",
+      "severity": "CRITICAL",
+      "title": "Alert: patient data may already be with offshore engineers — before any BAA is signed",
+      "explanation": "Not a contract term — an operational alert from the meeting notes. A 'sample extract' that appears to contain names, DOBs and diagnosis codes was emailed on 12 Sep and forwarded to two engineers in Pune. No BAA is signed yet, and both the draft BAA and the signed NDA say PHI may only be shared after a BAA and never accessed outside the US. If the extract is PHI this may already be a reportable incident. Contain and confirm before signing anything.",
+      "contract_clause_ref": "§4.1",
+      "contract_clause_id": "c-s4-1",
+      "contract_quote": "Business Associate shall not, and shall ensure that no Subcontractor shall, access, view, create, receive, maintain, transmit, store or process PHI from or at any location outside the United States, whether directly or by remote access.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "meeting_notes/2026-09-27_harrington_huddle.md",
+          "clause_ref": "huddle notes",
+          "quote": "Pranav: scoping is going well. Kevin Brooks (their data eng manager) emailed a \"sample extract\" on 12 Sep so we could size the pipeline. Pranav opened it here and forwarded to Sneha and Vikram in Pune to start profiling. \"It's real data I think — names, DOBs, some diagnosis codes.\"",
+          "doc_status": "meeting_note",
+          "grounded": true,
+          "label": "Meeting note 2026-09-27 (not a contract)"
+        },
+        {
+          "source_file": "meeting_notes/2026-09-27_harrington_huddle.md",
+          "clause_ref": "huddle notes",
+          "quote": "(No decisions were made. As of 2026-09-28 no Business Associate Agreement had been signed with Harrington; the sample extract remained with the two Pune engineers; no subcontractor BAA had been drafted for Daniel Ortiz; the insurance gap was not raised with Harrington.",
+          "doc_status": "meeting_note",
+          "grounded": true,
+          "label": "Meeting note 2026-09-27 (not a contract)"
+        },
+        {
+          "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+          "clause_ref": "§2.3",
+          "quote": "Protected Health Information, as defined at 45 C.F.R. § 160.103, is excluded from this Agreement and shall be disclosed only after execution of a Business Associate Agreement between the Parties.",
+          "doc_status": "signed_active",
+          "grounded": true
+        }
+      ],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA).",
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "needs_info": "Confirm with Pranav whether the 12 Sep extract contains PHI; if so, take counsel advice (Calloway Stern) on containment and notification.",
+      "source": "context"
+    },
+    {
+      "id": "F-6d369776",
+      "finding_type": "DOCUMENT_GAP",
+      "gap_kind": "potential",
+      "category": "required_documents",
+      "severity": "HIGH",
+      "title": "Healthcare bundle incomplete — MSA not signed",
+      "explanation": "US healthcare work touching patient data needs an NDA, a HIPAA Business Associate Agreement and the services contract, signed before data changes hands (rule R4). Current status: NDA: Signed (C-045) · BAA: In review (C-046) · MSA: In review (C-023). The client wants MSA and BAA signed together; neither should be signed alone, and no PHI should be received until the BAA is executed.",
+      "contract_clause_ref": "§12.10",
+      "contract_clause_id": "c-s12-10",
+      "contract_quote": "This BAA may be executed in counterparts and by electronic signature, and shall be executed concurrently with the Master Services Agreement.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-023",
+          "quote": "MSA — In review",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-023"
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-045",
+          "quote": "Mutual NDA — Signed",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-045"
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-046",
+          "quote": "BAA — In review",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-046"
+        }
+      ],
+      "precedent_ids": [],
+      "rule_id": "R4",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "needs_info": "Status of the BAA in review; confirm both documents are executed together.",
+      "source": "rule"
+    },
+    {
+      "id": "F-cd28a2b1",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "HIGH",
+      "title": "Full liability for subcontractor acts",
+      "explanation": "Clause 4.4 makes AtliQ liable for any act or omission of its subcontractors as if they were its own, potentially expanding exposure beyond any fee‑based liability caps elsewhere in the BAA. Verify if AtliQ can obtain subcontractor indemnities or limit this responsibility.",
+      "contract_clause_ref": "§4.4",
+      "contract_clause_id": "c-s4-4",
+      "contract_quote": "Business Associate shall remain fully responsible for the acts and omissions of its Subcontractors as if they were Business Associate's own.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-3f84ca48",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "insurance",
+      "severity": "HIGH",
+      "title": "Requires $5M cyber cover — AtliQ holds $1M",
+      "explanation": "The contract requires cyber liability insurance of $5,000,000. AtliQ's cyber policy is $1M (Karandeep, tracker C-046 / Harrington huddle 27 Sep). Signing would put AtliQ in breach from day one unless cover is increased or the requirement negotiated. The gap has not yet been raised with the client (meeting note 27 Sep).",
+      "contract_clause_ref": "§8.3",
+      "contract_clause_id": "c-s8-3",
+      "contract_quote": "Business Associate shall maintain, throughout the term of this BAA and for three (3) years thereafter, cyber liability and network security and privacy insurance with limits of not less than Five Million U.S.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-28"
+      ],
+      "rule_id": "R9",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Finance / insurance broker — current cover vs requirement."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-965c2722",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "ip",
+      "severity": "HIGH",
+      "title": "Restriction on using PHI for AI/ML model training",
+      "explanation": "The BAA prohibits using PHI or derived data to train, tune or evaluate any AI/ML model except those developed exclusively for the Covered Entity, which may conflict with AtliQ's internal AI development practices.",
+      "contract_clause_ref": "§10.3",
+      "contract_clause_id": "c-s10-3",
+      "contract_quote": "Business Associate shall not use PHI, or any data derived from PHI, to train, tune or evaluate any machine learning or artificial intelligence model other than models developed exclusively for Covered Entity under the Master Services Agreement.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-20",
+        "P-21"
+      ],
+      "confidence": "LOW",
+      "grounded": true,
+      "escalation_hints": [
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing.",
+        "Not sure — please verify against the source before relying on this finding."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-57f71796",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "termination",
+      "severity": "HIGH",
+      "title": "Termination for breach with undefined cure period",
+      "explanation": "The BAA lets the Covered Entity terminate immediately or after a cure period it defines, giving AtliQ little control over termination timing and potential abrupt loss of the contract.",
+      "contract_clause_ref": "§11.2",
+      "contract_clause_id": "c-s11-2",
+      "contract_quote": "If Covered Entity determines that Business Associate has violated a material term of this BAA, Covered Entity may, at its option, (a) provide Business Associate an opportunity to cure within a period specified by Covered Entity, and terminate this BAA and the Master Services Agreement if Business Associate does not cure; or (b) immediately terminate this BAA and the Master Services Agreement if cure is not possible.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-22"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-b0a56d38",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "HIGH",
+      "title": "Interpretation clause favors Covered Entity",
+      "explanation": "Any ambiguity is resolved to permit the Covered Entity to comply with HIPAA, potentially expanding AtliQ's obligations beyond the negotiated scope.",
+      "contract_clause_ref": "§12.2",
+      "contract_clause_id": "c-s12-2",
+      "contract_quote": "Any ambiguity in this BAA shall be resolved to permit Covered Entity to comply with HIPAA. In the event of any conflict between this BAA and the Master Services Agreement with respect to PHI, this BAA shall control.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-96f9e36b",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "HIGH",
+      "title": "Injunctive relief without bond",
+      "explanation": "The Covered Entity can seek injunctive relief without posting a bond, exposing AtliQ to court‑ordered halts of its services or operations.",
+      "contract_clause_ref": "§12.4",
+      "contract_clause_id": "c-s12-4",
+      "contract_quote": "Business Associate acknowledges that any breach of this BAA may cause Covered Entity irreparable harm, and that Covered Entity shall be entitled to seek injunctive relief without posting bond.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-a55fff60",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "other",
+      "severity": "MEDIUM",
+      "title": "Audit rights may impose operational burden",
+      "explanation": "The BAA allows the Covered Entity to audit Business Associate facilities with 48‑hour notice and requires prompt remediation of any deficiency, which could disrupt AtliQ's operations and incur remediation costs.",
+      "contract_clause_ref": "§7.2",
+      "contract_clause_id": "c-s7-2",
+      "contract_quote": "Covered Entity or its designee may inspect and audit Business Associate's and any Subcontractor's facilities, systems, books, records, policies and procedures relating to PHI upon forty-eight (48) hours' notice, at any time during the term of this BAA and for so long as Business Associate retains any PHI. Business Associate shall promptly remediate any deficiency identified.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-b704c244",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "other",
+      "severity": "MEDIUM",
+      "title": "Compliance with Texas Privacy Law",
+      "explanation": "AtliQ must comply with Texas Privacy Law, including employee training, adding a jurisdiction‑specific compliance layer that may require new policies and training programs.",
+      "contract_clause_ref": "§7.3",
+      "contract_clause_id": "c-s7-3",
+      "contract_quote": "Business Associate shall comply with Texas Privacy Law to the extent applicable to Business Associate, including training requirements for employees who handle PHI.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    },
+    {
+      "id": "F-0adfd4e4",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "MEDIUM",
+      "title": "Litigation support at no cost",
+      "explanation": "AtliQ must make its workforce available, without compensation, to testify in any litigation against the Covered Entity, potentially creating unbudgeted legal staffing expenses.",
+      "contract_clause_ref": "§7.4",
+      "contract_clause_id": "c-s7-4",
+      "contract_quote": "Business Associate shall make itself and its workforce reasonably available to Covered Entity, at no cost, to testify in any litigation or administrative proceeding against Covered Entity relating to Business Associate's use or disclosure of PHI, except where Business Associate is a named adverse party.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA).",
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-f8aeb4cb",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "liability",
+      "severity": "MEDIUM",
+      "title": "Departs from AtliQ's signed BAA precedent (CareBridge capped breach liability at 2x fees)",
+      "explanation": "The only BAA AtliQ has signed (CareBridge, reviewed by Calloway Stern for $3.8k) kept breach liability inside the MSA's limits with an aggregate cap of two times the prior 12 months' fees. This draft removes any limit. The CareBridge cap is a concrete, already-accepted fallback to propose.",
+      "contract_clause_ref": "§8.2",
+      "contract_clause_id": "c-s8-2",
+      "contract_quote": "The obligations of Business Associate under this Article 8 are not subject to any limitation or exclusion of liability, and shall apply notwithstanding any limitation of liability in the Master Services Agreement.",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2025-10-06_carebridge_clinics_baa.md",
+          "clause_ref": "§9.1",
+          "quote": "aggregate liability for claims relating to a Breach or a violation of this BAA shall not exceed two (2) times the Fees paid or payable under the Master Services Agreement in the twelve (12) months preceding the event giving rise to the claim.",
+          "doc_status": "signed_expiring",
+          "grounded": true,
+          "label": "Signed CareBridge BAA §9.1 (precedent)"
+        }
+      ],
+      "precedent_ids": [
+        "P-27"
+      ],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "pattern"
+    },
+    {
+      "id": "F-9aa87d9b",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "data_protection",
+      "severity": "MEDIUM",
+      "title": "30‑day return or destruction requirement",
+      "explanation": "AtliQ must return or destroy all PHI within 30 days of termination, which may be impractical for large data sets and could lead to breach of contract if not met.",
+      "contract_clause_ref": "§11.3",
+      "contract_clause_id": "c-s11-3",
+      "contract_quote": "Upon termination or expiration of the Master Services Agreement, Business Associate shall, within thirty (30) days, return or destroy all PHI, including PHI in the possession of Subcontractors, retain no copies, and certify destruction in writing. If return or destruction is infeasible, Business Associate shall extend the protections of this BAA to such PHI and limit further uses and disclosures to those purposes that make return or destruction infeasible.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-2d30482b",
+      "finding_type": "UNRESOLVED_QUESTION",
+      "category": "liability",
+      "severity": "MEDIUM",
+      "title": "Undefined safeguard standards may create liability",
+      "explanation": "Section 3.1 obligates AtliQ to implement \"administrative, physical and technical safeguards that reasonably and appropriately protect\" e‑PHI, but provides no measurable standards. This ambiguity could lead to disputes or liability if the Covered Entity deems the safeguards inadequate, especially given the uncapped liability elsewhere. Clarify required frameworks (e.g., NIST 800‑53) or include a compliance audit provision.",
+      "contract_clause_ref": "§3.1",
+      "contract_clause_id": "c-s3-1",
+      "contract_quote": "Business Associate shall implement administrative, physical and technical safeguards that reasonably and appropriately protect the confidentiality, integrity and availability of electronic PHI, and shall comply with Subpart C of 45 C.F.R. Part 164.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [
+        "P-07",
+        "P-08"
+      ],
+      "confidence": "LOW",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA).",
+        "Not sure — please verify against the source before relying on this finding."
+      ],
+      "source": "llm"
+    },
+    {
+      "id": "F-e8dc822a",
+      "finding_type": "DOCUMENT_GAP",
+      "gap_kind": "potential",
+      "category": "required_documents",
+      "severity": "LOW",
+      "title": "Attachment referenced but not provided: Exhibit B",
+      "explanation": "The contract incorporates Exhibit B, which are not in the document received. Their terms (e.g. specifications, security requirements, policies) would bind AtliQ unseen. This is a potential gap until someone confirms the attachments exist and reviews them.",
+      "contract_clause_ref": "§3.2",
+      "contract_clause_id": "c-s3-2",
+      "contract_quote": "Business Associate shall comply with the Client Information Security Requirements set forth in Exhibit B to the Master Services Agreement, including encryption of PHI at rest and in transit, multi-factor authentication, and logging and monitoring of all access to PHI.",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "rule_id": "R10",
+      "confidence": "MEDIUM",
+      "grounded": true,
+      "escalation_hints": [
+        "Healthcare / PHI: consider Calloway Stern review (they reviewed the CareBridge BAA)."
+      ],
+      "needs_info": "Request Exhibit B from the counterparty.",
+      "source": "rule"
+    }
+  ],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "passed",
+      "detail": "Checked against 5 restrictive commitments in the register — no active match. Absence of a match is not proof of safety: the register only covers signed contracts in the dataset.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Inc — consistent with counterparty country USA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "passed",
+      "detail": "US (Texas) law with AtliQ Inc.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "flagged",
+      "detail": "Bundle incomplete — NDA: Signed (C-045) · BAA: In review (C-046) · MSA: In review (C-023).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "flagged",
+      "detail": "No subcontractor BAA covers this engagement. The intercompany BAA (Inc → Pune) is CareBridge-only; freelancer(s) Kriti Data Labs, Daniel Ortiz have no subcontractor BAA.",
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§1.2",
+          "quote": "\"Engagement\" means the CareBridge Engagement described in Schedule 1.",
+          "doc_status": "signed_expiring",
+          "grounded": true,
+          "label": "Signed intercompany BAA — CareBridge engagement only (ends 2026-10-05)"
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§2.1",
+          "quote": "This Agreement applies to the Engagement Services. Any services Subcontractor performs for Business Associate other than the Engagement Services are governed by the Intercompany Agreement.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+          "clause_ref": "§3.1",
+          "quote": "Subcontractor and its personnel shall access De-identified Data only. Subcontractor shall not access, receive, store, view or process PHI.",
+          "doc_status": "signed_expiring",
+          "grounded": true
+        }
+      ]
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "not_applicable",
+      "detail": "Not an NDA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "flagged",
+      "detail": "Cyber cover required exceeds AtliQ's $1M policy (tracker C-046).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "flagged",
+      "detail": "Referenced but not included: Exhibit B.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 18 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "could_not_verify",
+      "detail": "Not found or ambiguous: Term, Liability cap, Disputes / jurisdiction.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "passed",
+      "detail": "Completed with groq / openai/gpt-oss-120b. 5 part(s) analysed. (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "EXHIBIT D — BUSINESS ASSOCIATE AGREEMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "EXHIBIT D — BUSINESS ASSOCIATE AGREEMENT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-a",
+      "ref": "Recital A",
+      "heading": "RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recital-b",
+      "ref": "Recital B",
+      "heading": "RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-recitals",
+      "ref": "Recitals",
+      "heading": "RECITALS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-2",
+      "ref": "§1.2",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-3",
+      "ref": "§1.3",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-4",
+      "ref": "§1.4",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-5",
+      "ref": "§1.5",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-6",
+      "ref": "§1.6",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-7",
+      "ref": "§1.7",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-8",
+      "ref": "§1.8",
+      "heading": "ARTICLE 1 — DEFINITIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "ARTICLE 2 — PERMITTED USES AND DISCLOSURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "ARTICLE 2 — PERMITTED USES AND DISCLOSURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-3",
+      "ref": "§2.3",
+      "heading": "ARTICLE 2 — PERMITTED USES AND DISCLOSURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-4",
+      "ref": "§2.4",
+      "heading": "ARTICLE 2 — PERMITTED USES AND DISCLOSURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "ARTICLE 3 — SAFEGUARDS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-2d30482b"
+      ]
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "ARTICLE 3 — SAFEGUARDS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-e8dc822a"
+      ]
+    },
+    {
+      "clause_id": "c-s3-3",
+      "ref": "§3.3",
+      "heading": "ARTICLE 3 — SAFEGUARDS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-4",
+      "ref": "§3.4",
+      "heading": "ARTICLE 3 — SAFEGUARDS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-5",
+      "ref": "§3.5",
+      "heading": "ARTICLE 3 — SAFEGUARDS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "ARTICLE 4 — LOCATION OF PHI; SUBCONTRACTORS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-d7f860a7"
+      ]
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "ARTICLE 4 — LOCATION OF PHI; SUBCONTRACTORS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-f50fa564"
+      ]
+    },
+    {
+      "clause_id": "c-s4-3",
+      "ref": "§4.3",
+      "heading": "ARTICLE 4 — LOCATION OF PHI; SUBCONTRACTORS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-33a3ea36"
+      ]
+    },
+    {
+      "clause_id": "c-s4-4",
+      "ref": "§4.4",
+      "heading": "ARTICLE 4 — LOCATION OF PHI; SUBCONTRACTORS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-cd28a2b1"
+      ]
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "ARTICLE 5 — REPORTING OF PRIVACY EVENTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-2",
+      "ref": "§5.2",
+      "heading": "ARTICLE 5 — REPORTING OF PRIVACY EVENTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-3",
+      "ref": "§5.3",
+      "heading": "ARTICLE 5 — REPORTING OF PRIVACY EVENTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-4",
+      "ref": "§5.4",
+      "heading": "ARTICLE 5 — REPORTING OF PRIVACY EVENTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-5",
+      "ref": "§5.5",
+      "heading": "ARTICLE 5 — REPORTING OF PRIVACY EVENTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "ARTICLE 6 — INDIVIDUAL RIGHTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "ARTICLE 6 — INDIVIDUAL RIGHTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-3",
+      "ref": "§6.3",
+      "heading": "ARTICLE 6 — INDIVIDUAL RIGHTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-4",
+      "ref": "§6.4",
+      "heading": "ARTICLE 6 — INDIVIDUAL RIGHTS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "ARTICLE 7 — COMPLIANCE AND AUDIT",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "ARTICLE 7 — COMPLIANCE AND AUDIT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-a55fff60"
+      ]
+    },
+    {
+      "clause_id": "c-s7-3",
+      "ref": "§7.3",
+      "heading": "ARTICLE 7 — COMPLIANCE AND AUDIT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-b704c244"
+      ]
+    },
+    {
+      "clause_id": "c-s7-4",
+      "ref": "§7.4",
+      "heading": "ARTICLE 7 — COMPLIANCE AND AUDIT",
+      "status": "flagged",
+      "finding_ids": [
+        "F-0adfd4e4"
+      ]
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "ARTICLE 8 — INDEMNIFICATION; INSURANCE",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "ARTICLE 8 — INDEMNIFICATION; INSURANCE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-de3781de",
+        "F-f8aeb4cb"
+      ]
+    },
+    {
+      "clause_id": "c-s8-3",
+      "ref": "§8.3",
+      "heading": "ARTICLE 8 — INDEMNIFICATION; INSURANCE",
+      "status": "flagged",
+      "finding_ids": [
+        "F-3f84ca48"
+      ]
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "ARTICLE 9 — OBLIGATIONS OF COVERED ENTITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-2",
+      "ref": "§9.2",
+      "heading": "ARTICLE 9 — OBLIGATIONS OF COVERED ENTITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-3",
+      "ref": "§9.3",
+      "heading": "ARTICLE 9 — OBLIGATIONS OF COVERED ENTITY",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "ARTICLE 10 — OWNERSHIP OF PHI; ELECTRONIC TRANSACTIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "ARTICLE 10 — OWNERSHIP OF PHI; ELECTRONIC TRANSACTIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-3",
+      "ref": "§10.3",
+      "heading": "ARTICLE 10 — OWNERSHIP OF PHI; ELECTRONIC TRANSACTIONS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-965c2722"
+      ]
+    },
+    {
+      "clause_id": "c-s10-4",
+      "ref": "§10.4",
+      "heading": "ARTICLE 10 — OWNERSHIP OF PHI; ELECTRONIC TRANSACTIONS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-5",
+      "ref": "§10.5",
+      "heading": "Limited Data Sets",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-1",
+      "ref": "§11.1",
+      "heading": "ARTICLE 11 — TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-2",
+      "ref": "§11.2",
+      "heading": "ARTICLE 11 — TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-57f71796"
+      ]
+    },
+    {
+      "clause_id": "c-s11-3",
+      "ref": "§11.3",
+      "heading": "ARTICLE 11 — TERM AND TERMINATION",
+      "status": "flagged",
+      "finding_ids": [
+        "F-9aa87d9b"
+      ]
+    },
+    {
+      "clause_id": "c-s11-4",
+      "ref": "§11.4",
+      "heading": "ARTICLE 11 — TERM AND TERMINATION",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-1",
+      "ref": "§12.1",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-2",
+      "ref": "§12.2",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-b0a56d38"
+      ]
+    },
+    {
+      "clause_id": "c-s12-3",
+      "ref": "§12.3",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-4",
+      "ref": "§12.4",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-96f9e36b"
+      ]
+    },
+    {
+      "clause_id": "c-s12-5",
+      "ref": "§12.5",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-6",
+      "ref": "§12.6",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-7",
+      "ref": "§12.7",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-8",
+      "ref": "§12.8",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-9",
+      "ref": "§12.9",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-10",
+      "ref": "§12.10",
+      "heading": "ARTICLE 12 — MISCELLANEOUS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-6d369776"
+      ]
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-3",
+      "ref": "Signatures ¶3",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+      "title": "Harrington Health Systems Inc — Mutual NDA",
+      "clause_ref": "Preamble ¶2",
+      "text": "This Mutual Nondisclosure Agreement (this \"**Agreement**\") is entered into as of August 20, 2026 (the \"**Effective Date**\") by and between **Harrington Health Systems, Inc.**, a Texas nonprofit corporation with its principal place of business at 6400 Fannin Street, Suite 1800, Houston, Texas 77030 (\"**Harrington**\"), and **AtliQ Inc**, a Delaware corporation with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**AtliQ**\"). Harrington and AtliQ are each a \"**Party**\" and together the \"**Parties**.\"",
+      "doc_status": "signed_active",
+      "score": 97.48
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_carebridge_clinics_baa.md",
+      "title": "CareBridge Clinics Inc — BAA",
+      "clause_ref": "§1.2",
+      "text": "1.2 \"**Protected Health Information**\" or \"**PHI**\" has the meaning given in 45 C.F.R. § 160.103, limited to information created, received, maintained or transmitted by Business Associate on behalf of Covered Entity.",
+      "doc_status": "signed_expiring",
+      "score": 70.5
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+      "title": "AtliQ Technologies Pvt Ltd (intercompany) — Subcontractor BAA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**AtliQ Inc**, a Delaware corporation (EIN 88-4410273) with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540, USA (\"**Business Associate**\"); and",
+      "doc_status": "signed_expiring",
+      "score": 66.61
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_carebridge_clinics_baa.md",
+      "title": "CareBridge Clinics Inc — BAA",
+      "clause_ref": "Recital B",
+      "text": "B. In performing the Services, Business Associate may create, receive, maintain or transmit Protected Health Information on behalf of Covered Entity, and the Parties wish to comply with the Health Insurance Portability and Accountability Act of 1996, the Health Information Technology for Economic and Clinical Health Act, and their implementing regulations at 45 C.F.R. Parts 160 and 164 (collectively, \"**HIPAA**\").",
+      "doc_status": "signed_expiring",
+      "score": 65.02
+    },
+    {
+      "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+      "title": "Crestline Retail Inc — Professional Services Agreement",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ INC.**, a Delaware corporation (EIN 88-4410273) with its office at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 59.26
+    },
+    {
+      "source_file": "signed_contracts/2025-11-28_brightwater_insurance_msa.md",
+      "title": "Brightwater Insurance Inc — Technology Services Agreement",
+      "clause_ref": "§1 ¶2",
+      "text": "(2) **ATLIQ INC.**, a corporation organised under the laws of the State of Delaware (EIN 88-4410273), whose office is at 101 College Road East, Suite 210, Princeton, New Jersey 08540, United States (the \"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 51.05
+    },
+    {
+      "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+      "title": "Harrington Health Systems Inc — Mutual NDA",
+      "clause_ref": "§2.3",
+      "text": "2.3 **Protected Health Information.** Protected Health Information, as defined at 45 C.F.R. § 160.103, is excluded from this Agreement and shall be disclosed only after execution of a Business Associate Agreement between the Parties. Harrington shall not disclose, and AtliQ shall not request, Protected Health Information under this Agreement.",
+      "doc_status": "signed_active",
+      "score": 41.05
+    },
+    {
+      "source_file": "signed_contracts/2025-03-15_al_noor_hospitality_msa.md",
+      "title": "Al Noor Hospitality Group — MSA",
+      "clause_ref": "Recitals",
+      "text": "NOW, THEREFORE, in consideration of the mutual covenants set out below, the Parties agree as follows:",
+      "doc_status": "signed_active",
+      "score": 39.57
+    }
+  ],
+  "attention_score": 89,
+  "counts": {
+    "CRITICAL": 4,
+    "HIGH": 7,
+    "MEDIUM": 6,
+    "LOW": 1
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 2,
+      "note": "67 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 3,
+      "note": "4/7 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 3,
+      "note": "0 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 5,
+      "note": "3 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 7,
+      "note": "4 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 5,
+      "note": "10 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 6,
+      "note": "18/18 grounded"
+    }
+  ],
+  "processing_ms": 31
+}

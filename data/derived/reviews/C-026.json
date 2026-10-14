@@ -1,0 +1,871 @@
+{
+  "review_id": "C-026-bcfba954",
+  "contract_id": "C-026",
+  "file_name": "2026-09-19_lakeshore_grocers_msa_draft.md",
+  "title": "MASTER SERVICES AGREEMENT",
+  "counterparty": "Lakeshore Grocers Inc",
+  "version": 1,
+  "text_hash": "bcfba954d5c8e870",
+  "generated_at": "2026-10-14T15:33:02.212Z",
+  "dataset_today": "2026-09-28",
+  "in_scope": true,
+  "config": {
+    "title": "MASTER SERVICES AGREEMENT",
+    "counterparty": "Lakeshore Grocers Inc",
+    "contract_type": "MSA",
+    "atliq_entity": "inc",
+    "atliq_role": "supplier",
+    "counterparty_country": "USA",
+    "checks": {
+      "clause_risks": true,
+      "commitments": true,
+      "precedents": true,
+      "entity_law": true,
+      "required_documents": true,
+      "nda_mutuality": true
+    },
+    "deal_context": "by 3 Oct. Jay gave sharper rate to win it - $72/hr senior DE, Dhaval ok'd on a call"
+  },
+  "ai": {
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "status": "partial",
+    "note": "2 of 3 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  },
+  "completeness": "incomplete",
+  "completeness_notes": [
+    "AI clause analysis partial: 2 of 3 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+    "Could not verify — Required insurance within current cover: Insurance limits required (§14.4). Only AtliQ's cyber cover ($1M) is recorded in the dataset — confirm general / professional liability cover with the broker.",
+    "Could not verify — AI clause-by-clause analysis: Partially completed — 2 of 3 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)"
+  ],
+  "summary": "Lakeshore Grocers Inc · MSA · AtliQ Inc as supplier. 2 finding(s): 1 critical, 0 high, 1 medium, 0 low; 1 potential conflict(s) with past commitments; 2 check(s) could not be verified.",
+  "key_terms": [
+    {
+      "key": "counterparty",
+      "label": "Counterparty",
+      "value": "Lakeshore Grocers Inc",
+      "status": "found"
+    },
+    {
+      "key": "atliq_entity",
+      "label": "AtliQ signing entity",
+      "value": "AtliQ Inc (as \"Vendor\")",
+      "clause_ref": "Preamble ¶3",
+      "clause_id": "c-preamble-3",
+      "status": "found"
+    },
+    {
+      "key": "value",
+      "label": "Contract value",
+      "value": "USD 64,000,",
+      "clause_ref": "§4.1",
+      "clause_id": "c-s4-1",
+      "quote": "The Fees for SOW-1 total USD 64,000, payable by milestone as set out in Exhibit B.",
+      "status": "found"
+    },
+    {
+      "key": "term",
+      "label": "Term",
+      "value": "This Agreement commences on the Effective Date and continues for two (2) years, renewing automatically for successive one-year periods unless either party gives sixty (60) days' notice of non-renewal.",
+      "clause_ref": "§5.1",
+      "clause_id": "c-s5-1",
+      "quote": "This Agreement commences on the Effective Date and continues for two (2) years, renewing automatically for successive one-year periods unless either party gives sixty (60) days' notice of non-renewal.",
+      "status": "found"
+    },
+    {
+      "key": "payment",
+      "label": "Payment terms",
+      "value": "30 days — Lakeshore shall pay undisputed amounts within thirty (30) days of receipt of invoice.",
+      "clause_ref": "§4.3",
+      "clause_id": "c-s4-3",
+      "quote": "Lakeshore shall pay undisputed amounts within thirty (30) days of receipt of invoice.",
+      "status": "found"
+    },
+    {
+      "key": "ld",
+      "label": "Delay damages / LD",
+      "value": "If Vendor fails to complete a milestone by the date specified in the SOW due to causes attributable to Vendor, Lakeshore may assess liquidated damages of one-half percent (0.5%) of the affected Milestone Fee per week of delay, up to a maximum of five percent (5%) of that Milestone Fee.",
+      "clause_ref": "§11.1",
+      "clause_id": "c-s11-1",
+      "quote": "If Vendor fails to complete a milestone by the date specified in the SOW due to causes attributable to Vendor, Lakeshore may assess liquidated damages of one-half percent (0.5%) of the affected Milestone Fee per week of delay, up to a maximum of five percent (5%) of that Milestone Fee.",
+      "status": "found"
+    },
+    {
+      "key": "liability_cap",
+      "label": "Liability cap",
+      "value": "EACH PARTY'S AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE FEES PAID OR PAYABLE UNDER THE APPLICABLE SOW IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, EXCEPT FOR BREACH OF CONFIDENTIALITY, INDEMNIFICATION OBLIGATIONS, OR GROSS NEGLIGENCE OR WILLFUL MISCONDUCT.",
+      "clause_ref": "§9.2",
+      "clause_id": "c-s9-2",
+      "quote": "EACH PARTY'S AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE FEES PAID OR PAYABLE UNDER THE APPLICABLE SOW IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, EXCEPT FOR BREACH OF CONFIDENTIALITY, INDEMNIFICATION OBLIGATIONS, OR GROSS NEGLIGENCE OR WILLFUL MISCONDUCT.",
+      "status": "found"
+    },
+    {
+      "key": "governing_law",
+      "label": "Governing law",
+      "value": "Termination of this Agreement shall not affect any SOW then in effect, which shall continue to be governed by this Agreement until completed or terminated.",
+      "clause_ref": "§5.4",
+      "clause_id": "c-s5-4",
+      "quote": "Termination of this Agreement shall not affect any SOW then in effect, which shall continue to be governed by this Agreement until completed or terminated.",
+      "status": "found"
+    },
+    {
+      "key": "jurisdiction",
+      "label": "Disputes / jurisdiction",
+      "value": "Any dispute not so resolved shall be finally resolved by arbitration administered by the Singapore International Arbitration Centre (\"SIAC\") in accordance with the SIAC Arbitration Rules then in force.",
+      "clause_ref": "§13.3",
+      "clause_id": "c-s13-3",
+      "quote": "Any dispute not so resolved shall be finally resolved by arbitration administered by the Singapore International Arbitration Centre (\"SIAC\") in accordance with the SIAC Arbitration Rules then in force.",
+      "status": "found"
+    },
+    {
+      "key": "termination",
+      "label": "Termination for convenience",
+      "value": "Lakeshore may terminate any SOW for convenience on thirty (30) days' written notice, and shall pay Vendor for all Services performed through the effective date of termination.",
+      "clause_ref": "§5.3",
+      "clause_id": "c-s5-3",
+      "quote": "Lakeshore may terminate any SOW for convenience on thirty (30) days' written notice, and shall pay Vendor for all Services performed through the effective date of termination.",
+      "status": "found"
+    },
+    {
+      "key": "ip",
+      "label": "IP ownership",
+      "value": "Upon payment in full, Lakeshore shall own the Deliverables created specifically for Lakeshore under an SOW.",
+      "clause_ref": "§7.1",
+      "clause_id": "c-s7-1",
+      "quote": "Upon payment in full, Lakeshore shall own the Deliverables created specifically for Lakeshore under an SOW.",
+      "status": "found"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-6bae1c6f",
+      "finding_type": "HISTORICAL_CONFLICT",
+      "category": "pricing_mfn",
+      "severity": "CRITICAL",
+      "title": "Rates below the Crestline most-favoured-customer rate card (§6.4)",
+      "explanation": "Potential conflict — not a breach determination. Crestline Retail Inc §6.4 is a most-favoured (MFN) pricing promise: rates no less favourable than those offered by AtliQ Inc or its Affiliates to any other customer for substantially similar services, until 31 Jul 2027. This contract's rate card is lower: Senior Data Engineer $72 vs $85 (−$13/hr); Data Engineer $55 vs $62 (−$7/hr); BI Developer $50 vs $58 (−$8/hr). If these are 'substantially similar services', Crestline's rates drop retroactively to the lower rate and AtliQ owes a credit for every hour billed since the lower rate was offered, plus an audit right (§6.5). In 2024 the clause was accepted as 'harmless — we never discount'.",
+      "contract_clause_ref": "Exhibit A",
+      "contract_clause_id": "c-exhibit-a",
+      "contract_quote": "| Senior Data Engineer | $72 |",
+      "contract_quote_grounded": true,
+      "evidence": [
+        {
+          "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+          "clause_ref": "§6.4",
+          "quote": "Supplier represents and warrants that the rates, fees and other commercial terms offered to Crestline under this Agreement are and shall remain no less favorable than those offered by Supplier or its Affiliates to any other customer for substantially similar services during the Term.",
+          "doc_status": "signed_active",
+          "grounded": true,
+          "label": "Signed: crestline retail msa §6.4 (Active until 31 Jul 2027)"
+        },
+        {
+          "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+          "clause_ref": "§6.4",
+          "quote": "such lower rates shall apply to Crestline retroactively from the date they were first offered to such other customer.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+          "clause_ref": "§6.5",
+          "quote": "Crestline or an independent auditor bound by confidentiality may audit Supplier's records to verify compliance with this Section 6.",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+          "clause_ref": "Exhibit B",
+          "quote": "| Senior Data Engineer | $85.00 |",
+          "doc_status": "signed_active",
+          "grounded": true
+        },
+        {
+          "source_file": "contract_tracker.csv",
+          "clause_ref": "C-026 notes",
+          "quote": "by 3 Oct. Jay gave sharper rate to win it - $72/hr senior DE, Dhaval ok'd on a call",
+          "doc_status": "tracker_note",
+          "grounded": true,
+          "label": "Tracker C-026 (seller notes, not a contract)"
+        }
+      ],
+      "precedent_ids": [
+        "P-19"
+      ],
+      "commitment_id": "CMT-06",
+      "rule_id": "R8",
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [
+        "Consider counsel review (Calloway Stern LLP) — share this contract together with the cited signed agreements.",
+        "Check with Pranav (CTO) — IP reuse, delivery model or staffing.",
+        "Check with Finance — model the retroactive credit exposure."
+      ],
+      "needs_info": "Confirm whether the Lakeshore services are 'substantially similar' to Crestline's (data engineering / BI) and the hours billed to Crestline since the lower rate would first be offered.",
+      "source": "register"
+    },
+    {
+      "id": "F-fc762c96",
+      "finding_type": "POTENTIAL_RISK",
+      "category": "data_protection",
+      "severity": "MEDIUM",
+      "title": "Vendor security schedule obligations",
+      "explanation": "The agreement incorporates Lakeshore's standard vendor security schedule v3.2, which may impose specific technical and procedural controls. AtliQ must verify it can meet these requirements to avoid breach or liability.",
+      "contract_clause_ref": "Exhibit C",
+      "contract_clause_id": "c-exhibit-c",
+      "contract_quote": "(Lakeshore standard vendor security schedule v3.2 — attached separately.)",
+      "contract_quote_grounded": true,
+      "evidence": [],
+      "precedent_ids": [],
+      "confidence": "HIGH",
+      "grounded": true,
+      "escalation_hints": [],
+      "source": "llm"
+    }
+  ],
+  "checks": [
+    {
+      "id": "chk-R8",
+      "rule_id": "R8",
+      "name": "No conflict with the commitments register",
+      "status": "flagged",
+      "detail": "1 potential conflict(s) with active commitments (checked 5 restrictions).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R1",
+      "rule_id": "R1",
+      "name": "Signing entity matches client region",
+      "status": "passed",
+      "detail": "AtliQ Inc — consistent with counterparty country USA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R2",
+      "rule_id": "R2",
+      "name": "Invoicing entity matches signing entity",
+      "status": "passed",
+      "detail": "No separate invoicing entity is named — invoices follow the signing entity.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R3",
+      "rule_id": "R3",
+      "name": "Governing law fits the signing entity",
+      "status": "passed",
+      "detail": "US (Illinois) law with AtliQ Inc. Forum: Any dispute not so resolved shall be finally resolved by arbitration administered by the Singapore International Arbitration Centre (\"SIAC\") in accordance with  (§13.3). A neutral arbitration seat is not itself a risk (precedent: CloudSpan SIAC accepted).",
+      "evidence": []
+    },
+    {
+      "id": "chk-R4",
+      "rule_id": "R4",
+      "name": "US healthcare bundle complete (NDA + BAA + MSA)",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R5",
+      "rule_id": "R5",
+      "name": "Subcontractor BAA for each party touching PHI",
+      "status": "not_applicable",
+      "detail": "Not a US healthcare engagement touching PHI.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R6",
+      "rule_id": "R6",
+      "name": "EU/UK personal data covered by a DPA",
+      "status": "not_applicable",
+      "detail": "No EU/UK personal data detected.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R7",
+      "rule_id": "R7",
+      "name": "NDA obligations are reciprocal",
+      "status": "not_applicable",
+      "detail": "Not an NDA.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R9",
+      "rule_id": "R9",
+      "name": "Required insurance within current cover",
+      "status": "could_not_verify",
+      "detail": "Insurance limits required (§14.4). Only AtliQ's cyber cover ($1M) is recorded in the dataset — confirm general / professional liability cover with the broker.",
+      "evidence": []
+    },
+    {
+      "id": "chk-R10",
+      "rule_id": "R10",
+      "name": "Referenced schedules and annexes are attached",
+      "status": "passed",
+      "detail": "All 3 referenced attachment(s) present in the document set.",
+      "evidence": []
+    },
+    {
+      "id": "chk-grounding",
+      "name": "Every quoted clause and source verified word-for-word",
+      "status": "passed",
+      "detail": "All 2 findings' quotes were found verbatim in their sources.",
+      "evidence": []
+    },
+    {
+      "id": "chk-keyterms",
+      "name": "Key contract fields extracted",
+      "status": "passed",
+      "detail": "All key fields found with clause references.",
+      "evidence": []
+    },
+    {
+      "id": "chk-ai",
+      "name": "AI clause-by-clause analysis",
+      "status": "could_not_verify",
+      "detail": "Partially completed — 2 of 3 part(s) could not be analysed by the AI — those clauses are marked \"Not analysed\". (AI output re-used from 2026-10-14) (AI output re-used from 2026-10-14)",
+      "evidence": []
+    }
+  ],
+  "coverage": [
+    {
+      "clause_id": "c-preamble",
+      "ref": "Preamble",
+      "heading": "MASTER SERVICES AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-2",
+      "ref": "Preamble ¶2",
+      "heading": "MASTER SERVICES AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-preamble-3",
+      "ref": "Preamble ¶3",
+      "heading": "MASTER SERVICES AGREEMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-1",
+      "ref": "§1.1",
+      "heading": "1. BACKGROUND",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s1-2",
+      "ref": "§1.2",
+      "heading": "1. BACKGROUND",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-1",
+      "ref": "§2.1",
+      "heading": "2. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-2",
+      "ref": "§2.2",
+      "heading": "2. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-3",
+      "ref": "§2.3",
+      "heading": "2. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-4",
+      "ref": "§2.4",
+      "heading": "2. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-5",
+      "ref": "§2.5",
+      "heading": "2. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s2-6",
+      "ref": "§2.6",
+      "heading": "2. DEFINITIONS",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-1",
+      "ref": "§3.1",
+      "heading": "3. SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-2",
+      "ref": "§3.2",
+      "heading": "3. SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-3",
+      "ref": "§3.3",
+      "heading": "3. SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s3-4",
+      "ref": "§3.4",
+      "heading": "3. SERVICES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-1",
+      "ref": "§4.1",
+      "heading": "4. FEES AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-2",
+      "ref": "§4.2",
+      "heading": "4. FEES AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-3",
+      "ref": "§4.3",
+      "heading": "4. FEES AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-4",
+      "ref": "§4.4",
+      "heading": "4. FEES AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s4-5",
+      "ref": "§4.5",
+      "heading": "4. FEES AND PAYMENT",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-1",
+      "ref": "§5.1",
+      "heading": "5. TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-2",
+      "ref": "§5.2",
+      "heading": "5. TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-3",
+      "ref": "§5.3",
+      "heading": "5. TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s5-4",
+      "ref": "§5.4",
+      "heading": "5. TERM AND TERMINATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-1",
+      "ref": "§6.1",
+      "heading": "6. CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-2",
+      "ref": "§6.2",
+      "heading": "6. CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s6-3",
+      "ref": "§6.3",
+      "heading": "6. CONFIDENTIALITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-1",
+      "ref": "§7.1",
+      "heading": "7. INTELLECTUAL PROPERTY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-2",
+      "ref": "§7.2",
+      "heading": "7. INTELLECTUAL PROPERTY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s7-3",
+      "ref": "§7.3",
+      "heading": "7. INTELLECTUAL PROPERTY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-1",
+      "ref": "§8.1",
+      "heading": "8. WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-2",
+      "ref": "§8.2",
+      "heading": "8. WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s8-3",
+      "ref": "§8.3",
+      "heading": "8. WARRANTIES",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-1",
+      "ref": "§9.1",
+      "heading": "9. LIMITATION OF LIABILITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s9-2",
+      "ref": "§9.2",
+      "heading": "9. LIMITATION OF LIABILITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-1",
+      "ref": "§10.1",
+      "heading": "10. INDEMNIFICATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s10-2",
+      "ref": "§10.2",
+      "heading": "10. INDEMNIFICATION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-1",
+      "ref": "§11.1",
+      "heading": "11. DELAY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s11-2",
+      "ref": "§11.2",
+      "heading": "11. DELAY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-1",
+      "ref": "§12.1",
+      "heading": "12. DATA SECURITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-2",
+      "ref": "§12.2",
+      "heading": "12. DATA SECURITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s12-3",
+      "ref": "§12.3",
+      "heading": "12. DATA SECURITY",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-1",
+      "ref": "§13.1",
+      "heading": "13. GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-2",
+      "ref": "§13.2",
+      "heading": "13. GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-3",
+      "ref": "§13.3",
+      "heading": "13. GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s13-4",
+      "ref": "§13.4",
+      "heading": "13. GOVERNING LAW AND DISPUTE RESOLUTION",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-1",
+      "ref": "§14.1",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-2",
+      "ref": "§14.2",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-3",
+      "ref": "§14.3",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-4",
+      "ref": "§14.4",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-5",
+      "ref": "§14.5",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-6",
+      "ref": "§14.6",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-s14-7",
+      "ref": "§14.7",
+      "heading": "14. GENERAL",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-exhibit-a",
+      "ref": "Exhibit A",
+      "heading": "EXHIBIT A — RATE CARD",
+      "status": "flagged",
+      "finding_ids": [
+        "F-6bae1c6f"
+      ]
+    },
+    {
+      "clause_id": "c-exhibit-a-2",
+      "ref": "Exhibit A ¶2",
+      "heading": "EXHIBIT A — RATE CARD",
+      "status": "not_analysed",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-exhibit-b",
+      "ref": "Exhibit B",
+      "heading": "EXHIBIT B — SOW-1: RETAIL ANALYTICS MODERNIZATION (SUMMARY)",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-exhibit-b-2",
+      "ref": "Exhibit B ¶2",
+      "heading": "EXHIBIT B — SOW-1: RETAIL ANALYTICS MODERNIZATION (SUMMARY)",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-exhibit-c",
+      "ref": "Exhibit C",
+      "heading": "EXHIBIT C — INFORMATION SECURITY REQUIREMENTS",
+      "status": "flagged",
+      "finding_ids": [
+        "F-fc762c96"
+      ]
+    },
+    {
+      "clause_id": "c-signatures",
+      "ref": "Signatures",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    },
+    {
+      "clause_id": "c-signatures-2",
+      "ref": "Signatures ¶2",
+      "heading": "SIGNATURES",
+      "status": "reviewed_no_issue",
+      "finding_ids": []
+    }
+  ],
+  "retrieved": [
+    {
+      "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+      "title": "Crestline Retail Inc — Professional Services Agreement",
+      "clause_ref": "Preamble ¶4",
+      "text": "**ATLIQ INC.**, a Delaware corporation (EIN 88-4410273) with its office at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 64.4
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_atliq_intercompany_subcontractor_baa.md",
+      "title": "AtliQ Technologies Pvt Ltd (intercompany) — Subcontractor BAA",
+      "clause_ref": "Preamble ¶3",
+      "text": "**AtliQ Inc**, a Delaware corporation (EIN 88-4410273) with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540, USA (\"**Business Associate**\"); and",
+      "doc_status": "signed_expiring",
+      "score": 60.04
+    },
+    {
+      "source_file": "signed_contracts/2025-11-28_brightwater_insurance_msa.md",
+      "title": "Brightwater Insurance Inc — Technology Services Agreement",
+      "clause_ref": "§1 ¶2",
+      "text": "(2) **ATLIQ INC.**, a corporation organised under the laws of the State of Delaware (EIN 88-4410273), whose office is at 101 College Road East, Suite 210, Princeton, New Jersey 08540, United States (the \"**Supplier**\").",
+      "doc_status": "signed_active",
+      "score": 55.47
+    },
+    {
+      "source_file": "signed_contracts/2025-03-10_acme_retail_group_msa.md",
+      "title": "Acme Retail Group — MSA",
+      "clause_ref": "§1.4",
+      "text": "1.4 \"**Statement of Work**\" or \"**SOW**\" means a document executed by both Parties describing specific services, Deliverables, Milestones and Fees.",
+      "doc_status": "signed_active",
+      "score": 52.52
+    },
+    {
+      "source_file": "signed_contracts/2026-08-20_harrington_health_mutual_nda.md",
+      "title": "Harrington Health Systems Inc — Mutual NDA",
+      "clause_ref": "Preamble ¶2",
+      "text": "This Mutual Nondisclosure Agreement (this \"**Agreement**\") is entered into as of August 20, 2026 (the \"**Effective Date**\") by and between **Harrington Health Systems, Inc.**, a Texas nonprofit corporation with its principal place of business at 6400 Fannin Street, Suite 1800, Houston, Texas 77030 (\"**Harrington**\"), and **AtliQ Inc**, a Delaware corporation with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**AtliQ**\"). Harrington and AtliQ are each a \"**Party**\" and together the \"**Parties**.\"",
+      "doc_status": "signed_active",
+      "score": 50.33
+    },
+    {
+      "source_file": "signed_contracts/2025-10-06_carebridge_clinics_baa.md",
+      "title": "CareBridge Clinics Inc — BAA",
+      "clause_ref": "Preamble ¶2",
+      "text": "This Business Associate Agreement (this \"**BAA**\") is entered into as of October 6, 2025 (the \"**BAA Effective Date**\") by and between **CareBridge Clinics, Inc.**, an Arizona corporation with its principal place of business at 2200 North Central Avenue, Suite 900, Phoenix, Arizona 85004 (\"**Covered Entity**\"), and **AtliQ Inc**, a Delaware corporation with its principal place of business at 101 College Road East, Suite 210, Princeton, New Jersey 08540 (\"**Business Associate**\"). Covered Entity and Business Associate are each a \"**Party**\" and together the \"**Parties**.\"",
+      "doc_status": "signed_expiring",
+      "score": 45.31
+    },
+    {
+      "source_file": "signed_contracts/2025-03-10_acme_retail_group_msa.md",
+      "title": "Acme Retail Group — MSA",
+      "clause_ref": "Recital A",
+      "text": "WHEREAS the Client operates a chain of retail stores in South India and wishes to implement enterprise Power BI dashboards for sales, inventory and store performance reporting;",
+      "doc_status": "signed_active",
+      "score": 45.11
+    },
+    {
+      "source_file": "signed_contracts/2024-08-01_crestline_retail_msa.md",
+      "title": "Crestline Retail Inc — Professional Services Agreement",
+      "clause_ref": "§1.4",
+      "text": "1.4 \"**Rate Card**\" means the hourly rates set out in Exhibit B.",
+      "doc_status": "signed_active",
+      "score": 43.06
+    }
+  ],
+  "attention_score": 14,
+  "counts": {
+    "CRITICAL": 1,
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "timings": [
+    {
+      "step": "Reading document",
+      "status": "done",
+      "ms": 1,
+      "note": "60 clauses"
+    },
+    {
+      "step": "Extracting terms",
+      "status": "done",
+      "ms": 2,
+      "note": "11/11 found"
+    },
+    {
+      "step": "Checking commitments register",
+      "status": "done",
+      "ms": 5,
+      "note": "1 potential conflict(s)"
+    },
+    {
+      "step": "Comparing precedents",
+      "status": "done",
+      "ms": 1,
+      "note": "0 clause pattern finding(s)"
+    },
+    {
+      "step": "Validating entity & documents",
+      "status": "done",
+      "ms": 3,
+      "note": "0 flagged"
+    },
+    {
+      "step": "AI clause analysis",
+      "status": "done",
+      "ms": 0,
+      "note": "1 AI finding(s) re-used"
+    },
+    {
+      "step": "Verifying evidence",
+      "status": "done",
+      "ms": 0,
+      "note": "2/2 grounded"
+    }
+  ],
+  "processing_ms": 12
+}

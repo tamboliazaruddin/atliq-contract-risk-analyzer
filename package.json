@@ -10,7 +10,8 @@
     "register": "tsx scripts/build-register.ts",
     "precedents": "tsx scripts/build-precedents.ts",
     "review-all": "tsx scripts/review-all.ts",
-    "eval": "tsx scripts/run-evals.ts"
+    "eval": "tsx scripts/run-evals.ts",
+    "users": "tsx scripts/create-users.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.133.0",
@@ -29,8 +30,12 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
+    "jszip": "^3.10.1",
     "tailwindcss": "^4",
     "tsx": "^4.23.15",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
