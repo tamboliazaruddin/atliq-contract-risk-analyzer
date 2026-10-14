@@ -3,6 +3,9 @@
 AI PM capstone project for AtliQ Technologies: an AI-assisted contract review assistant that checks incoming client
 and partner contracts against what AtliQ has already signed, how it negotiated before, and fact-based rules —
 with every finding backed by verbatim evidence and the final decision left to a human.
+Login 
+user id: karandeep
+password: 123
 
 **Author:** Azaruddin Tamboli, AI Product Manager (AI PM Bootcamp)
 
@@ -11,14 +14,6 @@ with every finding backed by verbatim evidence and the final decision left to a 
 | **Live prototype** | https://atliq-contract-risk-analyzer-codebasic2.vercel.app |
 | **Miro board** | _add link here_ |
 
-## Repository contents
-
-| Folder | What's inside |
-|---|---|
-| [`PRD/`](PRD/) | Product requirements document |
-| [`cost-estimation/`](cost-estimation/) | Cost estimate (model, tokens, hosting, operating cost) |
-| [`presentation/`](presentation/) | Capstone presentation deck |
-| [`prototype/`](prototype/) | The working prototype (Next.js app, dataset, evals) — see [`prototype/README.md`](prototype/README.md) |
 
 ## Prototype at a glance
 
